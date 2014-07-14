@@ -1,0 +1,365 @@
+:imagesdir: ../img/elektrycznosc-i-magnetyzm/elektromagnetyzm
+:toc:
+
+= Elektromagnetyzm
+
+== Wzbudzanie prądu indukcyjnego
+
+Zmienne pole magnetyczne może wytworzyć w przewodniku prąd. Taki prąd nazywamy *prądem indukcyjnym*. Natomiast zjawisko
+wzbudzania prądu indukcyjnego nazywamy *indukcją elektromagnetyczną*.
+
+Prąd indukcyjny możemy wzbudzić poprzez:
+
+* wsuwanie i wysuwanie magnesu (ruch magnesu względem zwojnicy)
++
+image::r01.gif[]
+
+* wsuwanie i wysuwanie elektromagnesu do zwojnicy
++
+image::r02.gif[]
+
+* włączanie i wyłączanie prądu w zwojnicy
++
+image::r03.gif[]
+
+* zmianę natężenia prądu w elektromagnesie przy pomocy opornicy suwakowej
++
+image::r04.gif[]
+
+=== Strumień wektora indukcji magnetycznej
+
+image:w01.gif[] image:w02.gif[]
+
+[quote]
+Strumień magnetyczny jest to iloczyn skalarny wektora indukcji magnetycznej i wektora powierzchni.
+
+image::r05.gif[]
+
+Całkowity strumień magnetyczny przechodzący przez dowolną powierzchnię zamkniętą równy jest zero. Linie pola są zawsze
+krzywymi zamkniętymi, tyle samo linii pola wchodzi do danej powierzchni jak i z niej wychodzi.
+
+=== Zjawisko indukcji elektromagnetycznej
+
+[quote]
+Zjawiskiem indukcji elektromagnetycznej nazywamy zjawisko powstawania siły elektromotorycznej w wyniku zmian strumienia
+magnetycznego przechodzącego przez zwojnicę.
+
+=== Reguła Lenza
+
+[quote]
+Prąd indukcyjny płynie w takim kierunku, aby pole magnetyczne przez niego wytworzone przeszkadzało zmianom pola, dzięki
+którym prąd powstał.
+
+image::r06.gif[]
+
+== Siła elektromotoryczna indukcji
+
+Aby wyprowadzić wzór na siłę elektromotoryczną indukcji, rozważmy przewodnik, znajdujący się w polu magnetycznym,
+posiadający poprzeczkę poruszającą się ruchem jednostajnym.
+
+image::r07.gif[]
+
+Przez powierzchnię przewodnika przechodzi strumień magnetyczny:
+
+image::w03.gif[]
+
+Aby poprzeczka poruszała się musi być wykonywana praca przez siłę elektrodynamiczną.
+
+image::w04.gif[]
+
+Przez przewodnik płynie prąd, a więc wykonywana jest także praca prądu.
+
+image::w05.gif[]
+
+Porównujemy obie prace:
+
+image::w06.gif[]
+
+Z rysunku wynika, iż:
+
+image::w07.gif[]
+
+Zależność tą podstawiamy do wcześniej wyliczonej równości:
+
+image::w08.gif[]
+
+Korzystając z wzorów na siłę elektromotoryczną image:w09.gif[] i na strumień magnetyczny image:w10.gif[], otrzymujemy
+wzór na siłę elektromotoryczną indukcji:
+
+image:w11.gif[] image:w12.gif[]
+
+=== Prawo Faradaya
+
+[quote]
+Siła elektromotoryczna indukcji wzbudzona w obwodzie poruszającym się w polu magnetycznym jest równa ujemnej szybkości
+zmian strumienia magnetycznego przechodzącego przez powierzchnię, którą zakreśla obwód.
+
+== Prąd wirowy
+
+image::r08.gif[]
+
+Między biegunami elektromagnesu waha się aluminiowa płytka. Gdy prąd w uzwojeniach nie płynie, płytka waha się bez
+większych oporów. Po włączeniu prądu płytka jest silnie hamowana. W płytce powstaje prąd indukcyjny.
+
+Prądy indukcyjne mogą powstawać w dowolnych bryłach metalu. Takie prądy nazywamy *prądami wirowymi*.
+
+Gdy płytka opada (zbliża się do biegunów elektromagnesu) prądy wirowe powstające w płytce płyną w takim kierunku, aby
+pole magnetyczne tych prądów odpychało się z polem magnetycznym elektromagnesu. Gdy płytka mija bieguny, prądy wirowe
+zmieniają kierunek i zgodnie z regułą Lenza dalej przeszkadzają ruchowi płytki.
+
+Powstawanie prądów indukcyjnych jest w wielu przypadkach szkodliwe, gdyż wydzielane przez nie ciepło jest przyczyną strat
+energii, a nawet uszkodzeń urządzeń elektrycznych. Aby zmniejszyć ich działanie, części metalowe znajdujące się w zmiennym
+polu magnetycznym wykonuje się z cienkich i wzajemnie odizolowanych blach (najczęściej z stali krzemowej), których
+płaszczyzny są równoległe do linii pola magnetycznego.
+
+Przykładem zastosowania prądów wirowych są piece indukcyjne. Wanna pieca indukcyjnego, w której umieszcza się ogrzewane
+części metalowe, jest otoczona zwojami, przez które przepływa szybkozmienny prąd elektryczny. Zmiany pola magnetycznego
+indukują prądy wirowe, w umieszczonych w wannie częściach metalowych, które ogrzewają je do wysokiej temperatury powodując
+stopienie metalu.
+
+== Samondukcja (indukcja własna)
+
+[quote]
+Zjawiskiem samoindukcji nazywamy zjawisko powstawania siły elektromotorycznej w wyniku zmian pola magnetycznego, ale nie
+jakiegoś zewnętrznego, tylko tego pola, które zwojnica z prądem samo sobie wytwarza.
+
+image::r09.gif[]
+
+Aby w zwojnicy powstało zjawisko samoindukcji musi w niej płynąć prąd i ten prąd musi się zmieniać. W naszym obwodzie
+zmiana natężenia prądu następuje w dwóch momentach: w chwili włączania i wyłączania prądu. W tych dwóch momentach
+w obwodzie czynne są dwie siły elektromotoryczne: napięcie U (kilkuwoltowe) i SEM samoindukcji.
+
+W momencie włączenia prądu w obwodzie powstający prąd indukcyjny zgodnie z regułą Lenza płynął będzie w kierunku do niego
+przeciwnym, a łączna siła elektromotoryczna w obwodzie będzie równa: image:w13.gif[].
+
+W chwili wyłączania prądu obydwa prądy płynął zgodnie, a łączna SEM równa jest: image:w14.gif[] i jest większa od
+napięcia zapłonu żarówki, a więc żarówka błyska.
+
+Chcąc wyprowadzić wzór na siłę elektromotoryczną samoindukcji, korzystamy ze wzoru:
+
+image::w15.gif[]
+
+n - liczba zwojów zwojnicy
+
+Wiemy, iż strumień magnetyczny wyraża się wzorem:
+
+image::w16.gif[]
+
+Podstawiamy zamiast natężenia wzór na natężenie pola magnetycznego w zwojnicy:
+
+image::w17.gif[]
+
+Uzyskaną równość wstawiamy do wzoru na strumień magnetyczny:
+
+image::w18.gif[]
+
+a następnie ten wzór podstawiamy do wzoru na siłę elektromotoryczną:
+
+image::w19.gif[]
+
+Do wzoru podstawiamy współczynnik zwojnicy, który nosi nazwę indukcyjności:
+
+image:w20.gif[] image:w21.gif[]
+
+Jednostką indukcyjności jest henr.
+
+image::w22.gif[]
+
+Siła elektromotoryczna samoindukcji jest równa iloczynowi indukcyjności i stosunku zmian natężenia prądu do czasu,
+w którym ta zmian nastąpiła.
+
+== Induktor
+
+image::r10.gif[]
+
+Cewka indukcyjna Ruhmkorffa, zwana też *induktorem*, składa się z wewnętrznego uzwojenia L~1~, utworzonego z niewielkiej
+ilości zwojów, nawiniętych na rdzeń R i połączonych ze źródłem napięcia stałego przez przerywacz z włączonym równolegle
+kondensatorem oraz z zewnętrznego uzwojenia L~2~, złożonego z dużej ilości zwojów.
+
+Po włączeniu prądu w obwodzie z indukcyjnością L~1~ w rdzeniu pojawia się pole magnetyczne, wytwarzane przez ten prąd.
+Pole to przyciąga młoteczek do rdzenia. Obwód zostaje przerwany. Powoduje to zanik prądu w tym obwodzie i w konsekwencji
+zanik pola magnetycznego w rdzeniu. Młoteczek wraca na swoje pierwotne miejsce zamykając ponownie obwód.
+
+W rdzeniu istnieje więc zmieniające się pole magnetyczne. W tym zmiennym polu magnetycznym znajduje się zwojnica L~2~.
+W wyniku zjawiska samoindukcji elektromagnetycznej wytwarza się w niej siła elektromotoryczna. Ma ona bardzo dużą wartość
+ze względu na dużą liczbę zwojów i szybkość zmian pola magnetycznego.
+
+image::r11.gif[]
+
+Wzbudzenie stosunkowo dużej siły elektromotorycznej powoduje wyładowania iskrowe między stykami przerywacza, które niszczą je,
+a prócz tego powodują przepływ prądu między stykami już po ich rozwarciu, przedłużając czas otwierania obwodu. W celu
+wyeliminowania tego zjawiska stosuje się kondensator, które ładuje się prądem indukcji własnej, zmniejszając napięcie
+między stykami i eliminując iskrzenie.
+
+Induktor stosuje się do zapłonu paliwa w cylindrach niskoprężnych silników spalinowych, do wytwarzania wyładowań elektrycznych
+w świetlówkach.
+
+== Prądnica prądu zmiennego
+
+*Prądnica* jest urządzeniem służącym do otrzymywania energii elektrycznej dzięki wykonywanej pracy mechanicznej.
+
+image::r12.gif[]
+
+Na ramkę nawinięta jest zwojnica. Końce uzwojenia dotykają dwóch pierścieni P, do których z kolei dotykają szczotki S
+(układ takich pierścieni i szczotek to komutator). Ramkę obracamy w polu magnetycznym wykonując pracę mechaniczną.
+Dzięki temu zmienia się ciągle strumień magnetyczny, przechodzący przez ramkę. W wyniku zjawiska indukcji elektromagnetycznej
+w uzwojeniu powstaje siła elektromotoryczna (między szczotkami powstaje napięcie).
+
+image::r13.gif[]
+
+image::w23.gif[]
+
+W bardzo krótkim czasie t ramkę przekręcamy jeszcze o kąt image:w24.gif[].
+
+image::w25.gif[]
+
+Korzystamy z wzoru trygonometrycznego:
+
+image::w26.gif[]
+
+oraz z przybliżenia dla małych kątów:
+
+image::w27.gif[]
+
+Uzyskaną zależność podstawiamy do wzoru na siłę elektromotoryczną:
+
+image::w28.gif[]
+
+Po podstawieniu wzoru wyrażającego wartość maksymalną image:w29.gif[], otrzymujemy:
+
+image::w30.gif[]
+
+Podobną zależność wykazuje natężenie:
+
+image::w31.gif[]
+
+image::r14.gif[]
+
+image::r15.gif[]
+
+Taki prąd (zmieniający się sinusoidalnie) nazywamy *prądem przemiennym*. Wielkością, która charakteryzuje ten prąd,
+jest tzw. *natężenie skuteczne*.
+
+[quote]
+Natężeniem skutecznym prądu przemiennego nazywamy takie natężenie, jakie musiałby mieć prąd stały, aby w danym czasie
+wykonał tą samą pracę, jak ten prąd przemienny.
+
+Aby obliczyć pracę wykonywaną przez prąd przemienny, musimy obliczyć elementarne prace, jakie wykonuje prąd w bardzo
+krótkim czasie image:w32.gif[] - tak małym, że możemy przyjąć, iż w tym czasie natężenie prądu się nie zmieniało.
+
+image::w33.gif[]
+
+image:w34.gif[] - natężenie skuteczne
+
+image:w35.gif[] - natężenie maksymalne
+
+image::w36.gif[]
+
+image:w37.gif[] - napięcie skuteczne
+
+image:w38.gif[] - napięcie maksymalne
+
+== Transformator
+
+Transformator jest urządzeniem służącym do zamiany napięć.
+
+image::r16.gif[]
+
+Prąd płynący w uzwojeniu pierwotnym n~1~ wytwarza w rdzeniu zmienne pole magnetyczne. Ze względu na dużą przenikalność
+magnetyczną rdzenia pole to rozchodzi się po całym rdzeniu. W tym zmiennym polu magnetycznym znajduje się uzwojenie
+wtórne n~2~. W wyniku zjawiska indukcji elektromagnetycznej powstaje w nim napięcie U~2~.
+
+image::w39.gif[]
+
+n - ilość zwojów
+
+image::w40.gif[]
+
+Sprawnością transformatora nazywamy stosunek mocy w uzwojeniu wtórnym do mocy w uzwojeniu pierwotnym.
+
+image::w41.gif[]
+
+== Pojemność w obwodzie prądu przemiennego
+
+image::r17.gif[]
+
+Przez obwód II prąd stały płynąć nie będzie, gdyż kondensator stanowi przerwę w obwodzie. Prąd przemienny płynie przez
+obwód II, ale żarówka świeci się o wiele słabiej.
+
+Kondensator włączony w obwód prądu przemiennego stanowi dodatkowy opór. Nazywamy go oporem pojemnościowym (reaktancją
+pojemnościową). Jest to tzw. opór pozorny lub bierny. Występuje tylko w obwodach prądu zmiennego.
+
+Załóżmy, że opór w obwodzie jest pomijalnie mały.
+
+image::w42.gif[]
+
+Uzyskany wzór na ładunek podstawiamy do podstawowego wzoru na natężenie:
+
+image::w43.gif[]
+
+Uzyskaliśmy wzór na natężenie. Natomiast napięcie równe jest:
+
+image::w44.gif[]
+
+image::r18.gif[]
+
+Napięcie i natężenie na okładkach kondensatora nie są ze sobą zgodne w fazie. Natężenie prądu wyprzedza napięcie w fazie
+o kąt image:w45.gif[].
+
+image::w46.gif[]
+
+image:w47.gif[] - opór pojemnościowy
+
+Jeżeli uwzględnimy opór R (obwód RC), to musimy wprowadzić wielkość zwaną zawadą:
+
+image::w48.gif[]
+
+image::r19.gif[]
+
+image:w49.gif[] - kąt przesunięcia fazowego
+
+image::r20.gif[]
+
+== Indukcyjność w obwodzie prądu przemiennego
+
+Indukcyjność w obwodzie prądu przemiennego stanowi dodatkowy opór zwany oporem indukcyjnym.
+
+image::w50.gif[]
+
+image::r21.gif[]
+
+image:w51.gif[] - kąt przesunięcia fazowego
+
+Rozważmy jeszcze obwód, który oprócz kondensatora posiada również zwojnicę (obwód RLC):
+
+image::r22.gif[]
+
+image::w52.gif[]
+
+image::r23.gif[]
+
+Jeśli image:w53.gif[] mówimy, że obwód jest w *rezonansie elektromagnetycznym*. Wtedy image:w54.gif[].
+
+image::w55.gif[]
+
+== Praca i moc prądu przemiennego
+
+W obwodzie prądu przemiennego, zawierającym jedynie opór omowy R, natężenie i napięcie są z sobą w fazie.
+
+image::r24.gif[]
+
+Moc i praca skuteczna w takim obwodzie wynoszą:
+
+image::w56.gif[]
+
+W obwodzie zawierającym opory pozorne (indukcyjny lub pojemnościowy) następuje przesunięcie fazowe o kąt image:w57.gif[].
+
+image::r25.gif[]
+
+W takim obwodzie prądu przemiennego moc skuteczną obliczamy ze wzoru:
+
+image::w58.gif[]
+
+a pracę skuteczną wykonaną w czasie t:
+
+image::w59.gif[]

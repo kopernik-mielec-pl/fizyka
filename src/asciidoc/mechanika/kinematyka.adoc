@@ -1,0 +1,333 @@
+:imagesdir: ../img/mechanika/kinematyka
+:toc:
+
+= Kinematyka
+
+Najczęściej spotykanym zjawiskiem w przyrodzie jest ruch. Najprostszą postacią ruchu jest ruch mechaniczny, a polega on
+na zmianie wzajemnego położenia ciał (lub ich części) w przestrzeni. Na początku naszych rozważań będziemy zajmować się
+tzw. mechaniką klasyczną, czyli interesował nas będzie ruch ciał o stosunkowo dużych rozmiarach (w porównaniu do atomów)
+poruszających się z prędkością znacznie mniejszą od prędkości światła. Prawa ruchu ciał poruszających się z prędkościami
+porównywalnymi do prędkością światła są przedmiotem badań mechaniki relatywistycznej, natomiast takich ciał jak np.
+elektrony (cząsteczki elementarne) opisuje mechanika kwantowa. Zarówno w mechanice relatywistycznej jak i kwantowej prawa
+rządzące ruchem ciał są bardziej skomplikowane niż w mechanice klasycznej i na razie nie będziemy się nimi zajmować.
+
+== Układ odniesienia
+
+Opisując ruch jakiś ciał możemy to zrobić jedynie w odniesieniu do innych ciał. Kiedy mówimy, że jakiś obiekt znajduje
+się w jadącym pociągu, to łatwo zauważyć, że porusza się on względem torów, ale pozostaje w spoczynku względem ścian
+wagonu. Zawsze więc ruch opisujemy względem układu odniesienia. A układ odniesienia możemy "związać" z dowolnym ciałem.
+Dla uproszczenia obliczeń układ odniesienia przedstawia się za pomocą kartezjańskiego układu współrzędnych. Wygodnie jest
+wówczas ustalić początek układu współrzędnych w miejscu obiektu względem którego opisujemy ruch. Wówczas jeżeli punkt O
+oznacza początek układu współrzędnych, punkt P~1~ jest punktem początkowego położenia ciała, punkt P~2~ jest punktem
+końcowego położenia ciała to:
+
+* Wektor image:w01.gif[] (o początku w punkcie O i końcu w punkcie P~1~) nazywany jest wektorem położenia początkowego
+* Wektor image:w02.gif[] (o początku w punkcie O i końcu w punkcie P~2~) nazywamy wektorem położenia końcowego
+* Wektor image:w03.gif[] (o początku w punkcie P~1~ i końcu w punkcie P~2~) nazywamy wektorem przesunięcia (przemieszczenia).
+Jest to różnica wektora położenia końcowego i początkowego image:w04.gif[]
+
+image::r01.gif[]
+
+== Punkt materialny
+
+W celu uproszczenia zapisów lub dla ułatwienia zrozumienia danego problemu stosuje się czasami abstrakcyjne modele.
+Takim modelem jest *punkt materialny*. A nazywamy nim ciało posiadające masę, którego rozmiary można pominąć w rozważanym
+zagadnieniu, bez szkody dla tych rozważań.
+
+== Tor ruchu
+
+Torem (trajektorią) nazywamy krzywą lub prostą zakreśloną w przestrzeni przez poruszający się punkt. Długość toru nazywamy
+drogą (s). Jeżeli tor jest linią prostą to mówimy, że ciało porusza się ruchem prostoliniowym. Jeżeli tor jest krzywą to
+ciało porusza się ruchem krzywoliniowym. Nie powinniśmy mylić toru ze śladem. Tor jest pojęciem abstrakcyjnym, nie można
+go zobaczyć, jest nieskończenie cienki.
+
+image::r02.gif[]
+
+== Prędkość
+
+Bardzo ważnym pojęciem stosowanym w mechanice jest prędkość (szybkość). Szybkością (wielkość skalarna) nazywamy stosunek
+przebytej drogi do czasu. Prędkością średnią (wielkość wektorowa) nazywamy stosunek przemieszczenia do czasu:
+
+image::w05.gif[]
+
+Kiedy różnica przyrostu czasu staje się bardzo mała, możemy mówić o prędkości chwilowej. Wówczas prędkość chwilową
+definiujemy jako granicę, do której zmierza ten stosunek przy nieskończenie krótkich odstępach czasu:
+
+image::w06.gif[]
+
+Prędkość jest więc pierwszą pochodną wektora położenia względem czasu.
+
+Wektor prędkości jest zawsze styczny do toru.
+
+== Przyspieszenie
+
+Postępując analogicznie jak poprzednio przyspieszenie definiujemy jako stosunek przyrostu prędkości względem czasu:
+
+image:w07.gif[] (czasami używa się też zapisu v~0~ i t~0~ dla jako prędkości i czasu początkowego)
+
+Natomiast przyspieszenie chwilowe jest pochodną funkcji prędkości względem czasu, a więc drugą pochodną wektora położenia
+względem czasu:
+
+image::w08.gif[]
+
+== Podział ruchu
+
+Ze względu na prędkość ruch możemy podzielić następująco:
+
+* jednostajny
+* zmienny
+** jednostajnie
+** niejednostajnie
+
+Ze względu na tor, ruch dzielimy na:
+
+* prostoliniowy (ciało porusza się po prostej)
+* krzywoliniowy (ciało porusza się po krzywej np. po okręgu)
+
+== Ruch jednostajny prostoliniowy
+
+To taki ruch którego torem jest linia prosta a prędkość nie ulega zmianie, jest stała. Oznacza to, że ciało w jednakowych
+odstępach czasu przebywa jednakowe odcinki drogi.
+
+image::r03.gif[]
+
+image:w09.gif[] - miarą drogi na wykresie prędkości od czasu jest pole figury pod wykresem (dla każdego ruchu, nie tylko
+dla jednostajnego prostoliniowego).
+
+image::r04.gif[]
+
+&alpha; - kąt nachylenia wykresu do osi czasu
+
+image:w10.gif[] - miarą prędkości na wykresie drogi jest tangens kąta nachylenia wykresu do osi czasu.
+
+== Ruch jednostajnie zmienny, prostoliniowy
+
+Ruch jednostajnie zmienny to taki ruch w którym w kolejnych jednostkach czasu prędkość zmienia się o jednakowe wartości,
+torem ruchu jest prosta. Prędkość jest liniową funkcją czasu a przyspieszenie jest stałe.
+
+image::r05.gif[]
+
+image::r06.gif[]
+
+image::r07.gif[]
+
+image:w11.gif[] - jest to równanie drogi w ruchu jednostajnie przyspieszonym.
+
+image:w12.gif[] - przyspieszenie
+
+Oba te wzory noszą nazwę kinematycznych równań ruchu jednostajnie przyspieszonego.
+
+Dla opóźnienia (mówimy o nim wówczas kiedy prędkość maleje) przyspieszenie przyjmuje wartości ujemne.
+
+== Ruch "jednostajny" po okręgu
+
+Na początek małe wyjaśnienie. Wiemy, że wektor prędkości jest zawsze styczny do toru ruchu. W każdej więc chwili wektor
+ten się zmienia. Mówimy jednak że ten ruch jest "jednostajny" gdyż mamy na myśli wartość (długość) tego wektora.
+
+Ruchem "jednostajnym" po okręgu nazywamy więc taki ruch, którego torem jest okrąg a szybkość liniowa jest wielkością stałą.
+
+image::r08.gif[]
+
+Czas potrzebny ciału na wykonanie pełnego obiegu nazywamy *okresem* i oznaczamy symbolem T. Wartość okresu możemy wyliczyć
+ze wzoru:
+
+image::w13.gif[]
+
+Liczbę pełnych obiegów w jednostce czasu nazywamy *częstotliwością*. Oznaczamy ją literą image:w14.gif[] (grecka litera
+*ni*). Częstotliwość jest ściśle powiązana z okresem:
+
+image::w15.gif[]
+
+W literaturze można też spotkać oznaczenie częstotliwości przez literę f.
+
+Prędkość liniową w ruchu jednostajnym po okręgu wyraża wzór:
+
+image::w16.gif[]
+
+W tym ruchu pojawia się kolejny rodzaj prędkości. Jest nią prędkość kątowa i oznacza się ją symbolem &omega;:
+
+image::w17.gif[]
+
+Zależność między  prędkością liniową a prędkością kątową wyraża wzór:
+
+image::w18.gif[]
+
+== Przyspieszenie dośrodkowe
+
+Jak już wcześniej zostało napisane w każdej chwili wektor prędkości zmienia zwój kierunek. Musi zatem istnieć jakieś
+przyspieszenie które zmienia tą prędkość. Wartość tej prędkości (szybkość) nie ulega zmianie, więc przyspieszenie musi
+działać tak by zmienić kierunek, ale pozostawić wartość niezmienioną. Przyspieszenie dośrodkowe oznaczamy symbolem a~r~.
+
+image::w19.gif[]
+
+image::r09.gif[]
+
+== Spadek swobodny ciała
+
+Dane: h, g
+
+image::r10.gif[]
+
+Spadek swobodny jest przykładem ruchu jednostajnie przyspieszonego prostoliniowego. Ciało to porusza się z przyśpieszeniem
+ziemskim. Wektor tego przyspieszenia jak i wektor prędkości ciała skierowana są pionowo w dół. W naszych rozważaniach
+pomijamy wszelkiego rodzaju opory ruchu.
+
+Jeżeli mamy daną wysokość *h*, z której zaczyna spadać ciało (*V~0~=0*), to najczęściej zajmujemy się obliczeniem prędkości
+końcowej i czasu spadku ciała.
+
+Wiemy, że w ruchu jednostajnie przyspieszonym drogę przebytą w czasie *t* obliczyć można ze wzoru:
+
+image::w20.gif[]
+
+W tym przypadku mówimy o wysokości, więc zamiast oznaczenia s użyjemy symbolu *h*. Wiemy także, że ciało to zaczyna spadać,
+więc jego prędkość początkowa równa jest zero (*V~0~=0*). Przyspieszenie grawitacyjne oznaczamy zawsze symbolem *g*.
+Po poprawieniu nasz wzór będzie wyglądał następująco:
+
+image::w21.gif[]
+
+Z tego wzoru w prosty sposób wyliczyć można czas spadku ciała:
+
+image::w22.gif[]
+
+Jeżeli chcemy obliczyć prędkość końcową ciała, możemy skorzystać, ze wzoru na przyspieszenie:
+
+image::w23.gif[]
+
+Podstawmy teraz za *a* symbol *g*, oraz za *V~0~* wartość *0*, otrzymamy:
+
+image::w24.gif[]
+
+Do tego wzoru podstawmy za *t*:
+
+image::w25.gif[]
+
+image::w26.gif[]
+
+image:w27.gif[] - i otrzymaliśmy gotowy wzór na obliczenie prędkości końcowej w spadku swobodnym.
+
+== Rzut pionowy do góry
+
+Dane: V~0~, g
+
+image::r11.gif[]
+
+Ten rodzaj ruchu jest bardzo podobny do poprzedniego. Różnicą jest to, że prędkość końcowa równa jest zero, a wektor
+przyspieszenia grawitacyjnego ma przeciwny zwrot niż wektor prędkości. W związku z tym do obliczeń używać będziemy
+symbolu *-g* jako przyśpieszenia grawitacyjnego.
+
+W tym ruchu przeważnie obliczamy czas wznoszenia i maksymalną wysokość. Czas możemy obliczyć ze wzoru:
+
+image:w28.gif[], *V~k~=0*
+
+image::w29.gif[]
+
+image:w30.gif[] - jest to czas wznoszenia się ciała.
+
+Podstawmy odpowiednie wartości do ogólnego wzoru na drogę w ruchu jednostajnie zmiennym, w celu wyprowadzenia wzoru na
+maksymalną wysokość ciała:
+
+image::w31.gif[]
+
+image::w32.gif[]
+
+Stąd: image::w33.gif[]
+
+Można wykazać, że jeżeli prędkość końcowa w swobodnym spadku będzie równa prędkości początkowej w pionowym rzucie do góry,
+to czas spadku i czas wznoszenia się będzie równy, oraz maksymalna wysokość osiągnięta w tym rzucie będzie równa wysokości
+z której ciało spadało.
+
+W spadku swobodnym używaliśmy wysokości do obliczenia czasu spadku i prędkości końcowej. W rucie pionowym wykorzystywaliśmy
+prędkość początkową do obliczenia wysokości i czasu wznoszenia się. Jeżeli jednak mamy inne dane np. maksymalną wysokość
+osiągniętą w rzucie pionowym, to do obliczenia prędkości początkowej wystarczy odpowiednio zmodyfikować te wzory.
+
+== Rzut pionowy do dołu
+
+Dane: h, V~0~, g
+
+image::r12.gif[]
+
+Jest to ruch jednostajnie przyspieszony prostoliniowy. Wyprowadzać będziemy, czas trwania ruchu, oraz prędkość końcową.
+
+Wzór na drogę w ruchu jednostajnie zmiennym, możemy potraktować jako równanie drugiego stopnia, gdzie niewiadomą jest *t*:
+
+image::w34.gif[]
+
+Następnie rozwiązując to równanie kwadratowe otrzymujemy dwa wyniki, z których wybieramy jeden, dodatni, bo jak wiadomo
+czas nie może mieć wartości ujemnych:
+
+image::w35.gif[]
+
+Obliczając prędkość końcową skorzystajmy z ogólnego wzoru na przyspieszenie:
+
+image::w36.gif[]
+
+Pomnóżmy przez t i podstawmy z poprzednio wyliczonego wzoru:
+
+image::w37.gif[]
+
+image::w38.gif[]
+
+Ostatecznie: image:w39.gif[]
+
+== Rzut poziomy
+
+Dane: V~0~, h, g
+
+Ruch złożony jest nieco trudniejszy od poprzednich rodzajów. W rzucie poziomym mamy do czynienia ze złożeniem ruchu
+jednostajnego prostoliniowego i spadkiem swobodnym, czyli jednostajnie przyśpieszonego prostoliniowego. Zastanówmy się
+jakie są konsekwencje złożenia tych ruchów. Mimo iż te oba ruchy są prostoliniowe to jednak w rezultacie otrzymujemy ruch
+krzywoliniowy. Dlaczego? Otóż ruch prostoliniowy odbywa się w kierunku poziomym, a spadek swobodny w kierunku pionowym.
+Drugą konsekwencją jest czas odbywania się ruchu.
+
+Analizując ten ruch będziemy badali drogę przebytą w określonym czasie w kierunku poziomym. Czasem trwania ruchu będzie
+czas spadku swobodnego.
+
+image::r13.gif[]
+
+Wiemy, że czas w spadku swobodnym wynosi:
+
+image::w40.gif[]
+
+Zbadajmy jaką drogę przebędzie ciało w kierunku poziomym w tym czasie z prędkością *V~0~*. Skorzystamy ze wzoru na drogę
+w ruchu jednostajnym prostoliniowym: image:w41.gif[]. Oznaczmy tę drogę symbolem *X* (pamiętamy, że rozpatrujemy kierunek
+poziomy - oś x w układzie współrzędnych).
+
+image::w42.gif[]
+
+Ostatecznie: image:w43.gif[]
+
+== Rzut ukośny
+
+Dane: V~0~, g, &alpha;
+
+Rzut ukośny to złożenie ruchu jednostajnego prostoliniowego (ciało tym ruchem porusza się w kierunku poziomym), rzutu
+pionowego do góry, a po osiągnięciu wysokości maksymalnej spadku swobodnego ciała.
+
+Na początku nadajemy ciału prędkość początkową *V~0~* skierowaną pod kątem *&alpha;* względem  poziomu. Następnie musimy
+rozłożyć wektor prędkości na składowe w kierunku pionowym i poziomym:
+
+image::r14.gif[]
+
+Z rysunku widać, że prędkość początkowa w kierunku poziomym (oznaczymy ją symbolem *V~0x~*) równa jest:
+
+image::w44.gif[]
+
+Natomiast prędkość początkowa w kierunku pionowym (*V~0y~*):
+
+image::w45.gif[]
+
+Celem rozważań jest obliczenie czasu ruchu oraz zasięgu.
+
+Czasem ruchu będzie suma czasu rzutu pionowego do góry, oraz swobodnego spadku. Wiemy także, że czas swobodnego spadku
+i rzutu pionowego jest równy. Należy jeszcze pamiętać, że w rzucie pionowym do góry nasza prędkością początkową będzie
+*V~0y~*. Wiemy także, że czas swobodnego spadku i rzutu pionowego jest równy więc:
+
+image::w46.gif[]
+
+Zasięg już w prosty sposób obliczymy jak przy rzucie poziomym. Będzie to droga przebyta z prędkością *V~0x~* w czasie *t*:
+
+image::w47.gif[]
+
+Ostatecznie: image:w48.gif[]
+
+

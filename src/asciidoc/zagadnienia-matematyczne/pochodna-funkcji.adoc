@@ -1,0 +1,167 @@
+:imagesdir: ../img/zagadnienia-matematyczne/pochodna-funkcji
+:toc:
+
+= Pochodna funkcji
+
+== Pochodna funkcji w punkcie
+
+Niech *f* oznacza funkcję zmiennej x, określoną w pewnym otoczeniu *U* punktu *x~0~*, zaś image:w01.gif[] taką liczbę,
+że image:w02.gif[].
+
+Iloraz
+
+image::w03.gif[]
+
+nazywamy *ilorazem różnicowym* funkcji *f* w punkcie *x~0~* dla przyrostu *h*. Nazwa tego ilorazu pochodzi stąd, że
+w liczniku mamy różnicę wartości funkcji, zaś w mianowniku różnicę wartości argumentu, gdyż image:w04.gif[].
+
+[quote]
+Jeżeli iloraz różnicowy ma granicę, gdy *h* dąży do zera, to tę granicę nazywamy pochodną funkcji *f* w punkcie *x~0~*
+i oznaczamy *f '(x~0~)*.
+
+Mamy więc
+
+image::w05.gif[]
+
+Jeżeli granica istnieje to mówimy, że funkcja *f ma pochodną* w punkcie x~0~, lub że jest *różniczkowalna* w tym punkcie.
+
+== Różniczkowalność a ciągłość
+
+[quote]
+Jeżeli funkcja *f* jest różniczkowalna w punkcie *x~0~*, to jest w tym punkcie ciągła.
+
+Ciągłość funkcji jest *warunkiem koniecznym* dla istnienia pochodnej, choć nie jest *warunkiem wystarczającym*.
+
+== Interpretacja geometryczna pochodnej
+
+Interpretacja geometryczna pochodnej przedstawiona jest na rysunku poniżej. Iloraz różnicowy jest równy tangensowi kąta
+nachylenia *&beta; siecznej AB* do osi OX, czyli *współczynnikowi kierunkowemu* tej siecznej. Pochodna *f'(x~0~)*, a więc
+granica ilorazu różnicowego jest równa współczynnikowi kierunkowemu stycznej do krzywej *y=f(x)* w punkcie *A* o odciętej
+*x~0~*:
+
+image:w06.gif[], gdzie &alpha; oznacza kąt nachylenia tej stycznej do osi OX.
+
+image::r01.gif[]
+
+*Styczna do krzywej y = f(x)* w punkcie *P (x~0~, f(x~0~))* ma równanie
+
+image::w07.gif[]
+
+== Interpretacja fizyczna pochodnej
+
+Załóżmy, że punkt *P* porusza się po osi liczbowej *OS* i że współrzędna *s* punktu *P* jest funkcją czasu *t*.
+
+Tę zależność *s* od *t* nazywamy *równaniem ruchu*. Jeżeli *&Delta;t* oznacza przyrost czasu, to iloraz różnicowy
+
+image::w08.gif[]
+
+jest *prędkością średnią* punktu *P* od chwili *t* do chwili *t + &Delta;t*. Granica tego ilorazu, gdy image:w09.gif[]
+jest *prędkością V(t)* punktu *P* w chwili *t*:
+
+image::w10.gif[]
+
+== Pochodna jako funkcja
+
+Jeżeli funkcja *f* ma pochodną w każdym punkcie *x* pewnego przedziału (lub innego zbioru punktów), to określona jest
+w tym przedziale (zbiorze) funkcja image:w11.gif[] zwana krótko *pochodną funkcji f*.
+
+== Druga pochodna
+
+[quote]
+Jeżeli funkcja pochodna *f '* jest różniczkowalna, to pochodną funkcji *f '* nazywamy *pochodną drugiego rzędu (drugą
+pochodną)* funkcji *f* i oznaczamy symbolem *f ''*.
+
+== Twierdzenia o pochodnych
+
+Jeżeli funkcje *f* i *g* mają pochodne w punkcie *x*, to:
+
+* image:w12.gif[], dla dowolnej stałej image:w13.gif[]
+* image:w14.gif[]
+* image:w15.gif[]
+* image:w16.gif[]
+* image:w17.gif[], gdy image:w18.gif[]
+* image:w19.gif[], gdy funkcja *f* ma pochodną w punkcie *g(x)*, a funkcja *g* w punkcie *x*.
+
+== Pochodne funkcji elementarnych
+
+|===
+
+|Wzór funkcji image:w20.gif[]|Pochodna image:w21.gif[] funkcji f|Uwagi
+
+|image:w22.gif[]
+|image:w23.gif[]
+|image:w24.gif[]
+
+
+|image:w25.gif[]
+|image:w26.gif[]
+|
+
+|image:w27.gif[]
+|image:w28.gif[]
+|
+
+|image:w29.gif[]
+|image:w30.gif[]
+|image:w31.gif[]
+
+|image:w32.gif[]
+|image:w33.gif[]
+|x>0
+
+|image:w34.gif[]
+|image:w35.gif[]
+|image:w36.gif[]
+
+|image:w37.gif[]
+|image:w38.gif[]
+|
+
+|image:w39.gif[]
+|image:w40.gif[]
+|
+
+|image:w41.gif[]
+|image:w42.gif[]
+|image:w43.gif[] dla image:w44.gif[]
+
+|image:w45.gif[]
+|image:w46.gif[]
+|image:w47.gif[] dla image:w48.gif[]
+
+|image:w49.gif[]
+|image:w50.gif[]
+|a>0
+
+|image:w51.gif[]
+|image:w52.gif[]
+|
+
+|image:w53.gif[]
+|image:w54.gif[]
+|x>0
+
+|image:w55.gif[]
+|image:w56.gif[]
+|image:w57.gif[]
+
+|image:w58.gif[]
+|image:w59.gif[]
+|a>0, image:w60.gif[], x>0
+
+|image:w61.gif[]
+|image:w62.gif[]
+|image:w63.gif[]
+
+|image:w64.gif[]
+|image:w65.gif[]
+|image:w66.gif[]
+
+|image:w67.gif[]
+|image:w68.gif[]
+|
+
+|image:w69.gif[]
+|image:w70.gif[]
+|
+|===

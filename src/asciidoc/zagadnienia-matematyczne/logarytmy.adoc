@@ -1,0 +1,221 @@
+:imagesdir: ../img/zagadnienia-matematyczne/logarytmy
+:toc:
+
+= Logarytmy
+
+== Definicja logarytmu
+
+Niech a i b będą liczbami dodatnimi oraz image:w01.gif[].
+
+[quote]
+Logarytmem liczby b przy podstawie a nazywamy wykładnik potęgi, do której należy podnieść podstawę a, aby otrzymać liczbę
+logarytmowaną b.
+
+image::w02.gif[]
+
+Wartość logarytmu może być dodatnia, ujemna lub równa zero. Z określenia logarytmu wynikają podane niżej własności:
+
+image::w03.gif[]
+
+gdzie: image:w04.gif[].
+
+Z definicji logarytmu wynikają natomiast następujące równości:
+
+image::w05.gif[]
+
+gdzie: image:w06.gif[].
+
+Logarytmem naturalnym nazywamy logarytm o podstawie e image:w07.gif[]. Liczbę e definiuje się następująco: image:w08.gif[].
+Jest to liczba niewymierna. Do obliczeń często przyjmujemy:
+
+image:w09.gif[] lub image:w10.gif[]
+
+== Funkcja logarytmiczna
+
+Niech image:w04.gif[]. Funkcję daną wzorem image:w11.gif[], gdzie image:w12.gif[], nazywamy *funkcją logarytmiczną*.
+
+Sporządzimy teraz wykres funkcji logarytmicznej, korzystając z następującego twierdzenia:
+
+[quote]
+Dla każdego a różnego od 1 funkcja logarytmiczna o podstawie a jest ciągła w zbiorze R~+~.
+
+Wykres funkcji image:w13.gif[]:
+
+image::r01.gif[]
+
+Wykres funkcji logarytmicznej nazywamy *krzywą logarytmiczną*. Krzywe logarytmiczne o równaniach image:w11.gif[]
+i image:w14.gif[] są symetryczne względem osi x dla każdego image:w15.gif[].
+
+Własności funkcji logarytmicznej:
+
+* image:w16.gif[]
++
+image::r02.gif[]
++
+** Dziedziną funkcji jest zbiór liczb rzeczywistych dodatnich. image:w17.gif[]
+** Zbiorem wartości jest zbiór liczb rzeczywistych. image:w18.gif[]
+** Funkcja ma jedno miejsce zerowe: x=1.
+** Funkcja jest malejąca.
++
+image::w19.gif[]
++
+** Funkcja jest różnowartościowa.
++
+image::w20.gif[]
++
+* image:w21.gif[]
++
+image::r03.gif[]
++
+** Dziedziną funkcji jest zbiór liczb rzeczywistych dodatnich. image:w17.gif[]
+** Zbiorem wartości jest zbiór liczb rzeczywistych. image:w18.gif[]
+** Funkcja ma jedno miejsce zerowe: x=1.
+** Funkcja jest rosnąca.
++
+image::w22.gif[]
++
+** Funkcja jest różnowartościowa.
++
+image::w20.gif[]
+
+== Własności logarytmów
+
+=== Twierdzenie o logarytmie iloczynu
+
+Jeżeli a, x i y są liczbami dodatnimi oraz image:w01.gif[], to:
+
+image::w23.gif[]
+
+[quote]
+Logarytm iloczynu liczb dodatnich jest równy sumie logarytmów czynników tego iloczynu.
+
+=== Twierdzenie o logarytmie ilorazu
+
+Jeżeli a, x i y są liczbami dodatnimi oraz image:w01.gif[], to:
+
+image::w24.gif[]
+
+[quote]
+Logarytm ilorazu liczb dodatnich jest równy różnicy logarytmów dzielnej i dzielnika.
+
+=== Twierdzenie o logarytmie potęgi
+
+Jeżeli a, x są liczbami dodatnimi oraz image:w01.gif[], to dla dowolnego image:w25.gif[] prawdziwa jest równość:
+
+image::w26.gif[]
+
+[quote]
+Logarytm potęgi o podstawie dodatniej jest równy iloczynowi wykładnika potęgi i logarytmu podstawy tej potęgi.
+
+=== Twierdzenie o zmianie podstawy logarytmu
+
+Jeżeli a, b, x są liczbami dodatnimi oraz image:w27.gif[], to:
+
+image::w28.gif[]
+
+== Logarytmy dziesiętne
+
+Logarytmy o podstawie 10 nazywamy *logarytmami dziesiętnymi* lub *briggsowskimi* - od nazwiska angielskiego matematyka
+Henry Briggsa, który w 1614 roku wprowadził je po raz pierwszy.
+
+Zamiast image:w29.gif[] piszemy krótko image:w30.gif[], np.
+
+image::w31.gif[]
+
+Logarytmy dziesiętne znalazły duże zastosowanie w obliczeniach astronomicznych i inżynierskich. Z tego powodu zostały
+ułożone tablice wartości tych logarytmów (patrz: <a href="/?m=8&p=4">tablice</a>) i skonstruowano suwak logarytmiczny.
+Obecnie znaczenie logarytmów zmalało ze względu na wprowadzenie do powszechnego użytku kalkulatorów i innych urządzeń
+liczących.
+
+== Równania i nierówności logarytmiczne
+
+[quote]
+Równaniem logarytmicznym nazywamy takie równanie, w którym niewiadoma występuje tylko w wyrażeniu logarytmowanym lub
+w podstawie logarytmu.
+
+[quote]
+Nierównością logarytmiczną nazywamy taką nierówność, w której niewiadoma występuje tylko w wyrażeniu logarytmowanym lub
+w podstawie logarytmu.
+
+Jak wiemy, wyrażenia logarytmowane i podstawa logarytmów muszą być dodatnie, przy czym podstawa logarytmu dodatkowo nie
+może być równa 1. Ograniczenia te wyznaczają dziedzinę równania lub nierówności logarytmicznej.
+
+Jedną z metod rozwiązywania równań lub nierówności logarytmicznych jest doprowadzenie obu stron równania lub nierówności
+do logarytmy wyrażenia przy tej samej podstawie. Następnie wykorzystując różnowartościowość lub monotoniczność funkcji
+logarytmicznej o danej podstawie otrzymujemy związki między wyrażeniami logarytmowanymi. W najprostszych przypadkach możemy
+korzystać bezpośrednio z definicji logarytmu.
+
+PRZYKŁADY:
+
+* rozwiąż równanie image:w32.gif[].
++
+Zakładamy, że x+1>0 i x-1>0, czyli image:w33.gif[].
++
+Korzystamy ze wzoru na logarytm iloczynu:
++
+image::w34.gif[]
++
+Prawą stronę równania zapisujemy w postaci logarytmu:
++
+image::w35.gif[]
++
+Korzystamy z różnowartościowości funkcji logarytmicznej:
++
+image::w36.gif[]
++
+Rozwiązanie x=-3 jest sprzeczne z założeniem, a więc rozwiązaniem jest: x=3.
+
+
+* rozwiąż równanie image:w37.gif[].
++
+Zakładamy, że x>0. Podstawiamy image:w38.gif[] i otrzymujemy równanie:
++
+image::w39.gif[]
++
+Wracamy do niewiadomej x i otrzymujemy:
++
+image::w40.gif[]
++
+Korzystamy z różnowartościowości funkcji logarytmicznej:
++
+image::w41.gif[]
+
+* rozwiąż równanie image:w42.gif[].
++
+Zakładamy, że x>0 i image:w43.gif[], czyli image:w33.gif[].
++
+Dwukrotnie korzystamy z różnowartościowości funkcji logarytmicznej:
++
+image::w44.gif[]
+
+* rozwiąż równanie image:w45.gif[].
++
+Logarytmujemy obie strony równania:
++
+image::w46.gif[]
++
+Korzystamy ze wzoru na logarytm potęgi:
++
+image::w47.gif[]
+
+* rozwiąż nierówność image:w48.gif[], gdzie x>0.
++
+image::w49.gif[]
++
+Nie zmieniamy zwrotu nierówności, ponieważ funkcja image:w50.gif[] jest rosnąca.
++
+image::w51.gif[]
+
+* rozwiąż nierówność image:w52.gif[].
++
+Zakładamy, że x-2>0 i x+2>0, czyli image:w53.gif[].
++
+image::w54.gif[]
++
+Korzystamy z monotoniczności funkcji logarytmicznej:
++
+image::w55.gif[]
++
+Po uwzględnieniu założenia, otrzymujemy:
++
+image::w56.gif[]

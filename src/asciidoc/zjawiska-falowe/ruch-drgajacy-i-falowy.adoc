@@ -1,0 +1,794 @@
+:imagesdir: ../img/zjawiska-falowe/ruch-drgajacy-i-falowy
+:toc:
+
+= Ruch drgający i falowy
+
+== Ruch drgający prosty
+
+Ruch drgający prosty jest ruchem najczęściej spotykanym w przyrodzie. Przykładami takiego ruchu są: ruch struny instrumentu,
+ruch ciężarka zawieszonego na sprężynie, ruch wahadła czy ruch tłoka w silniku. Przyczyną tego ruchu jest siła sprężystości.
+
+image::r01.gif[]
+
+Wielkości związane z tym ruchem:
+
+x - wychylenie w danej chwili, odległość ciała od położenia równowagi
+
+A - amplituda drgań, największe wychylenie z położenia równowagi
+
+T - okres drgań
+
+f - częstotliwość drgań, ilość drgań w jednostce czasu
+
+image:w01.gif[] image:w02.gif[]
+
+image:w03.gif[] - częstość kołowa
+
+image::w04.gif[]
+
+image:w137.gif[] - faza drgań = image:w05.gif[]
+
+Ruch drgający można rozpatrywać jako rzut ruchu po okręgu.
+
+image::r02.gif[]
+
+Z rysunku odczytujemy, że:
+
+image::w06.gif[]
+
+image::w07.gif[]
+
+Przekształcając równania otrzymujemy równanie ruchu drgającego.
+
+[quote]
+Ruch drgający, odbywający się pod działaniem siły sprężystości, w którym przyspieszenie w każdym punkcie ruchu jest
+wprost proporcjonalne do wychylenia, nosi nazwę ruchu drgającego prostego albo harmonicznego.Ciało drgające to oscylator
+harmoniczny.
+
+Jak widać w równaniu ruchu drgającego wychylenie w ruchu harmonicznym zmienia się w czasie sinusoidalnie. Tą zależność przedstawia wykres:
+
+image::r03.gif[]
+
+== Prędkość, przyspieszenie i siła
+
+Rozważmy ponownie ruch harmoniczny jako rzut ruchu jednostajnego po okręgu. Wykorzystując zależności pokazane na rysunku
+wyprowadźmy wzór na prędkość w ruchu harmonicznym.
+
+image::r04.gif[]
+
+image:w08.gif[] prędkość ciała poruszającego się po okręgu
+
+image:w09.gif[] składowa prędkości image:w10.gif[]
+
+image:w11.gif[] promień okręgu
+
+image::w12.gif[]
+
+Korzystamy z wzoru na prędkość w ruchu po okręgu:
+
+image::w13.gif[]
+
+Jak wynika z rysunku za r możemy podstawić A (największe wychylenie) i otrzymuje wzór na prędkość w ruchu harmonicznym.
+
+image::w14.gif[]
+
+image::w15.gif[]
+
+Prędkość maksymalną ciała osiąga w położeniu równowagi.
+
+Zależność prędkości od czasu w ruchu harmonicznym przedstawia wykres:
+
+image::r05.gif[]
+
+Wzór na prędkość w ruchu harmonicznym można także wyprowadzić obliczając pochodną V=dx/dt.
+
+Wykonajmy podobny rysunek i wyprowadźmy wzór na *przyspieszenie* w ruchu harmonicznym.
+
+image::r06.gif[]
+
+Korzystając z rysunku odczytujemy zależności:
+
+image::w16.gif[]
+
+Za image:w17.gif[] podstawiamy wzór na przyspieszenie w ruchu po okręgu:
+
+image::w18.gif[]
+
+Otrzymujemy wzór na przyspieszenie w ruchu harmonicznym:
+
+image::w19.gif[]
+
+Znak minus oznacza, że kierunek przyspieszenia jest przeciwny względem kierunku wychylenia.
+
+Przyspieszenie maksymalne ciało osiąga w punkcie największego wychylenia:
+
+image::w20.gif[]
+
+Zależność przyspieszenia od czasu w ruchu harmonicznym przedstawia wykres:
+
+image::r07.gif[]
+
+Wzór na przyspieszenie w ruchu harmonicznym można wyprowadzić także obliczając pochodną a=dV/dt.
+
+Ruch drgający prosty jest ruchem niejednostajnie zmiennym.
+
+*Siła* w ruchu harmonicznym jest wprost proporcjonalna do wychylenia i przeciwnie zwrócona. Możemy wyprowadzić jej wzór,
+korzystając z II zasady dynamiki:
+
+image::w21.gif[]
+
+Po podstawieniu wartości przyspieszenia w ruchu harmonicznym otrzymujemy:
+
+image::w22.gif[]
+
+Aby zapisać powyższą równość w prostszy sposób wprowadza się współczynnik proporcjonalności k:
+
+image::w23.gif[]
+
+A więc wzór na siłę w ruchu harmonicznym jest następujący:
+
+image::w24.gif[]
+
+== Przemiany energii
+
+Ciało drgające posiada energię kinetyczną i potencjalną sprężystości. Wyprowadźmy wzory na obie energie.
+
+*Energia potencjalna sprężystości* wyraża się ogólnym wzorem:
+
+image::w25.gif[]
+
+Po podstawieniu do tego wzoru równanie ruchu drgającego otrzymujemy wzór na energię potencjalną sprężystości w ruchu drgającym:
+
+image::w26.gif[]
+
+*Energia kinetyczna* wyraża się ogólnym wzorem:
+
+image::w27.gif[]
+
+Wstawiamy do niego wzór na prędkość prędkość ruchu harmonicznym i otrzymujemy wzór na energię kinetyczną w ruchu drgającym:
+
+image::w28.gif[]
+
+A więc *energia całkowita* ciała drgającego wynosi:
+
+image::w29.gif[]
+
+Energia całkowita jest proporcjonalna do kwadratu amplitudy.
+
+image::r08.gif[]
+
+== Wahadło matematyczne
+
+[quote]
+Wahadło matematyczne to punkt materialny zawieszony na nieważkiej i nierozciągliwej nici.
+
+image::r09.gif[]
+
+Dla niewielkich kątów wahadło matematyczne wykonuje ruch harmoniczny (image:w30.gif[])
+
+Na rysunku przedstawione są działające siły, gdzie siły F i F^'^ to siły składowe. Siłę F^'^ równoważy siła naciągu nitki N,
+więc o ruchu wahadła decyduje tylko siła F. Z rysunku odczytujemy wartość funkcji sinus:
+
+image:w31.gif[] image:w32.gif[]
+
+Porównujemy obie wartości:
+
+image::w33.gif[]
+
+Otrzymany wzór skłania ku wnioskowi, że siła jest wprost proporcjonalna do wychylenia i przeciwnie zwrócona, więc potwierdza
+to wcześniejsze stwierdzenie, że jest to ruch harmoniczny.
+
+Wyprowadźmy wzór na *okres drgań wahadła matematycznego*.
+
+Porównujemy wzory na stałą k:
+
+image:w34.gif[] image:w35.gif[]
+
+image::w36.gif[]
+
+Okres wahadła matematycznego jest wprost proporcjonalny do pierwiastka z długości wahadła.
+
+Gdyby wahadło matematyczne znajdowało się nie tylko w polu grawitacyjnym, to okres drgań wahadło wynosiłby:
+
+image::w37.gif[]
+
+image:w38.gif[] wypadkowe przyspieszenie
+
+== Drgania tłumione (gasnące)
+
+Z doświadczenia wiemy, że wahadło pobudzone jednorazowo do drgań przez wychylenie go z położenia równowagi waha się w miarę
+upływu czasu coraz słabiej, aż wreszcie zatrzymuje się. Świadczy to o rozpraszaniu energii. Drgania takie nazywamy drganiami
+tłumionymi lub gasnącymi.
+
+image::r10.gif[]
+
+image::w39.gif[]
+
+Ciało drgające musi wykonywać pracę przeciwko sile oporu, zużywając na to swoją energię. Jeśli maleje energia ciała, to
+maleje również amplituda drgań (image:w40.gif[])
+
+image:w41.gif[] - czas relaksacji
+
+relaksacji jest to czas, po którym amplituda drgań zmniejsza się e razy. (e=2,71872; e - podstawa logarytmu naturalnego).
+
+image:w42.gif[] - współczynnik tłumienia
+
+image::w43.gif[]
+
+image:w44.gif[] logarytmiczny dekrement tłumienia
+
+image::w45.gif[]
+
+== Drgania wymuszone. Rezonans mechaniczny
+
+Drgania, które wykonuje ciało wychylone ze stanu równowagi i pozostawione samemu sobie, tj. nie poddane działaniu
+dodatkowych sił zewnętrznych określamy mianem drgań własnych ciała. Drgania własne ciała mają zawsze tę samą charakterystyczną
+dla niego częstotliwość, niezależnie od sposobu wzbudzenia.
+
+Wiemy, że zanikaniu wahań wahadła można zapobiec przez okresowe pobudzanie go do ruchu. Jeżeli energia dostarczana
+w każdym impulsie pobudzającym zrównoważy energię rozpraszaną, to drgania wahadła staną się niegasnące. Takie drgania
+wzbudzone za pomocą zmieniających się okresowo sił zewnętrznych albo też przenoszone z innego ciała drgającego nazywamy
+drganiami wymuszonymi.
+
+Przeprowadźmy doświadczenie:
+
+image::r11.gif[]
+
+Pobudzamy do drgań wahadło A, obserwujemy, że jego drgania stopniowo zanikają, coraz bardziej zaczyna się wahać wahadło C.
+Wahadło B pozostaje cały czas w spoczynku.
+
+Zaobserwowaliśmy *zjawisko rezonansu mechanicznego*, czyli zjawisko przekazywania drgań (energii drgań) ciał o takiej samej
+częstotliwości drgań własnych.
+
+Ruch drgań wymuszonych wyrażana równanie:
+
+image::w46.gif[]
+
+gdzie image:w47.gif[] to siła zewnętrzna, która powoduje drgania wymuszone.
+
+Wyprowadźmy wzór na amplitudę drgań w tym ruchu poprzez podstawienie do równania ruchu drgań wymuszonych wzorów na a, x
+i image:w47.gif[] w ruchu drgającym:
+
+image::w48.gif[]
+
+image:w49.gif[] - maksymalna wartość siły
+
+image::w50.gif[]
+
+image::w51.gif[]
+
+image::w52.gif[]
+
+Zamiast k podstawiamy wzór:
+
+image::w53.gif[]
+
+image:w54.gif[] - częstość drgań własnych
+
+image::w55.gif[]
+
+Gdy image:w56.gif[] dąży do image:w54.gif[], to amplituda drgań dąży do nieskończoności. Mamy do czynienia z rezonansem
+mechanicznym.
+
+Nieskończony wzrost amplitudy nie ma sensu fizycznego i w praktyce nie pozwalają na to siły oporu lub układ ulega wcześniej
+zniszczeniu.
+
+image::r12.gif[]
+
+Wykres przedstawia dwa ujęcia tego zjawiska: teoretyczne (niebieskim kolorem) i praktyczne (czerwonym kolorem).
+
+Zjawisko rezonansu jest wykorzystywane w różnorodnych urządzeniach akustycznych, w obwodach prądu zmiennego i w fizyce
+atomowej. Niekiedy jednak należy unikać jego skutków. Drgania maszyn lub urządzeń, albo też powtarzające się okresowo
+podmuchy wiatru, mogą się bowiem znaleźć w rezonansie z drganiami własnymi budynków, mostów i spowodować ich zniszczenie
+w wyniku ogromnego wzrostu amplitudy drgań wymuszonych.
+
+== Wahadło fizyczne
+
+[quote]
+Wahadło fizyczne jest ciało sztywne dowolnego kształtu zawieszone na osi poziomej ponad środkiem ciężkości i wahające się wokół niej.
+
+image::r13.gif[]
+
+Z rysunku odczytujemy wartości dla funkcji sinus, a następnie je porównujemy:
+
+image:w57.gif[] image:w58.gif[]
+
+image::w59.gif[]
+
+Siła jest wprost proporcjonalna do wychylenia i przeciwnie zwrócona, a więc dla niewielkich wychyleń bryła sztywna wykonuje
+ruch harmoniczny.
+
+Wyprowadźmy wzór na *przyspieszenie* i na *okres drgań wahadła fizycznego*:
+
+Porównujemy wzory na moment M dla ruchu obrotowego (gdzie r to odległość między środkiem ciężkości a punktem zaczepienia
+bryły sztywnej):
+
+image:w60.gif[] image:w61.gif[]
+
+image::w62.gif[]
+
+Otrzymujemy wzór na przyspieszenie wahadła fizycznego. Jest ono wprost proporcjonalne do wychylenia i odwrotnie
+proporcjonalne do momentu bezwładności I.
+
+Porównujemy wzory na przyspieszenie (dla wahadła fizycznego i w ruchu harmonicznym):
+
+image:w63.gif[] image:w64.gif[]
+
+image::w65.gif[]
+
+Otrzymujemy wzór na okres drgań wahadła fizycznego.
+
+*Długość zredukowana wahadła fizycznego* równa jest długości wahadła matematycznego, który ma taki sam okres drgań.
+
+image::w66.gif[]
+
+== Ruch falowy. Rodzaje fal
+
+[quote]
+Falą mechaniczną nazywamy zjawisko rozchodzenia się zaburzeń ośrodka. Źródłem fali jest ciało drgające.
+
+Ośrodek sprężysty ma tę właściwość, ze siłom, które usiłują spowodować jego odkształcenie, przeciwstawia siły sprężyste,
+które po usunięciu sił odkształcających usuwają odkształcenie. Wytrącenie zespołu cząsteczek takiego ośrodka z położenia
+równowagi powoduje ich drganie wokół tego położenia, przy czym wskutek jego właściwości sprężystych zaburzenie przenosi
+się z jednej warstwy ośrodka na następną, wprawiając ją w ruch drgający o takim samym okresie drgań. Takie właśnie
+przenoszenie drgań nazywamy ruchem falowym lub krótko falą.
+
+Przykładem ruchu falowego są fale rozchodzące się kołowo na powierzchni wody po wrzuceniu kamienia. Obserwując zachowanie
+się trocin lub słomek pływających na powierzchni wody, można łatwo stwierdzić, że rzeczywisty ruch cząsteczek wody polega
+na ich podnoszeniu się i opadania w jednym miejscu, natomiast sama fala, przenosząca te drgania, rozchodzi się po
+powierzchni wody. Ośrodek nie porusza się więc wraz z rozchodzącą się falą, lecz jedynie jego cząsteczki drgają wokół
+położeń równowagi, zaś istotę ruchu falowego stanowi przenoszenie się tych drgań na coraz to dalsze warstwy ośrodka.
+
+Fale mechaniczne nie mogą rozchodzić się w próżni. Rozchodzą się w ośrodkach sprężystych.
+
+[quote]
+Promień fali to kierunek rozchodzenia się fali.
+
+[quote]
+Czoło fali jest to zbiór punktów, do których dotarła fala.
+
+[quote]
+Powierzchnia falowa to zbiór punktów mających tą samą fazę drgań.
+
+Fale mechaniczne (ze względu na wymiar) dzielimy na:
+
+* *fale liniowe* (jednowymiarowe) - np. na gumowym wężu,
+* *fale powierzchniowe* (dwuwymiarowe) - np. na wodzie,
+* *fale przestrzenne* (trójwymiarowe) - np. dźwięk w powietrzu.
+
+W zależności od kierunku drgań cząsteczek ośrodka w stosunku do kierunku rozchodzenia się fali rozróżnia się *fale poprzeczne*
+i *fale podłużne*.
+
+[quote]
+Fala poprzeczna to taka fala, której cząsteczki ośrodka drgają w kierunku prostopadłym do kierunku rozchodzenia się fali.
+
+Można ją otrzymać na przykład przez szybkie poruszanie się w górę i w dół jednego końca gumowego sznura, przymocowanego
+drugim końcem do ściany. Powstanie fali poprzecznej wiąże się ze zmianą kształtu ciała, a więc może się ona rozchodzić
+jedynie w ośrodkach mających sprężystość postaci (głównie w ciałach stałych). Cząsteczki ośrodków doskonale sprężystych
+wykonują drgania harmoniczne, zatem fala poprzeczna rozchodząca się w takim ośrodku ma postać sinusoidy.
+
+image::r14.gif[]
+
+Prędkość fali poprzecznej w płynach lub cienkich, długich prętach wynosi:
+
+image::w67.gif[]
+
+image:w68.gif[] - współczynnik ściśliwości płynu; moduł sztywności ciała stałego
+
+image:w69.gif[] - gęstość ośrodka
+
+[quote]
+Fala podłużna jest to fala, której cząsteczki ośrodka drgają w kierunku zgodnym z kierunkiem rozchodzenia się fali.
+
+Można ją otrzymać uderzając z jednej strony młotkiem w koniec długiej sprężyny z cienkiego drutu zawieszonej na niteczkach.
+Obserwujemy wówczas zagęszczanie się zwojów sprężyny w pobliżu miejsca uderzenia i przesuwanie się tego zagęszczenia wzdłuż
+jej osi, przy czym kierunek drgań zwojów sprężyny, jest zgodny z kierunkiem rozchodzenia się fali.
+
+image::r15.gif[]
+
+Podobne zjawisko rozchodzenia się drgań cząsteczek można zaobserwować w rurze wypełnionej powietrzem, jeżeli w jednym
+z jej końców wywołane zostanie zagęszczenie. Rozchodząca się w rurze fala podłużna polega na zagęszczaniu i rozrzedzaniu
+drgających warstw powietrza.
+
+Ponieważ rozchodzenie się fal podłużnych jest związane z okresowymi zmianami gęstości ośrodka, fale te mogą się rozchodzić
+we wszystkich ośrodkach wykazujących sprężystość objętości, a więc zarówno w ciałach stałych, cieczach jak i w gazach.
+
+Prędkość fali podłużnej w płynach lub cienkich, długich prętach wynosi:
+
+image::w70.gif[]
+
+image:w71.gif[] - moduł Younga
+
+image:w69.gif[] - gęstość ośrodka
+
+Ze względu na czoło fali fale dzielą się na płaskie i kuliste. Jeżeli drgania rozchodzą się w jednym kierunku, to
+powierzchnie fali są płaszczyznami i mówimy o *fali płaskiej*. Jeżeli zaś fala wywołana przez punktowe źródło drgań
+rozchodzi się w ośrodku jednorodnym, to prędkość jej jest jednakowa we wszystkich kierunkach i powierzchnia fali ma
+postać kuli. Mówimy wtedy o *fali kulistej*.
+
+Wielkości charakteryzujące falę to:
+
+image:w72.gif[] - amplituda fali
+
+image:w73.gif[] - okres fali
+
+image:w74.gif[] - częstotliwość fali
+
+image:w75.gif[] - prędkość fali (prędkość fali w danym ośrodku jest stała)
+
+image:w76.gif[] - długość fali (odległość między najbliższymi cząsteczkami drgającymi w zgodnych fazach)
+
+Fala przebywa drogę równą swojej długości w czasie okresu.
+
+image::w77.gif[]
+
+== Zasada Huygensa
+
+Opis ruchu falowego komplikuje się z chwilą, gdy czoło fali dociera do granicy obszaru swobodnego rozprzestrzeniania się
+fali, lub do granicy dwu ośrodków, w których prędkości rozchodzenia się fal są różne. Metody opisu ruchu falowego w tym
+przypadku dostarcza zasada Huygensa.
+
+U źródła zasady Huygensa leżą trzy obserwacje doświadczalne:
+
+* Drgające źródła punktowe wysyłają w ośrodku jednorodnym i izotropowym fale koliste.
+* Fale wysyłane przez różne źródła rozchodzą się w ośrodku niezależnie od siebie (zasada superpozycji).
+* Fale nie rozchodzą się w ośrodku natychmiastowo, lecz ze skończoną prędkością - coraz to nowe punkty ośrodka są pobudzane do drgań.
+
+Na podstawie tych obserwacji Huygens wysunął hipotezę, że:
+
+[quote]
+Każdy punkt ośrodka, do którego dochodzi fala, można traktować jako elementarne źródło wtórnej fali kolistej.
+
+Jest to tzw. zasada Huygensa.
+
+== Równanie fali
+
+Aby wyprowadzić równanie fali posłużymy się wykresem zależności wychylenia od odległości od źródła.
+
+image::r16.gif[]
+
+image:w78.gif[] - wychylenie
+
+image:w79.gif[] - odległość od źródła
+
+Wykorzystujemy równanie ruchu drgającego na opisanie położenia punktów A i B.
+
+Punkt A - image:w80.gif[]
+
+Punkt B - image:w81.gif[]
+
+image:w82.gif[] - czas, w którym fala przebywa drogę image::w83.gif[]
+
+image::w84.gif[]
+
+Podstawiamy za image:w85.gif[] powyższy wzór i przekształcamy, aby otrzymać równanie fali w prostszej postaci:
+
+image::w86.gif[]
+
+Równanie fali można także wyrazić przy pomocy liczby falowej k, której wartość wstawiona do otrzymanego wzoru da inną
+postać równania fali:
+
+image::w87.gif[]
+
+== Interferencja fal mechanicznych
+
+Podobnie, jak w ruchach punktu materialnego materialnego ciała sztywnego, w ruchu falowym obowiązuje zasada niezależności
+ruchów. Jeżeli w ośrodku rozchodzi się kilka fal, wysyłanych jednocześnie przez różne źródła, to wypadkowy ruch każdej
+cząstki ośrodka jest złożeniem ruchów, jakie wykonywałaby ta cząstka przy rozchodzeniu się każdej fali z osobna. Zasada
+niezależności ruchów w zastosowaniu do ruchu falowego nosi nazwę zasady superpozycji fal.
+
+[quote]
+Zjawisko nakładania się dwu lub więcej fal harmonicznych harmonicznych tej samej długości, prowadzące do powstania ustalonego
+w czasie rozkładu przestrzennego obszarów wzmocnienia i osłabienia fali, nazywamy interferencją fal.
+
+image::w88.gif[]
+
+Interferencja to zjawisko typowe dla fal.
+
+=== Wzmocnienie
+
+image::r17.gif[]
+
+Jeżeli obie fale będą miały takie same amplitudy to nastąpi maksymalne wzmocnienie.
+
+Wzmocnienie następuje w takich przypadkach:
+
+image::w89.gif[]
+
+Maksymalne wzmocnienie fali następuje we wszystkich punktach, dla których różnica odległości od źródeł równa się całkowitej
+wielokrotności długości fali.
+
+image::w90.gif[]
+
+=== Wygaszenie
+
+image::r18.gif[]
+
+image::w91.gif[]
+
+Wygaszenie następuje we wszystkich punktach, dla których różnica odległości od źródeł jest równa nieparzystej wielokrotności
+połowy długości fali.
+
+image::w92.gif[]
+
+Wyprowadźmy *warunki na wygaszenie i wzmocnienie fal mechanicznych* (korzystając z równania fali):
+
+image::w93.gif[]
+
+image::w94.gif[]
+
+Korzystamy ze wzoru na sumę funkcji trygonometrycznych:
+
+image::w95.gif[]
+
+* Wygaszenie nastąpi, gdy amplituda będzie równa zero:
++
+image::w96.gif[]
++
+Zamiast k podstawiamy image:w97.gif[] i otrzymujemy:
++
+image::w98.gif[]
+
+* Wzmocnienie nastąpi, gdy:
++
+image::w99.gif[]
++
+Zamiast k podstawiamy image:w97.gif[] i otrzymujemy:
++
+image::w100.gif[]
+
+== Dyfrakcja fal mechanicznych
+
+[quote]
+Dyfrakcją fali nazywamy ugięcie fali, czyli zmianę kierunku rozchodzenia się fali na szczelinach, krawędziach, przeszkodach, itp.
+
+Zjawisko dyfrakcji jest typowym dla fal. Tłumaczy je zasada Huygensa. Łatwo jest zaobserwować dyfrakcję fal, ustawiając
+w zbiorniku z wodą przegrodę z wąską szczeliną i wytwarzając po jednej stronie falę płaską. W chwili, gdy fala ta dojdzie
+do przegrody - szczelina staje się źródłem fali kołowej, rozchodzącej się z niej we wszystkich kierunkach po drugiej
+stronie przegrody. Tą sytuację ilustruje rysunek:
+
+image::r19.gif[]
+
+Umieszczając w zbiorniku z wodą przegrodę z dwiema szczelinami, równoległą do powierzchni wytwarzanej fali płaskiej, możemy
+obserwować zarówno dyfrakcję jak i interferencję fal ugiętych. Ponieważ powierzchnia fali płaskiej dochodzi do obydwu szczelin
+w tej samej chwili, stają się one, zgodnie z zasadą Huygensa, źródłami elementarnych fal kołowych o jednakowych fazach
+i amplitudach. amplitudach wyniku nakładania się fal w tych punktach powierzchni wody, do których dojdą fale o jednakowych
+fazach, następuje wzmocnienie drgań i powierzchnia wody staje się silniej pofałdowana, w innych zaś, do których dojdą fale
+o fazach przeciwnych , następuje wygaszenie drgań i powierzchnia wody staje się gładka, tworząc charakterystyczne "linie
+węzłów".
+
+image::r20.gif[]
+
+== Zasada Fermata
+
+[quote]
+Fala biegnąca z jednego punktu do drugiego przebywa drogę, na której przebycie trzeba w porównaniu z innymi sąsiednimi
+drogami minimum lub maksimum czasu.
+
+Zasada ta prowadzi do prawa rozchodzenia się światła po liniach prostych w ośrodkach jednorodnych oraz do praw odbicia
+i załamania fal.
+
+== Odbicie fal mechanicznych
+
+[quote]
+Kątem padania nazywamy kąt zawarty między promieniem fali padającej, a prostą prostopadłą (normalną) do płaszczyzny odbijającej.
+
+[quote]
+Kątem odbicia nazywamy kąt zawarty między promieniem fali odbitej, a prostą prostopadła (normalną) do płaszczyzny odbijającej.
+
+image::r21.gif[]
+
+=== Prawo odbicia
+
+[quote]
+Kąt padania jest równy kątowi odbicia. Promień fali padającej, promień fali odbitej i prosta prostopadła (normalna) płaszczyzny odbijającej leżą w jednej płaszczyźnie.
+
+image::w101.gif[]
+
+Przy odbiciu fali od ośrodka bardziej sztywnego następuje zmiana fazy na przeciwną.
+
+Wyprowadzenie prawa odbicia:
+
+* geometrycznie
++
+image::r22.gif[]
++
+Odcinki BC i AD muszą być przebyte w tym samym czasie, więc:
++
+image::w102.gif[]
++
+image::w103.gif[]
+
+* zasady Fermata
++
+image::r23.gif[]
++
+Z rysunku na podstawie twierdzenia Pitagorasa odczytujemy, że:
++
+image::w104.gif[]
++
+Drogę jaką przebyła fala od punktu A do B oznaczamy literą d:
++
+image::w105.gif[]
++
+Obliczamy czas, w którym fala pokonała drogę z punktu A do B:
++
+image::w106.gif[]
++
+Obliczamy pochodną z t:
++
+image::w107.gif[]
++
+Obliczoną pochodną przyrównujemy do zera, gdyż funkcja osiąga maksimum lub minimum, gdy jej pochodna ma wartość zero.
++
+image::w108.gif[]
++
+Z rysunku odczytujemy wartość funkcji sinus dla obu kątów zaznaczonych na rysunku:
++
+image::w109.gif[]
++
+A następnie wstawiamy je do wyżej otrzymanego wzoru i uzyskujemy:
++
+image::w110.gif[]
+
+== Załamanie fal mechanicznych
+
+Fala ulega załamaniu, gdy przechodzi z jednego ośrodka do drugiego.
+
+=== Prawo załamania
+
+[quote]
+Stosunek sinusa kąta padania do sinusa kąta załamania, zwany współczynnikiem załamania n ośrodka drugiego względem pierwszego,
+jest równy stosunkowi prędkości rozchodzenia się fali w ośrodku pierwszym do prędkości rozchodzenia się fali w ośrodku drugim.
+w obu ośrodkach. Promień fali padającej, promień fali załamanej i prosta prostopadła (normalna) do granicy ośrodków leżą
+w jednej płaszczyźnie.
+
+image::w111.gif[]
+
+Wyprowadzenie prawa załamania:
+
+image::w112.gif[]
+
+* geometrycznie
++
+image::r24.gif[]
++
+Fala musi pokonać drogę BC w jednym ośrodku w tym samym czasie co drogę AD w drugim ośrodku.
++
+image::w113.gif[]
++
+image::w114.gif[]
++
+image::w115.gif[]
++
+Przekształcamy równanie i otrzymujemy:
++
+image::w112.gif[]
+
+* z zasady Fermata
++
+image::r25.gif[]
++
+Z rysunku na podstawie twierdzenia Pitagorasa odczytujemy, że:
++
+image::w116.gif[]
++
+Drogę jaką przebyła fala od punktu A do B oznaczamy literą s:
++
+image::w117.gif[]
++
+Obliczamy czas, w którym fala pokonała drogę z punktu A do B:
++
+image::w118.gif[]
++
+Obliczamy pochodną z t:
++
+image::w119.gif[]
++
+Obliczoną pochodną przyrównujemy do zera, gdyż funkcja osiąga maksimum lub minimum, gdy jej pochodna ma wartość zero.
++
+image::w120.gif[]
++
+Z rysunku odczytujemy wartość funkcji sinus dla obu kątów zaznaczonych na rysunku:
++
+image::w121.gif[]
++
+A następnie wstawiamy je do wyżej otrzymanego wzoru i uzyskujemy:
++
+image::w122.gif[]
+
+== Fala stojąca
+
+Szczególnym przypadkiem interferencji fal jest powstawanie fali stojącej, będącej wynikiem nakładania się dwóch fal
+o jednakowych amplitudach, częstościach i prędkościach, rozchodzących się w przeciwnych kierunkach.
+
+Falę stojącą można otrzymać najprościej na naciągniętym sprężystym sznurze. Jeśli jeden z jego końców tego sznura wprawimy
+w ruch drgający harmoniczny, to biegnąca wzdłuż niego fala, po dotarciu do punktu zamocowania sznura odbije się od niego,
+przy czym fala odbita ma tę samą częstotliwość i amplitudę, co pierwotna fala, lecz porusza się w przeciwnym kierunku.
+W wyniku nakładania się fali pierwotnej i fali odbitej cząsteczki sznura uzyskują, w zależności od ich położenia wzdłuż
+kierunku rozchodzenia się fali, różne amplitudy drgań, zawarte w granicach od zera do wartości podwójnej amplitudy fali
+pierwotnej. Drgania te nazywamy właśnie falą stojącą.
+
+image::r26.gif[]
+
+image::w123.gif[]
+
+Długość ośrodka musi być równa całkowitej wielokrotności połowy długości fali.
+
+image::w124.gif[]
+
+[quote]
+Strzałki fali stojącej to punkty o największej amplitudzie drgań.
+
+[quote]
+Węzły fali stojącej to punkty niedrgające (nie wykonujące drgań).
+
+Wyprowadźmy równanie fali stojącej oraz warunki na strzałki i węzły. Skorzystamy z równania fali:
+
+image::w125.gif[]
+
+Zgodnie z definicją fali stojącej dodajemy równania obu fal:
+
+image::w126.gif[]
+
+Korzystamy ze wzoru na sumę funkcji trygonometrycznych:
+
+image::w127.gif[]
+
+Otrzymaliśmy wzór równania fali stojącej, z którego możemy wyprowadzić warunki na węzeł i strzałkę fali stojącej.
+
+=== Węzeł
+
+image::w128.gif[]
+
+Fala stojąca jest węzłem, gdy odległość jest równa nieparzystej wielokrotności ćwiartki długości fali.
+
+Wykażmy, że między dwoma sąsiednimi węzłami jest zawsze połowa długości fali.
+
+image::w129.gif[]
+
+Korzystając z powyższych równań uzyskamy wzór na różnicę odległości między dwoma sąsiednimi węzłami.
+
+image::w130.gif[]
+
+=== Strzałka
+
+image::w131.gif[]
+
+Fala stojąca jest strzałką, gdy odległość jest równa całkowitej wielokrotności połowy długości fali.
+
+Wykażmy, że między dwoma sąsiednimi strzałkami jest zawsze połowa długości fali.
+
+image::w132.gif[]
+
+image::w133.gif[]
+
+== Energia fali
+
+Fala przenosi energię od źródła drgań, które ją wysyła, przy czym energia ta równoważna jest pracy zużytej na zakłócenie
+równowagi cząsteczek ośrodka, w którym rozchodzi się fala (pomijając straty na pokonanie oporów ośrodka).
+
+Badania wykazały, że energia E przenoszona przez falę jest wprost proporcjonalna do kwadratu amplitudy i kwadratu
+częstotliwości fali. Stosunek przepływającej energii E do iloczynu powierzchni fali S i czasu t, w którym przepływa
+jest miarą natężenia fali I.
+
+image::w134.gif[]
+
+Jednostką natężenia fali w układzie SI jest W/m^2^.
+
+W przypadku fali płaskiej rozchodzącej się w ośrodku sprężystym i wysyłanej przez źródło drgań o stałej mocy
+(image:w135.gif[]), natężenie fali ma wartość stałą, gdyż jej powierzchnia S jest stała.
+
+W przypadku fali kulistej natężenie fali w punkcie P odległym o r od źródła drgań O wynosi:
+
+image::w136.gif[]
+
+skąd wynika, że dla źródła drgań o stałej mocy image:w135.gif[] natężenie fali kulistej jest odwrotnie proporcjonalne
+do kwadratu odległości od źródła drgań.
+
+W ośrodkach materialnych, czyli w rzeczywistych gazach, cieczach i ciałach stałych, w których występuje tarcie
+międzycząsteczkowe, energia, jaką niesie ze sobą fala, ulega rozproszeniu, jest bowiem zużywana na pokonanie tarcia
+i zamienia się na ciepło. Wskutek rozpraszania energii amplituda fali maleje ze wzrostem odległości od źródła drgań.
+Taka fala nosi nazwę fali zanikającej lub gasnącej.
+
+

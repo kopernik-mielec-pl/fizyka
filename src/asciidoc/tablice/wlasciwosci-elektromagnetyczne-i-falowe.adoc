@@ -1,0 +1,2327 @@
+:imagesdir: ../img/tablice/wlasciwosci-elektromagnetyczne-i-falowe
+:toc:
+
+= Właściwości elektromagnetyczne i falowe
+
+== Przewodnictwo cieplne różnych substancji
+
+|===
+|Substancja^a^|image:w18.gif[]|Substancja^a^|image:w18.gif[]|Substancja^a^|image:w18.gif[]
+
+|*_Ciała stałe niemetaliczne_*
+|
+|*_Gazy_*
+|
+|*_Metale_*^d^
+|
+
+|Kołdra puchowa
+|0,03^a^
+|Ksenon
+|0,0055
+|Nb~3~Sn (4K)^e^
+|0,038
+
+|Pianka poliuretanowa
+|0,03^a^
+|Chlor
+|0,008
+|Pluton
+|6,72
+
+|Wata szklana
+|0,03-0,05
+|Krypton
+|0,0095
+|Mangan
+|7,8
+
+|Futro
+|0,04
+|Sześciofluorek siarki
+|0,0128
+|Inwar
+|11
+
+|Korek
+|0,04
+|Siarkowodór
+|0,0145
+|Manganin
+|23
+
+|Styropian
+|0,04
+|Chlorowodór
+|0,0146
+|Uran
+|27,6
+
+|Drewno balsa
+|0,05
+|Dwutlenek azotu
+|0,0161
+|Ołów
+|34,9
+
+|Azbest (płyty izol.)
+|0,05-0,1
+|Dwutlenek węgla
+|0,0166
+|Stal (różne gatunki)
+|35-90
+
+|Wata bawełn., luźna
+|0,06
+|Podtlenek azotu
+|0,0173
+|Żeliwo
+|40-50
+
+|Słoma
+|0,06
+|Argon
+|0,0177
+|Stop lutowniczy
+|50
+
+|Suche trociny
+|0,1
+|Ozon
+|0,0188
+|Cyna
+|66,7
+
+|Flanela
+|0,1
+|Amoniak
+|0,0242
+|Platyna
+|71,6
+
+|Polistyren
+|0,14
+|Tlenek węgla
+|0,0250
+|Żelazo (b. czyste)
+|80,3
+
+|Wyroby skórzane
+|0,16
+|Tlenek azotu
+|0,0251
+|Żelazo, stal(700&deg;C)
+|30
+
+|Polichlorek winylu
+|0,17
+|Azot
+|0,0257
+|Nikiel
+|90,8
+
+|Pleski
+|0,19
+|Powietrze
+|0,0260
+|Chrom
+|93,8
+
+|Śnieg (0,25g/cm^3^)
+|0,2
+|Tlen
+|0,0265
+|Kobalt
+|100
+
+|Drewno (dąb) image:w16.gif[]
+
+|0,2^b^
+|Metan
+|0,0343
+|Mosiądz
+|110
+
+|Teflon
+|0,27
+|Neon
+|0,0493
+|Cynk
+|116
+
+|Siarka
+|0,27
+|Hel
+|0,155
+|Sód
+|142
+
+|Polietylen
+|0,4
+|Wodór
+|0,185
+|Krzem
+|148
+
+|Cegła (czerwona)
+|0,4-0,6
+|*_Ciecze_*
+|
+|Magnez
+|156
+
+|Cegła klinkierowa
+|1,5
+|Hel (4,0K)
+|0,028
+|Wolfram
+|174
+
+|Jod
+|0,45
+|Czterochlorek węgla
+|0,11
+|Glin
+|237
+
+|Węgiel kamienny
+|0,45
+|Benzyna
+|0,11
+|Tombak (4% Zn)
+|240
+
+|Torf
+|0,7
+|Chloroform
+|0,12
+|Złoto
+|317
+
+|Asfalt żwirowy
+|0,7
+|Heksan
+|0,12
+|Miedź
+|401
+
+|Szkło
+|0,7-1,5
+|Olej parafinowy
+|0,12
+|Srebro
+|429
+
+|Beton
+|ok. 1
+|Brom
+|0,124
+|
+|
+
+|Piaskowiec
+|1-2
+|Toluen
+|0,14
+|*_Woda_*
+|
+
+|Szkło kwarcowe
+|1,38
+|Eter etylowy
+|0,14
+|Woda (0&deg;C)
+|0,561
+
+|Porcelana
+|1,8
+|Benzen
+|0,141
+|Woda (25&deg;C)
+|0,607
+
+|Selen
+|2,0
+|Nafta
+|0,15
+|Woda (100&deg;C)
+|0,679
+
+|Lód (0&deg;C)
+|2,34
+|Azot (65K)
+|0,160
+|
+|
+
+|Marmur
+|2-4
+|Butanol
+|0,16
+|*_Tkanki żywe_*
+|
+
+|Granit
+|1,1-4
+|Nitrobenzen
+|0,16
+|Tłuszcz
+|0,17
+
+|Sól kamienna
+|2-6
+|Oktanol
+|0,16
+|Skóra słabo ukrwiona
+|0,33
+
+|Chlorek sodu^c^
+|7,7
+|Anilina
+|0,17
+|Mięśnie słabo ukrwione
+|0,54
+
+|Węglik wolframu
+|29
+|Oliwa z oliwek
+|0,17
+|Mięśnie silnie ukrw.
+|0,63
+
+|Korund
+|30
+|Aceton
+|0,18
+|Skóra silnie ukrw.
+|do 1,5
+
+|Tlenek glinu^c^
+|40
+|Etanol
+|0,18
+|
+|
+
+|Tlenek magnezu^c^
+|60
+|Metanol
+|0,21
+|
+|
+
+|Krzem^c^
+|110
+|Dwusiarczek węgla
+|0,21
+|
+|
+
+|Grafit
+|200
+|Gliceryna
+|0,26
+|
+|
+
+|Tlenek berylu^c^
+|400
+|Glikol
+|0,26
+|
+|
+
+|Węglik krzemu^c^
+|500
+|Kwas siarkowy
+|0,335
+|
+|
+
+|Diament (naturalny)
+|2320
+|Hydrazyna
+|0,475
+|
+|
+
+|Diament (czysty ^12^C)
+|3500
+|Rtęć
+|8,32
+|
+|
+|===
+
+^a^ - wartości podobne jak dla powietrza
+
+^b^ - w poprzek włókien (przewodnictwo drewna wzdłuż włókien jest 2-3 razy większe)
+
+^c^ - monokryształ
+
+^d^ - przewodnictwo cieplne jest na ogół wprost proporcjonalne do przewodnictwa elektrycznego
+
+^e^ - stan nadprzewodzący
+
+== Względna przenikalność elekryczna wybranych ośrodków
+
+|===
+|Substancja^a^|image:w19.gif[]|Substancja^a^|image:w19.gif[]|Substancja^a^|image:w19.gif[]
+
+|*_Ciała stałe_*
+|
+|*_Ciecze_*
+|
+|*_Gazy_* (20&deg;C)
+|
+
+|Arsenek galu
+|12
+|Aceton
+|20,70
+|Amoniak
+|1,00622
+
+|Asfalt
+|2,7
+|Anilina
+|6,99
+|Argon
+|1,000562
+
+|Bazalt
+|12
+|Benzen
+|2,28
+|Azot
+|1,000548
+
+|Bursztyn
+|2,9
+|Brom
+|3,22
+|Dwutlenek siarki
+|1,00825
+
+|Chlorek sodu
+|11,2
+|Chloroform
+|4,72
+|Dwutlenek węgla
+|1,000922
+
+|Diament
+|5,68
+|Ciekły hel (3K)
+|1,06
+|Hel
+|1,000065
+
+|Drewno dębowe
+|5
+|Ciekły azot (70K)
+|1,45
+|Krypton
+|1,00078
+
+|German
+|16,3
+|Ciężka woda
+|78,38
+|Ksenon
+|1,00126
+
+|Granit
+|7-9
+|Cyjanowodór
+|106,8
+|Metan
+|1,00081
+
+|Guma niewulkaniz.
+|2,4
+|Czterochlorek węgla
+|2,23
+|Para wodna (100&deg;C)
+|1,00587
+
+|Guma wulkanizow.
+|3,2
+|Dioksan
+|2,21
+|Powietrze (suche)
+|1,000544
+
+|Krzem
+|11,7
+|Etanol
+|24,55
+|Tlen
+|1,000495
+
+|Kwarc topiony
+|3,8
+|Eter dietylowy
+|4,22
+|Sześciofluorek siarki
+|1,00200
+
+|Lód (0&deg;C)
+|91,5
+|Formamid
+|109,5
+|Wodór
+|1,000254
+
+|Marmur
+|8,2
+|Gliceryna
+|42,5
+|
+|
+
+|Nylon
+|3,6
+|Glikol etylenowy
+|40,7
+|*Próżnia*
+|*1,000000*
+
+|Papier kondensator.
+|4-6
+|Heksan
+|1,88
+|
+|
+
+|Papier suchy
+|2-3
+|Kwas octowy^b^
+|6,19
+|
+|
+
+|Papier woskowany
+|2,7
+|Kwas siarkowy^b^
+|101
+|
+|
+
+|PCW
+|2,8
+|Metanol
+|32,62
+|
+|
+
+|Pleksi
+|2,6
+|N-metyloformamid
+|182,4
+|
+|
+
+|Polietylen
+|2,3
+|Nafta
+|2,0
+|
+|
+
+|Polistyren
+|2,55
+|Octan etylu
+|6,02
+|
+|
+
+|Porcelana
+|6-8
+|Olej lniany
+|3,3
+|
+|
+
+|Rutyl (TiO~2~) &#124;&#124;
+|170
+|Toluen
+|2,38
+|
+|
+
+|Rutyl (TiO~2~) image:w16.gif[]
+|86
+|Woda (0&deg;C)
+|87,90
+|
+|
+
+|Selen
+|8,5
+|Woda (10&deg;C)
+|83,96
+|
+|
+
+|Siarczek cynku
+|8,3
+|Woda (20&deg;C)
+|80,20
+|
+|
+
+|Siarczek kadmu
+|8,9
+|Woda (25&deg;C)
+|78,38
+|
+|
+
+|Sól Seignette
+|6000^a^
+|Woda (50&deg;C)
+|69,88
+|
+|
+
+|Styropian
+|1,1-1,3
+|Woda (100&deg;C)
+|55,51
+|
+|
+
+|Szkło
+|4-8
+|Woda (war. kryt.)
+|8,6
+|
+|
+
+|Tytanian baru
+|3000^a^
+|
+|
+|
+|
+
+|Tytanian magnezu
+|14
+|
+|
+|
+|
+
+|Tytanian wapnia
+|150
+|
+|
+|
+|
+
+|Ziemia (wilgotna)
+|5-15
+|
+|
+|
+|
+
+|Ziemia (sucha)
+|2-6
+|
+|
+|
+|
+
+|Żywice epoksydowe
+|2,6
+|
+|
+|
+|
+|===
+
+^a^ - ferroelektryki, silna zależność od temperatury
+
+^b^ - stężenie 100%
+
+== Przewodnictwo elektryczne czystych metali
+
+|===
+|Metal|image:w20.gif[]|image:w21.gif[]|Metal|image:w20.gif[]|image:w21.gif[]|Metal|image:w20.gif[]|image:w21.gif[]
+
+|Ameryk
+|0,14
+|26
+|Itr
+|0,17
+|27
+|Rod
+|2,2
+|44
+
+|Antymon
+|0,28
+|51
+|Kadm
+|1,4
+|43
+|Rtęć
+|0,104
+|9
+
+|Arsen
+|0,33
+|40^b^
+|Kobalt
+|1,60
+|33
+|Rubid
+|0,781
+|51
+
+|Bar
+|0,29
+|36^b^
+|Lantan
+|0,16
+|22
+|Ruten
+|1,5
+|41
+
+|Beryl
+|2,5
+|90
+|Lit
+|1,1
+|43,5
+|Skand
+|0,18
+|28
+
+|Bizmut
+|0,0833
+|40
+|Magnez
+|2,26
+|40
+|Sód
+|2,0
+|25
+
+|Cer
+|0,135
+|87
+|Mangan
+|0,0694
+|3,5
+|Srebro
+|6,19
+|41
+
+|Cez
+|0,50
+|42
+|Miedź
+|5,847
+|39
+|Stront
+|0,43
+|38
+
+|Chrom
+|0,794
+|21,4
+|Molibden
+|1,83
+|40
+|Tal
+|0,53
+|52
+
+|Cyna
+|0,826
+|44
+|Neptun
+|0,083
+|4
+|Tantal
+|0,752
+|35
+
+|Cynk
+|1,65
+|37
+|Nikiel
+|1,41
+|44
+|Technet
+|0,67
+|38
+
+|Cyrkon
+|0,23
+|44
+|Niob
+|0,71
+|26
+|Tor
+|0,67
+|40
+
+|Europ
+|0,11
+|48
+|Ołów
+|0,474
+|39
+|Tytan
+|0,236
+|38
+
+|Gadolin
+|0,0763
+|17,6
+|Osm
+|1,1
+|41
+|Uran
+|0,33
+|28
+
+|Glin
+|3,687
+|39
+|Pallad
+|0,934
+|42
+|Wanad
+|0,498
+|39
+
+|Hafn
+|0,296
+|44
+|Platyna
+|0,943
+|38
+|Wapń
+|2,9
+|45,7
+
+|Gal
+|0,37
+|40
+|Pluton
+|0,0667
+|2,1
+|Wolfram
+|1,85
+|46
+
+|Ind
+|1,1
+|52
+|Potas
+|1,4
+|49
+|Złoto
+|4,478
+|38
+
+|Iryd
+|2,0
+|45
+|Ren
+|0,53
+|45
+|Żelazo
+|1,03
+|45
+|===
+
+image:w09.gif[] - przewodność właściwa
+
+a - współczynnik temperaturowy przewodności
+
+^b^ - w pobliżu 0&deg;C
+
+== Przewodnictwo elektryczne wybranych stopów
+
+|===
+|Stop|image:w20.gif[]|image:w21.gif[]|Stop|image:w20.gif[]|image:w21.gif[]
+
+|Aluchrom O (FeCr25A15
+|0,071
+|0,2
+|Manganin (CuMn12Ni2)
+|0,22
+|0,1
+
+|Alumel (Ni95, Al+Mn+Si 5)
+|0,3
+|19
+|Monel (NiCu33Fe2)
+|0,20
+|19
+
+|Brąz cynowy (CuSn10)
+|0,7
+|6
+|Mosiądz (CuZn37)
+|1,65
+|17
+
+|Brąz manganowy (CuMn9)
+|0,299
+|-0,08
+|Mumetal (Ni77Fe14Cu5Mo4)
+|0,17
+|-
+
+|Chromel (NiCr10)
+|0,142
+|3,2
+|Nikielina (CuZn20Ni18,5)
+|0,25
+|1,1
+
+|Chromonikielina (NiCr15)
+|0,09
+|1,0
+|Platynairyd (PtIr10)
+|0,42
+|12
+
+|Dural (AlCu4Mg1)
+|2,0
+|24
+|Platynarod (PtRh10)
+|0,50
+|14
+
+|Evanohm (Ni75Cr20Al2,5Cu2,5)
+|0,070
+|0,1
+|Reotan (CuNi25Zn17Fe5)
+|0,213
+|-0,05
+
+|Hastelloy C^a^
+|0,080
+|-
+|Stal nierdzewna (FeCr18Ni8)
+|0,14
+|-
+
+|Inkonel 600 (NiCr16Fe8)
+|0,10
+|-
+|Stop lutowniczy (SnPb40)
+|0,676
+|-
+
+|Inwar
+|0,12
+|20
+|Stop Rosego (BiPb28Sn24)
+|0,15
+|19
+
+|Kanthal A1
+|0,067
+|0,6
+|Stop Wooda (BiCd16Pb14Sn14)
+|0,19
+|23
+
+|Konstantan (CuNi45)
+|0,192
+|0,3
+|Tombak (CuZn4)
+|2,36
+|27
+
+|Kowar (FeNi29Co17)
+|0,204
+|37
+|Żeliwo
+|0,1-0,5
+|10
+|===
+
+Liczby po symbolach chemicznych oznaczają skład stopu w % wagowych. Zawartość głównego składnika nie musi być wymieniona
+(stanowi uzupełnienie do 100%). Np.: CuZn37 zawiera 63% miedzi i 37% cynku.
+
+^a^ - stop oporowy o składzie Ni57Mo17Cr16FeWMn
+
+^b^ - stop oporowy o składzie Fe68Cr24Al5,5Co2,5
+
+== Opór właściwy metali w różnych temperaturach
+
+[cols="10"]
+|===
+|Temperatura (K)
+9+|Opór właściwy metalu image:w22.gif[]
+
+|*wolfram*
+|*molibden*
+|*tantal*
+|*ren*
+|*srebro*
+|*miedź*
+|*glin*
+|*złoto*
+|*żelazo*
+
+|3600
+|115,0
+|-
+|-
+|-
+|-
+|-
+|-
+|-
+|-
+
+|3200
+|99,6
+|-
+|145,0
+|-
+|-
+|-
+|-
+|-
+|-
+
+|2800
+|84,7
+|79,1
+|131,0
+|-
+|-
+|-
+|-
+|-
+|-
+
+|2400
+|70,4
+|65,6
+|116,2
+|101,8
+|-
+|-
+|-
+|-
+|-
+
+|2000
+|57,0
+|52,8
+|100,3
+|94,8
+|-
+|-
+|-
+|-
+|140^a^
+
+|1600
+|43,8
+|40,6
+|83,7
+|84,3
+|-
+|-
+|-
+|-
+|123
+
+|1200
+|30,9
+|29,1
+|64,8
+|69,6
+|21^a^
+|8,469
+|28^a^
+|11,3
+|110
+
+|800
+|18,8
+|18,2
+|35,9
+|50,6
+|4,91
+|5,262
+|8,70
+|6,81
+|57,1
+
+|600
+|13,1
+|13,1
+|27,4
+|38,7
+|3,53
+|3,792
+|6,13
+|4,87
+|32,9
+
+|400
+|7,91
+|8,02
+|18,2
+|25,2
+|2,241
+|2,402
+|3,875
+|3,107
+|23,7
+
+|298
+|5,40
+|5,46
+|13,3
+|19,0
+|1,617
+|1,710
+|2,711
+|2,234
+|9,71
+
+|273
+|4,82
+|4,85
+|12,2
+|16,9
+|1,467
+|1,534
+|2,417
+|2,051
+|8,57
+
+|200
+|3,80
+|3,13
+|8,66
+|11,4
+|1,029
+|1,046
+|1,587
+|1,462
+|5,20
+
+|100
+|1,02
+|0,858
+|3,64
+|3,9
+|0,418
+|0,348
+|0,442
+|0,650
+|1,28
+
+|20
+|0,0020
+|0,0026
+|0,15
+|0,015
+|0,004
+|0,0028
+|7,6&middot;10^-3^
+|0,035
+|0,029
+
+|1
+|1,6&middot;10^-5^
+|7,0&middot;10^-4^
+|0^b^
+|0^b^
+|0,001
+|0,0020
+|0^b^
+|0,022
+|0,022
+|===
+
+^a^ - metale w stanie stopionym
+
+^b^ - stan nadprzewodzący
+
+== Przewodność właściwa wybranych substancji niemetalicznych
+
+|===
+|Przykład|image:w23.gif[]|Przykład|image:w23.gif[]
+
+|Czyste węglowodory
+|10^-17^
+|Grafit
+|10^-5^
+
+|Polietylen (suchy)
+|10^-17^
+|Poliacetylen^a^
+|1&middot;10^-5^
+
+|Siarka
+|10^-15^
+|Woda destylowana
+|10^-4^
+
+|Benzen
+|10^-15^
+|Woda rzeczna
+|0,005
+
+|Brom
+|10^-15^
+|Kamienisty grunt
+|0,005
+
+|NaCl (stały, 25&deg;C)
+|10^-15^
+|NaCl (stały, 750&deg;C)
+|0,025
+
+|Kalafonia
+|2&middot;10^-15^
+|Kości^b^
+|0,03
+
+|Oliwa z oliwek
+|2&middot;10^-15^
+|Ziemia orna
+|0,01-1
+
+|Polipropylen
+|10^-14^
+|Tkanka tłuszczowa^b^
+|0,2
+
+|Powietrze
+|2,5&middot;10^-14^
+|Tkanka mózgowa^b^
+|0,4
+
+|Wosk
+|5&middot;10^-14^
+|Mięśnie^b^
+|0,74
+
+|Diament
+|10^-13^
+|Ferryty
+|0,001-1
+
+|Szkło "Pyrex"
+|10^-12^
+|Kwas siarkowy
+|1,04
+
+|Olej silikonowy
+|10^-12^
+|German
+|2,17
+
+|PCW
+|10^-12^
+|Krzem
+|2,5
+
+|Porcelana
+|10^-11^
+|Woda ocean. (0&deg;C)
+|2,9
+
+|Drewno parafinow.
+|10^-10^
+|Woda ocean. (25&deg;C)
+|5,3
+
+|Szkło sodowe
+|10^-10^
+|5% r-r NaCl
+|6,7
+
+|Papier
+|10^-10^
+|25% r-r NaCl
+|21,4
+
+|Fosfor biały
+|10^-9^
+|Kryształ RbAg~4~I~5~^c^
+|100
+
+|Guma silikonowa
+|10^-9^
+|NaCl (ciek., 850&deg;C)
+|372,1
+
+|Marmur
+|10^-8^
+|NaCl (ciek., 950&deg;C)
+|394,7
+
+|Selen szary
+|10^-8^
+|Azotek siarki, (SN)~x~
+|10^5^
+
+|Jod
+|10^-7^
+|Poliacetylen domieszkowany^a^
+|do 10^7^
+
+|Etanol
+|10^-7^
+|Woda (chem. czysta)
+|5,50&middot;10^-6^
+|===
+
+^a^ - jeden z polimerów przewodzących (metali organicznych)
+
+^b^ - w 37&deg;C
+
+^c^ - jeden z tzw. przewodników superjonowych
+
+== Praca wyjścia i właściwości termoelektryczne czystych metali
+
+|===
+|Metal|image:w24.gif[]|image:w25.gif[]|Metal|image:w24.gif[]|image:w25.gif[]|Metal|image:w24.gif[]|image:w25.gif[]
+
+|Antymon
+|4,1
+|48,9
+|Itr
+|3,1
+|5,5
+|Rod
+|4,6
+|7,0
+
+|Arsen
+|5,1
+|-
+|Kadm
+|4,0
+|9,1
+|Rtęć
+|4,49
+|0,45
+
+|Bar
+|2,5
+|18
+|Kobalt
+|5,0
+|-13,3
+|Rubid
+|2,16
+|-5^a^
+
+|Beryl
+|3,4
+|-
+|Lantan
+|3,5
+|-
+|Ruten
+|4,7
+|3^b^
+
+|Bizmut
+|4,4
+|-73,4
+|Lit
+|2,4
+|18,2
+|Skand
+|3,5
+|-12^b^
+
+|Cer
+|2,9
+|11,4
+|Magnez
+|3,66
+|4,4
+|Sód
+|2,75
+|3^a^
+
+|Cez
+|2,14
+|15
+|Mangan
+|3,8
+|-5,5^b^
+|Srebro
+|4,7
+|7,4
+
+|Chrom
+|4,5
+|23
+|Miedź
+|4,5
+|7,6
+|Stront
+|2,51
+|6,5
+
+|Cyna
+|4,42
+|4,2
+|Molibden
+|4,5
+|14,5
+|Tal
+|3,8
+|5,8
+
+|Cynk
+|4,3
+|7,6
+|Nikiel
+|4,9
+|-14,8
+|Tantal
+|4,1
+|3,3
+
+|Cyrkon
+|3,8
+|11,7
+|Niob
+|4,3
+|4,2^b^
+|Tor
+|3,5
+|-1,3
+
+|Europ
+|2,5
+|30
+|Ołów
+|4,0
+|4,4
+|Tytan
+|4,1
+|9^b^
+
+|Gadolin
+|3,1
+|3
+|Osm
+|4,8
+|0,5^b^
+|Uran
+|3,7
+|15
+
+|Glin
+|4,2
+|4,2
+|Pallad
+|5,0
+|-5,7
+|Wanad
+|4,3
+|6,3
+
+|Hafn
+|3,9
+|10^b^
+|Platyna
+|5,3
+|0,00
+|Wapń
+|2,87
+|-5,1
+
+|Gal
+|4,2
+|-
+|Pluton
+|-
+|20^b^
+|Wolfram
+|4,55
+|11,2
+
+|Ind
+|4,12
+|6,9
+|Potas
+|2,2
+|-8^a^
+|Złoto
+|4,8
+|7,8
+
+|Iryd
+|4,6
+|6,5
+|Ren
+|5,0
+|-0,6^b^
+|Żelazo
+|4,4
+|19,8
+|===
+
+image:w26.gif[] - praca wyjścia elektronów z powierzchni metalu
+
+image:w27.gif[] - siła termoelektryczna względem platyny (uśredniono w zakresie od 0&deg;C do 100&deg;C)
+
+^a^ - wartość średnia w zakresie od 0&deg;C do temperatury topnienia
+
+^b^ - w pobliżu 0&deg;C
+
+== Przykłady półprzewodników
+
+[cols="8"]
+|===
+.2+|Substancja
+.2+|Wzór chemiczny
+.2+|Barwa
+.2+|image:w28.gif[]
+2+|Ruchliwość
+.2+|image:w29.gif[]
+.2+|image:w30.gif[]
+
+|image:w31.gif[]
+|image:w32.gif[]
+
+|*_Pierwiastki_*
+|
+|
+|
+|
+|
+|
+|
+
+|Krzem
+|Si
+|czarny
+|1,11
+|0,16
+|0,049
+|11,7
+|-4,16
+
+|German
+|Ge
+|szary
+|0,67
+|0,385
+|0,186
+|16,3
+|+3,39
+
+|Cyna szara
+|Sn
+|szary
+|0,08
+|0,25
+|0,24
+|23,8
+|-
+
+|Selen szary
+|Se
+|szary
+|1,74
+|0,001
+|0,0005
+|8,5
+|10
+
+|Diament^a^
+|C
+|bezbarwny
+|5,7
+|0,18
+|0,14
+|5,68
+|-
+
+|
+|
+|
+|
+|
+|
+|
+|
+
+|*_Półprzewodniki typu III-V_*
+|
+|
+|
+|
+|
+|
+|
+
+|Fosforek glinu
+|AlP
+|żółty
+|2,43
+|0,005
+|0,015
+|9,8
+|-
+
+|Azotek galu
+|GaN
+|bezbarwny
+|3,5
+|0,015
+|-
+|5,8
+|-
+
+|Fosforek galu
+|GaP
+|czerwony
+|2,25
+|0,030
+|0,015
+|10
+|-
+
+|Arsenek galu
+|GaAs
+|szary
+|1,43
+|0,88
+|0,040
+|12
+|-
+
+|Antymonek galu
+|GaSb
+|czarny
+|0,67
+|0,40
+|0,14
+|15
+|-
+
+|Fosforek indu
+|InP
+|szary
+|1,27
+|0,46
+|0,02
+|12,1
+|-
+
+|Arsenek indu
+|InAs
+|czarny
+|0,36
+|3,2
+|0,035
+|12,5
+|-
+
+|Antymonek indu
+|InSb
+|szary
+|0,165
+|7,8
+|0,075
+|15
+|-
+
+|
+|
+|
+|
+|
+|
+|
+|
+
+|*_Półprzewodniki typu II-VI_*
+|
+|
+|
+|
+|
+|
+|
+
+|Tlenek cynku
+|ZnO
+|bezbarwny
+|3,2
+|0,0180
+|-
+|7,9
+|-
+
+|Siarczek cynku
+|ZnS
+|bezbarwny
+|3,88
+|0,018
+|0,0005
+|8,3
+|-
+
+|Siarczek kadmu
+|CdS
+|pomarańczowy
+|2,53
+|0,034
+|0,0018
+|8,9
+|-
+
+|Selenek kadmu
+|CdSe
+|brązowy
+|1,74
+|0,065
+|0,005
+|10,9
+|-
+
+|Tellurek kadmu
+|CdTe
+|czarny
+|1,50
+|0,12
+|0,005
+|10,9
+|-
+
+|Siarczek ołowiu
+|PbS
+|czarny
+|0,40
+|0,064
+|0,080
+|17,0
+|-1,7
+
+|Selenek ołowiu
+|PbSe
+|czarny
+|0,25
+|0,15
+|0,15
+|23,6
+|-1,7
+
+|Tellurek ołowiu
+|PbTe
+|czarny
+|0,31
+|0,21
+|0,08
+|30,0
+|-
+
+|
+|
+|
+|
+|
+|
+|
+|
+
+|*_Inne półprzewodniki_*
+|
+|
+|
+|
+|
+|
+|
+
+|Tellurek antymonu
+|Sb~2~Te~3~
+|czarny
+|0,20
+|-
+|0,027
+|37||, 168 image:w16.gif[]
+
+|
+
+|Tellurek bizmutu
+|Bi~2~Te~3~
+|szary
+|0,16
+|0,035
+|0,035
+|360
+|-
+
+|Bromek srebra
+|AgBr
+|żółtawy
+|2,3
+|0,4
+|0,0002
+|12,4
+|-
+|===
+
+E~g~ - przerwa energetyczna
+
+u~e~ - ruchliwość eletronów
+
+u~p~ - ruchliwość dziur
+
+image:w27.gif[] - siła termoelektryczna
+
+image:w29.gif[] - względna przenikalność elektryczna
+
+^a^ - półprzewodnik wysokotemperaturowy
+
+== Współczynnik załamania światła różnych substancji
+
+|===
+|Substancja|n|Substancja|n
+
+|*_Ciecze_*
+|
+|*_Ciała stałe_*
+|
+
+|Kwas trifluorooctowy
+|1,283
+|Lód (0&deg;C)
+|1,3097
+
+|Metanol
+|1,32663
+|Fluorek sodu
+|1,3255
+
+|Woda
+|1,33288
+|Fluorek litu
+|1,3921
+
+|Ciężka woda
+|1,32792
+|Boraks (topiony)
+|1,463
+
+|Eter dietylowy
+|1,3527
+|Fluorek baru
+|1,474
+
+|Aceton
+|1,35609
+|Chlorek potasu
+|1,4903
+
+|Etanol
+|1,35941
+|Pleksi
+|1,49
+
+|Octan etylu
+|1,3698
+|Polietylen
+|1,49-1,51
+
+|Kwas octowy
+|1,36995
+|Gips, alabaster
+|1,53
+
+|Dioksan
+|1,42025
+|Bursztyn
+|1,53-1,55
+
+|Metylocykloheksan
+|1,42058
+|Chlorek sodu
+|1,5441
+
+|Glikol
+|1,4306
+|Kryształ górski
+|1,55
+
+|Olej parafinowy
+|1,440
+|Polistyren
+|1,59
+
+|Chloroform
+|1,4429
+|Szmaragd, beryl
+|1,56-1,60
+
+|Czterochlorek węgla
+|1,4576
+|Topaz
+|1,61-1,64
+
+|Oliwa z oliwek
+|1,467
+|Cyrkon, ZrSiO~4~
+|1,62-1,67
+
+|Terpentyna
+|1,470
+|Tlenek magnezu
+|1,7373
+
+|Olej słonecznikowy
+|1,470
+|Fluorek ołowiu
+|1,766
+
+|Gliceryna
+|1,4735
+|Korund
+|1,767
+
+|Olej lniany
+|1,485
+|Siarczek cynku
+|2,37
+
+|Toluen
+|1,4941
+|Tytanian strontu
+|2,4069
+
+|Benzen
+|1,4979
+|Diament
+|2,417
+
+|85% r-r cukru^ab^
+|1,5045
+|
+|
+
+|Olejek cedrowy
+|1,515
+|*_Gazy_*
+|
+
+|Nitrobenzen
+|1,5506
+|Wodór
+|1,000139
+
+|Olejek anyżowy
+|1,560
+|Tlen
+|1,000252
+
+|Anilina
+|1,5832
+|Powietrze
+|1,000293
+
+|Bromoform
+|1,5980
+|Azot
+|1,000279
+
+|Brom
+|1,608
+|Acetylen
+|1,000606
+
+|Dwusiarczek węgla
+|1,6397
+|Jodowodór
+|1,000906
+
+|Dijodometan
+|1,737
+|Para wodna (100&deg;C)
+|1,000234
+
+|Fosfor w CS~2~^b^
+|do 1,95
+|
+|
+
+|HgI~2~ w anilinie^b^
+|do 2,2
+|*_Skroplone gazy_*
+|
+
+|
+|
+|Ciekły hel (3K)
+|1,0278
+
+|*_Szkła_*
+|
+|Ciekły wodór (20,4K)
+|1,0974
+
+|Szkło kwarcowe
+|1,4584
+|Ciekły azot (78K)
+|1,205
+
+|Kron fluorowy
+|1,46-1,50
+|Ciekły tlen
+|1,221
+
+|Kron
+|1,50-1,52
+|
+|
+
+|Kron barowy
+|1,54-1,57
+|*_Tkanki_*
+|
+
+|Bardzo lekki flint
+|1,53-1,58
+|Soczewka oka
+|1,41-1,42
+
+|Flint
+|1,60-1,64
+|Ciało szkliste oka
+|1,336
+
+|Ciężki flint
+|1,64-1,81
+|
+|
+
+|Najcięższy flint
+|1,89-1,92
+|
+|
+|===
+
+W tabeli umieszczono tylko ciała przezroczyste w zakresie widzialnym (a przynajmniej w części tego zakresu). Dane dla
+image:w35.gif[].
+
+^a^ - roztwór wodny
+
+^b^ - współczynnik załamania zależy od stężenia
+
+== Skręcalność właściwa wybranych substancji
+
+|===
+|Substancja w roztworze|image:w33.gif[]|Substancja krystaliczne|image:w34.gif[]
+
+|Woda, większość cieczy i roztworów
+|0
+|Sacharoza krystaliczna
+|1,6; -5,4^b^
+
+|Glukoza^a^
+|52,7
+|Kwarc (1450nm)
+|3,41
+
+|Fruktoza^a^
+|-92
+|Kwarc (760,4nm)
+|12,67
+
+|Laktoza^a^
+|+52,5
+|Kwarc (656,3nm)
+|17,25
+
+|Sacharoza^a^
+|+66,5
+|Kwarc (598,3nm)
+|21,72
+
+|Kwas winowy^a^
+|+15,1
+|Kwarc (405,0nm)
+|48,90
+
+|
+|
+|Kwarc (214,3nm)
+|236,0
+
+|*_Wybrane ciecze_*
+|image:w34.gif[]
+
+|Kwarc (185,4nm)
+|270,9
+
+|Mentol (stopiony, 32,5&deg;C)
+|-0,497
+|Sól Seignette
+|-1,4
+
+|Olejek cedrowy
+|-0,3 do -0,4
+|Cynober (687nm)
+|325
+
+|Terpentyna
+|-0,37
+|Ciekłe kryształy cholesterowe
+|do 10^7^
+|===
+
+Dane dla image:w35.gif[].
+
+^a^ - w roztworze rozcieńczonym
+
+^b^ - w zależności od kierunku w krysztale
+
+== Prędkość dźwięku w różnych ośrodkach
+
+|===
+|Ośrodek|c (m/s)|Ośrodek|c (m/s)
+
+|*_Gazy_*
+|
+|*_Ciała stałe_* (drgania podłużne)
+|
+
+|Powietrze (-20&deg;C)^a^
+|319,1
+|Poliizopren (guma)
+|100-1500
+
+|Powietrze (0&deg;C)^a^
+|331,5
+|Korek
+|500
+
+|Powietrze (20&deg;C)^a^
+|343,6^b^
+|Wosk (17&deg;C)
+|880
+
+|Powietrze (25&deg;C)^a^
+|346,3
+|Parafina (15&deg;C)
+|1304
+
+|Powietrze (30&deg;C)^a^
+|349,1
+|Teflon
+|1340
+
+|Powietrze (100&deg;C)^a^
+|386
+|Polietylen (LD)
+|1950
+
+|Para wodna (100&deg;C)
+|494
+|Korund
+|2000
+
+|Ksenon
+|177
+|Ołów
+|2100
+
+|Dwutlenek węgla
+|268
+|Polistyren
+|2350
+
+|Siarkowodór
+|308
+|Pleksi
+|2670
+
+|Argon
+|321
+|Nylon
+|2700
+
+|Tlen
+|329
+|Piaskowiec
+|2900
+
+|Azot
+|352
+|Złoto
+|3200
+
+|Tlenek węgla
+|352
+|Platyna
+|3260
+
+|Metan
+|449
+|Cyna
+|3320
+
+|Hel
+|1015
+|Cegła
+|3600
+
+|Wodór
+|1313
+|Srebro
+|3650
+
+|*_Ciecze_*
+|
+|Drewno dębowe ||
+|3800
+
+|Woda (0&deg;C)
+|1402
+|Lód (0&deg;C)
+|3800
+
+|Woda (10&deg;C)
+|1447
+|Beton
+|3800-5300
+
+|Woda (20&deg;C)
+|1482
+|Marmur
+|3810
+
+|Woda (25&deg;C)
+|1496
+|Kości
+|4000
+
+|Woda (50&deg;C)
+|1542
+|Cynk
+|4200
+
+|Woda (70&deg;C)
+|1555
+|Mosiądz
+|4700
+
+|Woda (100&deg;C)
+|1542
+|Sól kamienna
+|4800
+
+|Woda ocean. (0&deg;C)
+|1449^c^
+|Szkło
+|3500-6100
+
+|Woda ocean. (25&deg;C)
+|1535^c^
+|Miedź
+|5000
+
+|Woda ocean. (90MPa)
+|1685^c^
+|Granit
+|5000
+
+|Ciekły hel II (2,17K)^d^
+|3,4
+|Wolfram
+|5300
+
+|Ciekły hel (4K)
+|211
+|Szkło kwarcowe
+|5900
+
+|Ciekły azot (84K)
+|745
+|Stal
+|6000
+
+|Chloroform
+|973
+|Aluminium
+|6420
+
+|Heksan
+|1070
+|Tlenek magnezu
+|9000
+
+|Etanol
+|1144
+|Korund (|| do osi)
+|11240
+
+|Aceton
+|1168
+|Jądro Ziemi
+|11300
+
+|Benzen
+|1295
+|Beryl
+|12900
+
+|Toluen
+|1298
+|Diament
+|18000
+
+|Oliwa z oliwek
+|1432
+|
+|
+
+|Rtęć
+|1451
+|
+|
+
+|Benzyna
+|1500
+|
+|
+
+|Anilina
+|1659
+|
+|
+
+|Gliceryna
+|1851
+|
+|
+|===
+
+^a^ - suche
+
+^b^ - przy wilgotności 100%: 344,7 m/s
+
+^c^ - przy standartowym zasoleniu (3,5%)
+
+^d^ - drugi dźwięk

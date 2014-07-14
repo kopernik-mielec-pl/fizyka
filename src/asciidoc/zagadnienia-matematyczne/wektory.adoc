@@ -1,0 +1,157 @@
+:imagesdir: ../img/zagadnienia-matematyczne/wektory
+:toc:
+
+= Wektory
+
+W fizyce mamy często do czynienia z tzw. wielkościami fizycznymi. Opisując niektóre z nich wystarczy podać wartość tej
+wielkości fizycznej, oraz jej jednostkę, np. by poinformować o czasie trwania jakiejś czynności, wystarczy podać np. 2s.
+
+Do opisania innych wielkości fizycznych często nie wystarcza podanie jedynie jej wartości. Te wartości będziemy nazywać
+wektorowymi, gdyż wektory posiadają takie cechy jak:
+
+* wartość liczbowa
+* kierunek
+* zwrot
+* punkt przyłożenia
+
+image::r01.gif[]
+
+A - początek wektora image:r02.gif[]
+
+B - koniec wektora image:r02.gif[]
+
+W wyjaśnieniu co poszczególne cechy przedstawiają posłużę się przykładem z samochodem i wektorem prędkości. Możemy
+powiedzieć że samochód jedzie z prędkością np. 100 km/h. Ta liczba będzie nas informować o wartości liczbowej wektora
+prędkości. Ale ta informacja nie mówi nam wszystkiego o ruchu tego samochodu. Nadal nie wiemy gdzie ten samochód jedzie,
+czyli w jakim kierunku. Opisuje to druga cecha czyli kierunek. Kierunek jest to prosta na której leży wektor. Czyli jeżeli
+powiemy, że samochód porusza się w kierunku północ-południe, to nadal nie wiemy wszystkiego. Nie wiemy czy porusza się na
+północ, czy na południe. Tę cechę nazywać będziemy zwrotem wektora. Czyli mówiąc o poruszającym się samochodzie możemy
+powiedzieć że jedzie on w kierunku N-S, a zmierza na północ z prędkością równą 100km/g. Ale gdy nasz samochód pojedzie
+na północ tak daleko, że może trafić na oblodzoną drogę, a na tej drodze może wpaść w poślizg. Nasze auto zarzuci i "przekręci"
+się o 180 stopni. Podczas tego przekręcania się samochodu, będziemy mogli stwierdzić, że przód auta porusza się wolniej
+niż tył. Istotną informacją będzie wówczas która część samochodu porusza się z daną prędkością. Dlatego ostatnią cechą
+wektorów jest ich punkt przyłożenia. Który mówi nam dokładnie który punkt samochodu porusza się z daną prędkością, bo
+inny punkt może poruszać się już z inną, choć mamy do czynienia z tym samym samochodem.
+
+Wektorem nazywamy odcinek prostej, ustalony przez uporządkowaną parę punktów, z których pierwszy jest początkiem wektora,
+a drugi jest jego końcem. Odległość między początkiem a końcem wektora nazywamy długością wektora.
+
+== Wektory w układzie współrzędnych
+
+Jeżeli mamy dany dwa punkty image:w01.gif[] i image:w02.gif[] to zbiór trzech uporządkowanych liczb image:w03.gif[]
+nazywamy współrzędnymi wektora o początku w punkcie A i końcu w punkcie B.
+
+image::r03.gif[]
+
+Jeżeli mamy dwa wektory to możemy określić ich wzajemne położenie. Mogą one być wzajemnie:
+
+[cols="3"]
+|===
+
+|*równoległe*
+|jeżeli proste zawierające kierunki obu wektorów są równoległe do siebie
+|image:r04.gif[]
+
+|*prostopadłe*
+|jeżeli proste zawierające kierunki obu wektorów są prostopadłe do siebie
+|image:r05.gif[]
+
+|*równe*
+|jeżeli wszystkie swoje cechy (długość, kierunek, zwrot) mają takie same
+|image:r07.gif[]
+
+|*przeciwne*
+|jeżeli mają ten sam kierunek, taką samą długość lecz przeciwne zwroty
+|image:r06.gif[]
+|===
+
+Poza tym możemy mówić o wektorach
+
+* *zerowych* - punkt początkowy wektora pokrywa się z punktem końcowym wektora, jego współrzędne to [0,0,0]
+* *jednostkowych* (zwanych także *wersorami*) których współrzędne są równe [1,0,0], [0,1,0] lub [0,0,1]
++
+image::r08.gif[]
+
+Używając wektorów musimy znać podstawowe działania na wektorach. Są nimi:
+
+* dodawanie wektorów
+* odejmowanie wektorów
+* rozkładanie wektora na składowe
+* iloczyn wektora przez liczbę
+* iloczyn skalarny wektorów
+
+== Składanie wektorów
+
+Składaniem wektorów nazywamy dodawanie i odejmowanie wektorów. Przedstawię dwa proste sposoby na składanie wektorów.
+
+Pierwsza metoda jest taka, że do końca pierwszego wektora, przykładamy drugi wektor (w obu przypadkach nie możemy zmienić
+kierunku, długości ani zwrotu wektorów). Sumą wektorów będzie inny wektor, którego początkiem i końcem będą punkty początku
+pierwszego wektora i punkt końca drugiego (ostatniego) wektora. Tą metodą możemy składać kilka wektorów. Niezależnie jakie
+jest ich wzajemne położenie.
+
+image::r09.gif[]
+
+Odejmowanie wektorów jest bardzo podobne. Jeżeli mamy wykonujemy działanie image:w04.gif[] to działamy tak samo jak
+poprzednio, tylko z tą różnicą, że zamiast dodawać wektor image:w05.gif[], dodajemy wektor przeciwny do image:w06.gif[].
+
+image::r10.gif[]
+
+Drugim sposobem składania wektorów jest tzw. sposób równoległoboku. Stosujemy go jeżeli składamy dwa nierównoległe wektory.
+Wówczas rysujemy dwa wektory (pamiętamy o długości kierunku i zwrocie każdego z nich) zaczepione w tym samym punkcie.
+Następnie możemy te dwa wektory potraktować jak dwa boki równoległoboku o wspólnym  wierzchołku. Pozostaje nam wówczas
+dorysować dwa pozostałe boki. Sumą wektorów będzie wektor pokrywający się z przekątną równoległoboku o początku wspólnym
+z pozostałymi wektorami.
+
+image::r11.gif[]
+
+== Rozkładanie wektorów na składowe
+
+Jest to czynność odwrotna do omawianej poprzednio. Zdarza się, że chcemy jakiś wektor rozłożyć na inne, które ułatwią nam
+obliczenia. Bardzo często wektory rozkłada się na dwa składowe, jeden o kierunku poziomym, a drugi o kierunku pionowym.
+Rozkładając wektory będziemy postępować podobnie jak przy składaniu wektorów metodą równoległoboku, z tym że będziemy
+wykonywać czynności niejako od końca. Dany wektor możemy traktować jak przekątną równoległoboku. Następnie rysujemy dwie
+proste przechodzące przez punkt początkowy danego wektora. Te proste powinny wyznaczać kierunki wektorów składowych.
+Następnie rysujemy znowu dwie proste przecinające się w punkcie końca wektora, tak by powstały cztery proste parami
+równoległe. Wektory składowe zawierają się w dwóch bokach równoległoboku o wierzchołku w punkcie początku wektora
+początkowego.
+
+image::r12.gif[]
+
+== Iloczyn wektora przez liczbę
+
+Jeżeli mamy dany wektor image:w07.gif[] i narysujemy wektor, który jest sumą trzech takich wektorów (image:w08.gif[]) to
+jak łatwo się domyśleć powstanie wektor trzy razy dłuższy od wektora image:w09.gif[]. Taki wektor możemy zapisać w postaci
+image:w10.gif[]. Jeżeli mamy dany taki wektor image:w11.gif[], to image:w12.gif[].
+
+image::r13.gif[]
+
+== Iloczyn skalarny wektorów
+
+Iloczynem skalarnym dwóch wektorów jest liczba równa iloczynowi długości tych wektorów i cosinusa kąta zawartego między
+nimi: image:w13.gif[]. Należy pamiętać, że iloczyn skalarny jest liczbą (skalarem), a nie wektorem.
+
+image::r14.gif[]
+
+== Iloczyn wektorowy
+
+Iloczynem wektorowym dwóch wektorów (image:w14.gif[] i image:w15.gif[]), nazywamy wektor image:w16.gif[]:
+
+* który jest prostopadły do płaszczyzny rozpiętej na wektorach image:w17.gif[] i image:w18.gif[]
+* punkt przyłożenia wektora image::w19.gif[] pokrywa się z początkami wektorów image:w20.gif[] i image:w21.gif[]
+* którego długość jest równa polu równoległoboku rozpiętego na tych wektorach image:w22.gif[] i image:w23.gif[]:
++
+image::w24.gif[]
+* którego zwrot jest określony regułą śruby prawoskrętnej. Oznacza to, że image:w25.gif[]
+
+A oto reguła śruby prawoskrętnej jaką udało mi się spotkać w literaturze:
+
+Jeżeli śrubę prawoskrętną ustawioną równolegle do kierunku wektora image:w26.gif[] obracamy kręcąc wg kolejności mnożonych
+wektorów - od image:w27.gif[] do image:w28.gif[], to ruch  posuwisty śruby wskazuje zwrot wektora image:w29.gif[].
+
+Mówiąc inaczej jeżeli mamy narysowane na kartce (leżącej na biurku) te dwa wektory: image:w30.gif[] i image:w31.gif[],
+(zaczepione w jednym punkcie) i jeżeli kierunek najkrótszej drogi z końca wektora image:w32.gif[] do końca wektora
+image:w33.gif[] jest zgodny z kierunkiem ruch wskazówek zegara to zwrot wektora image:w34.gif[] jest skierowany pionowo
+w dół, jeżeli kierunek tej drogi jest przeciwny do kierunku ruchu wskazówek zegara to iloczyn wektorowy jest zwrócony
+pionowo do góry.
+
+image::r15.gif[]

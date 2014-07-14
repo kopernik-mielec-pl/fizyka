@@ -1,0 +1,28 @@
+= Bibliografia
+
+[horizontal]
+[1]:: Notatki z lekcji "Fizyka" tom 1,2,3 - J. Kopecki wyd. Omega Kraków 2000
+[2]:: Fizyka I - M. Jenike WSiP Warszawa 1995
+[3]:: Fizyka II z astronomią - J.Salach, B. Sagnowska, J. M. Kreiner WSiP Warszawa 1996
+[4]:: Fizyka III - J. Ginter WSiP Warszawa 1998
+[5]:: Fizyka IV z astronomią - Praca zbiorowa pod redakcją M. Piłata WSiP Warszawa 1998
+[6]:: Fizyka Poradnik encyklopedyczny - B.M. Jaworski, A.A. Dietłaf PWN Warszawa 2000
+[7]:: Podstawy fizyki - M.A. Herman, A. Kalestyński, L. Widomski PWN Warszawa 1999
+[8]:: Fizyka - M. Skorko PWN 1976
+[9]:: Feynmana wykłady z fizyki - R.P.Feynman, R.B.Leighton, M.Sands PWN Warszawa 1974
+[10]:: Tablice matematyczne, fizyczne, chemiczne, astronomiczne - J. Lipczyński, M.Okołowicz, S. Olczak, E. Rybka Apewu-Sponsor 1998
+[11]:: Fizyka dla kandydatów na wyższe uczelnie techniczne - Z. Kamiński NT Warszawa 1975
+[12]:: Matematyka dla kandydatów na wyższe uczelnie - R. Leitner, W. Żakowski NT Warszawa 1975
+[13]:: Tablice matematyczne - A. Cewe, H. Nahorska, I. Pancer Wyd. Podkowa Gdańsk 2000
+[14]:: Fizyka dla kandydatów na wyższe uczelnie - Jan Blinowski, Jarosław Trylski Państwowe Wydawnictwo Naukowe Warszawa 1973
+[15]:: Fizyka dla szkół ponad gimnazjalnych. Treści rozszerzające, część 2 - Jadwiga Salach, Maria Fiałkowska, Krzysztof
+Fiałkowski, Wiesław Mroszczyk Wydawnictwo ZamKor Kraków 2004
+[16]:: Tematy i zagadnienia maturalne z fizyki - Janusz Kopecki wyd. Omega Kraków 2002
+[17]:: Astronomia - podręcznik akademicki - red. H. Krzysztofik, K. Wojtala Wyd. Naukowe PWN Warszawa 2001
+[18]:: Matematyka - podręcznik dla klasy III liceum oraz klasy III technikum - Kazimierz Cegiełka, Jerzy Pojemski, Karol
+Szymański WSiP Warszawa 1988
+[19]:: Matematyka - podręcznik do liceum ogólnokształcącego, kształcenie ogólne w zakresie podstawowym i rozszerzonym - Wojciech
+Babiański, Lech Chańko, Joanna Czarnowska, Jolanta Wesołowska Wyd. Nowa Era Warszawa 2004
+[20]:: Tablice fizyczno-astronomiczne - pod red. Witolda Mizerskiego Wyd. Adamantan Warszawa 2002
+[21]:: Matematyka - poradnik encyklopedyczny - I.N. Bronsztejn, K.A. Siemiendiajew Wyd. Naukowe PWN Warszawa 1998
+

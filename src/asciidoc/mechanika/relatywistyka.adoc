@@ -1,0 +1,55 @@
+:imagesdir: ../img/mechanika/relatywistyka
+:toc:
+
+= Relatywistyka
+
+== Mechanika relatywistyczna
+
+Podstawą szczególnej teorii względności są założenia:
+
+* każdy ruch jest względny, tzn. może być opisywany wyłącznie względem innych ciał
+* prędkość światła w próżni jest zawsze taka sama i nie zależy od tego czy obserwator lub źródło poruszają się czy też nie
+* prędkość światła w próżni image:w01.gif[] jest największą prędkość rozchodzenia się oddziaływań w przyrodzie (mogą ją
+osiągać tylko obiekty o zerowej masie spoczynkowej)
+
+== Składanie prędkości
+
+image::w02.gif[]
+
+== Dylatacja czasu
+
+Z założeń teorii względności Einsteina wynika nierównoczesność zdarzeń w różnych nieinercjalnych układach odniesienia.
+
+image::w03.gif[]
+
+Najprostszym przykładem dylatacji jest paradoks bliźniąt. Astronauta wystrzelony w kosmos po powrocie będzie młodszy od
+swojego brata bliźniaka, ponieważ w poruszającym się układzie "czas płynie wolniej".
+
+== Skrócenie długości
+
+Długość odcinka z punktu widzenia obserwatora znajdującego się względem niego w spoczynku jest mniejsza niż z punktu
+widzenia obserwatora będącego względem tego odcinka w stanie ruchu.
+
+image::w04.gif[]
+
+Zjawisko skrócenia długości można wytłumaczyć na następującym przykładzie: Antek znajduje się w poruszającym się pociągu
+twierdzi, ż jego linijka ma 1m. Benek będąc w układzie spoczywającym (stoi na peronie) stwierdza, że linijka Antka ma mniej
+niż 1m. Antek tego nie zauważa, gdyż znajduje się w poruszającym się układzie odniesienia.
+
+== Masa ciała
+
+image::w05.gif[]
+
+m~0~ - masa spoczynkowa
+
+== Energia kinetyczna
+
+image::w06.gif[]
+- energia całkowita cząstki
+
+image::w07.gif[]
+- energia spoczynkowa
+
+image::w08.gif[]
+
+

@@ -1,0 +1,890 @@
+:imagesdir: ../img/tablice/jednostki-wielkosci-fizycznych
+:toc:
+
+= Jednostki wielkości fizycznych
+
+== Przedrostki do tworzenia jednostek wielokrotnych i podwielokrotnych
+
+[cols="20,20,40,20"]
+|===
+|Nazwa|Oznaczenie|Znaczenie|Nazwa mnożnika
+
+|yotta
+|Y
+|10^24^ = 1 000 000 000 000 000 000 000 000
+|kwadrylion
+
+|zetta
+|Z
+|10^21^ = 1 000 000 000 000 000 000 000
+|tryliard
+
+|eksa
+|E
+|10^18^ = 1 000 000 000 000 000 000
+|trylion
+
+|peta
+|P
+|10^15^ = 1 000 000 000 000 000
+|biliard
+
+|tera
+|T
+|10^12^ = 1 000 000 000 000
+|bilion
+
+|giga
+|G
+|10^9^ = 1 000 000 000
+|miliard
+
+|mega
+|M
+|10^6^ = 1 000 000
+|milion
+
+|kilo
+|k
+|10^3^ = 1 000
+|tysiąc
+
+|hekto
+|h
+|10^2^ = 100
+|sto
+
+|deka
+|da
+|10^1^ = 10
+|dziesięć
+
+|-
+|-
+|10^0^ = 1
+|-
+
+|decy
+|d
+|10^-1^ = 0,1
+|jedna dziesiąta
+
+|centy
+|c
+|10^-2^ = 0,01
+|jedna setna
+
+|mili
+|m
+|10^-3^ = 0,001
+|jedna tysięczna
+
+|mikro
+|&mu;
+|10^-6^ = 0,000 001
+|jedna milionowa
+
+|nano
+|n
+|10^-9^ = 0,000 000 001
+|jedna miliardowa
+
+|piko
+|p
+|10^-12^ = 0,000 000 000 001
+|jedna bilionowa
+
+|femto
+|f
+|10^-15^ = 0,000 000 000 000 001
+|jedna biliardowa
+
+|atto
+|a
+|10^-18^ = 0,000 000 000 000 000 001
+|jedna trylionowa
+
+|zepto
+|z
+|10^-21^ = 0,000 000 000 000 000 000 001
+|jedna tryliardowa
+
+|yocto
+|y
+|10^-24^ = 0,000 000 000 000 000 000 000 001
+|jedna kwadrylionowa
+|===
+
+== Jednostki układu SI
+
+*A. Jednostki podstawowe*
+
+[cols="3"]
+|===
+.2+|*Wielkość*
+2+|*Jednostki miary*
+
+|*nazwa*
+|*oznaczenie*
+
+|Długość, odległość
+|metr
+|m
+
+|Masa
+|kilogram
+|kg
+
+|Czas
+|sekunda
+|s
+
+|Prąd elektryczny
+|amper
+|A
+
+|Temperatura
+|kelwin
+|K
+
+|Liczność materii
+|mol
+|mol
+
+|Światłość
+|kandela
+|cd
+|===
+
+*B. Jednostki uzupełniające*
+
+[cols="3"]
+|===
+.2+|*Wielkość*
+2+|*Jednostki miary*
+
+|*nazwa*
+|*oznaczenie*
+
+|Kąt płaski
+|radian
+|rad
+
+|Kąt bryłowy
+|steradian
+|sr
+|===
+
+*Metr* jest to długość równa 1 659 763.73 długości fali w próżni promieniowania odpowiadającego przejściu między poziomami
+a2p~10~ a 5d~5~ atomu 86Kr (kryptonu 86).
+
+*Kilogram* jest to masa międzynarodowego wzorca tej jednostki przechowywanego w Międzynarodowym Biurze Miar w Sevres.
+
+*Sekunda* jest to czas równy 9 192 631 770 okresów promieniowania odpowiadającego przejściu między dwoma nadsubtelnymi
+poziomami stanu podstawowego atomu ^133^ (cezu 133).
+
+*Amper* jest to prąd elektryczny nie zmieniający się, który płynąc w dwóch równoległych prostoliniowych, nieskończenie
+długich przewodach o przekroju kołowym znikomo małym, umieszczonych w próżni w odległości 1m (metr) od siebie - wywołałby
+między tymi przewodami siłę 2 &middot; 10^-7^ N (niutona) na każdy metr długości.
+
+*Kelwin* jest to 1/273,16 temperatury termodynamicznej punktu potrójnego wody.
+
+*Mol* jest to liczność materii występująca, gdy liczba cząstek jest równa liczbie atomów zawartych w masie 0,012 kg
+(kilograma) ^12^C (węgla 12).
+
+1 mol=6,023 x 10^23^cząstek
+
+Przy stosowaniu mola należy określić rodzaj cząstek. Mogą nimi być: atomy, drobiny (cząsteczki), jony, elektrony, inne
+cząstki albo określone zespoły takich cząstek.
+
+*Kandela* jest to światłość źródła emitującego w określonym kierunku promieniowanie monochromatyczne o częstotliwości
+540 x 10^12^ herców i o natężeniu promieniowania w tym kierunku równym 1/683 wata na steradian. (dawniej definiowano:
+kandela jest to światłość, jaką ma w kierunku prostopadłym powierzchnia (1/600 00) m^2^ (metra kwadratowego promiennika
+zupełnego w temperaturze krzepnięcia platyny pod ciśnieniem 101 325 Pa (paskali)).
+
+*Radian* jest to kąt płaski, zawarty miedzy dwoma promieniami koła, wycinającymi z jego okręgu łuk o długości równej
+promieniowi tego koła.
+
+*Steradian* jest to kąt bryłowy o wierzchołku w środku kuli, wycinający z jego powierzchni część równą powierzchni
+kwadratu o boku równym promieniowi tej kuli.
+
+== Jednostki pochodne układu SI wybranych wielkości
+
+=== Wielkości mechaniczne
+
+[cols="5"]
+|===
+.2+|*Wielkość*
+2+|*Jednostki miary*
+.2+|*Wyrażenie jednostek pochodnych za pomocą jednostek podstawowych i uzupełniających*
+.2+|*Uwagi*
+
+|*nazwa*
+|*oznaczenie*
+
+|Powierzchnia
+|metr kwadratowy
+|image:w001.gif[]
+|image:w002.gif[]
+|Stosowana jest również nazwa: pole powierzchni
+
+|Objętość
+|metr sześcienny
+|image:w003.gif[]
+|image:w004.gif[]
+|
+
+|Częstotliwość
+|herc
+|image:w005.gif[]
+|image:w006.gif[]
+|
+
+|Prędkość liniowa
+|metr na sekundę
+|image:w007.gif[]
+|image:w008.gif[]
+|Stosuje się do wyrażania prędkości akustycznej
+
+|Prędkość kątowa
+|radian na sekundę
+|image:w009.gif[]
+|image:w010.gif[]
+|
+
+|Przyspieszenie liniowe
+|metr na kwadrat sekundy
+|image:w011.gif[]
+|image:w012.gif[]
+|
+
+|Przyspieszenie kątowe
+|radian na kwadrat sekundy
+|image:w013.gif[]
+|image:w014.gif[]
+|
+
+|Gęstość (masy)
+|kilogram na metr sześcienny
+|image:w015.gif[]
+|image:w016.gif[]
+|
+
+|Pęd
+|kilogramometr na sekundę
+|image:w017.gif[]
+|image:w018.gif[]
+|
+
+|Siła
+|niuton
+|image:w019.gif[]
+|image:w020.gif[]
+|
+
+|Moment siły
+|niutonometr
+|image:w021.gif[]
+|image:w022.gif[]
+|
+
+|Ciśnienie
+|paskal
+|image:w023.gif[]
+|image:w024.gif[]
+|Stosuje się odpowiednio do wyrażania naprężenia mechanicznego, ciśnienia akustycznego itp.
+
+|Napięcie powierzchniowe
+|niuton na metr
+|image:w025.gif[]
+|image:w026.gif[]
+|
+
+|Energia, praca
+|dżul
+|image:w027.gif[]
+|image:w028.gif[]
+|Stosuje się również do wyrażania energii cieplnej (ciepła), energii elektrycznej, energii promieniowania, energii
+wewnętrznej, entalpii itp.
+
+|Udarność
+|dżul na metr kwadratowy
+|image:w029.gif[]
+|image:w030.gif[]
+|
+
+|Moc
+|wat
+|image:w031.gif[]
+|image:w032.gif[]
+|Stosowana jest również nazwa: strumień energii. Stosuje się również do wyrażania mocy cieplnej, mocy elektrycznej, mocy
+promieniowania itp.
+
+|Gęstość mocy (powierzchniowa)
+|wat na metr kwadratowy
+|image:w033.gif[]
+|image:w034.gif[]
+|Stosowana jest również nazwa: gęstość strumienia energii. Stosuje się odpowiednio do wyrażania gęstości mocy cieplnej,
+natężenia napromieniowania, natężenia dźwięku, gęstości mocy promieniowania jonizującego itp.
+
+|Lepkość dynamiczna
+|paskalosekunda
+|image:w035.gif[]
+|image:w036.gif[]
+|
+
+|Lepkość kinetyczna
+|metr kwadratowy ma sekundę
+|image:w037.gif[]
+|image:w038.gif[]
+|
+
+|Strumień objętości
+|metr sześcienny na sekundę
+|image:w039.gif[]
+|image:w040.gif[]
+|Stosowana jest również nazwa: przepływ objętości. Stosuje się również do wyrażania prędkości objętościowej akustycznej.
+
+|Strumień masy
+|kilogram na sekundę
+|image:w041.gif[]
+|image:w042.gif[]
+|Stosowana jest również nazwa: przepływa masy.
+
+|Gęstość strumienia masy
+|kilogram na sekundę i metr kwadratowy
+|image:w043.gif[]
+|image:w044.gif[]
+|Stosowana jest również nazwa: gęstość przepływu masy.
+|===
+
+=== Wielkości cieplne
+
+[cols="5"]
+|===
+.2+|*Wielkość*
+2+|*Jednostki miary*
+.2+|*Wyrażenie jednostek pochodnych za pomocą jednostek podstawowych i uzupełniających*
+.2+|*Uwagi*
+
+|*nazwa*
+|*oznaczenie*
+
+|Pojemność cieplna
+|dżul na kelwin
+|image:w045.gif[]
+|image:w046.gif[]
+|
+
+|Entalpia właściwa
+|dżul na kilogram
+|image:w047.gif[]
+|image:w048.gif[]
+|Stosuje się również do wyrażania energii właściwej, energii wewnętrznej właściwej itp.
+
+|Ciepło właściwe
+|dżul na kilogram i kelwina
+|image:w049.gif[]
+|image:w050.gif[]
+|Stosowana jest również nazwa: pojemność cieplna właściwa.
+|===
+
+=== Wielkości elektryczne i magnetyczne
+
+[cols="5"]
+|===
+.2+|*Wielkość*
+2+|*Jednostki miary*
+.2+|*Wyrażenie jednostek pochodnych za pomocą jednostek podstawowych i uzupełniających*
+.2+|*Uwagi*
+
+|*nazwa*
+|*oznaczenie*
+
+|Gęstość prądu elektrycznego
+|amper na metr kwadrat
+|image:w051.gif[]
+|image:w052.gif[]
+|
+
+|Ładunek elektryczny
+|kulomb
+|image:w053.gif[]
+|image:w054.gif[]
+|
+
+|Napięcie elektryczne, siła elektromotoryczna, potencjał elektryczny
+|wolt
+|image:w055.gif[]
+|image:w056.gif[]
+|
+
+|Pole elektryczne
+|wolt na metr
+|image:w057.gif[]
+|image:w058.gif[]
+|Stosowana jest również nazwa: natężenie pola elektrycznego.
+
+|Pojemność elektryczna
+|farad
+|image:w059.gif[]
+|image:w060.gif[]
+|
+
+|Opór elektryczny
+|om
+|image:w061.gif[]
+|image:w062.gif[]
+|Stosuje się do wyrażania: rezystancji, reaktancji i impedancji.
+
+|Opór elektryczny właściwy, rezystywność elektryczna
+|omometr
+|image:w063.gif[]
+|image:w064.gif[]
+|
+
+|Przewodność elektryczna
+|simens
+|image:w065.gif[]
+|image:w066.gif[]
+|Stosuje się do wyrażania: kondutancji, suspedancji i admitancji.
+
+|Przewodność elektryczna właściwa, konduktywność elektryczna
+|simens na metr
+|image:w067.gif[]
+|image:w068.gif[]
+|W odniesieniu do elektrolitów bywa też stosowana nazwa: przewodność elektryczna właściwa.
+
+|Strumień magnetyczny
+|weber
+|image:w069.gif[]
+|image:w070.gif[]
+|Stosowana jest również nazwa: strumień indukcji magnetycznej.
+
+|Indukcja magnetyczna
+|tesla
+|image:w071.gif[]
+|image:w072.gif[]
+|
+
+|Pole magnetyczne
+|amper na metr
+|image:w073.gif[]
+|image:w074.gif[]
+|Stosowana jest również nazwa: natężenie pola magnetycznego.
+
+|Indukcyjność
+|henr
+|image:w075.gif[]
+|image:w076.gif[]
+|
+
+|Siła magnetomotoryczna, napięcie magnetyczne
+|amper
+|image:w077.gif[]
+|image:w078.gif[]
+|
+|===
+
+=== Wielkości optyczne
+
+[cols="5"]
+|===
+.2+|*Wielkość*
+2+|*Jednostki miary*
+.2+|*Wyrażenie jednostek pochodnych za pomocą jednostek podstawowych i uzupełniających*
+.2+|*Uwagi*
+
+|*nazwa*
+|*oznaczenie*
+
+|Zdolność skupiająca układu optycznego
+|metr do potęgi minus pierwszej
+|image:w079.gif[]
+|image:w080.gif[]
+|
+
+|Liczba falowa
+|metr do potęgi minus pierwszej
+|image:w081.gif[]
+|image:w082.gif[]
+|
+
+|Natężenie napromienienia
+|wat na metr kwadratowy
+|image:w083.gif[]
+|image:w084.gif[]
+|
+
+|Napromienienie
+|dżul na metr kwadratowy
+|image:w085.gif[]
+|image:w086.gif[]
+|
+
+|Luminacja energetyczna
+|wat na metr kwadratowy i steradian
+|image:w087.gif[]
+|image:w088.gif[]
+|
+
+|Strumień świetlny
+|lumen
+|image:w089.gif[]
+|image:w090.gif[]
+|
+
+|Ilość światła
+|lumenosekunda
+|image:w091.gif[]
+|image:w092.gif[]
+|
+
+|Natężenie oświetlenia
+|luks
+|image:w093.gif[]
+|image:w094.gif[]
+|
+
+|Luminacja
+|kandela na metr kwadratowy
+|image:w095.gif[]
+|image:w096.gif[]
+|
+
+|Naświetlenie
+|luksosekunda
+|image:w097.gif[]
+|image:w098.gif[]
+|
+|===
+
+=== Wielkości fizykochemiczne
+
+[cols="5"]
+|===
+.2+|*Wielkość*
+2+|*Jednostki miary*
+.2+|*Wyrażenie jednostek pochodnych za pomocą jednostek podstawowych i uzupełniających*
+.2+|*Uwagi*
+
+|*nazwa*
+|*oznaczenie*
+
+|Masa molowa
+|kilogram na mol
+|image:w099.gif[]
+|image:w100.gif[]
+|
+
+|Objętość molowa
+|metr sześcienny na metr
+|image:w101.gif[]
+|image:w102.gif[]
+|
+
+|Energia wewnętrzna molowa
+|dżul na mol
+|image:w103.gif[]
+|image:w104.gif[]
+|
+
+|Pojemność cieplna molowa
+|dżul na mol i kelwin
+|image:w105.gif[]
+|image:w106.gif[]
+|
+
+|Stężenie molowe
+|mol na metr sześcienny
+|image:w107.gif[]
+|image:w108.gif[]
+|
+
+|Molalność
+|mol na kilogram (rozpuszczalnika)
+|image:w109.gif[]
+|image:w110.gif[]
+|
+|===
+
+=== Wielkości promieniowania jonizującego
+
+[cols="5"]
+|===
+.2+|*Wielkość*
+2+|*Jednostki miary*
+.2+|*Wyrażenie jednostek pochodnych za pomocą jednostek podstawowych i uzupełniających*
+.2+|*Uwagi*
+
+|*nazwa*
+|*oznaczenie*
+
+|Dawka pochłonięta
+|grej
+|image:w111.gif[]
+|image:w112.gif[]
+|
+
+|Moc dawki pochłoniętej
+|grej na sekundę
+|image:w113.gif[]
+|image:w114.gif[]
+|
+
+|Dawka ekspozycyjna
+|kulomb na kilogram
+|image:w115.gif[]
+|image:w116.gif[]
+|
+
+|Moc dawki ekspozycyjnej
+|amper na kilogram
+|image:w117.gif[]
+|image:w118.gif[]
+|
+
+|Aktywność ciała promieniotwórczego
+|bekerel
+|image:w119.gif[]
+|image:w120.gif[]
+|
+
+|Gęstość strumienia cząstek
+|metr do potęgi minus drugiej razy sekunda do potęgi minus pierwszej
+|image:w121.gif[]
+|image:w122.gif[]
+|
+|===
+
+
+== Legalne jednostki miar wybranych wielkości nie należące do układu SI
+
+[cols="5"]
+|===
+.2+|*Wielkość*
+2+|*Jednostki miary*
+.2+|*Wyrażenie jednostek pochodnych za pomocą jednostek podstawowych i uzupełniających*
+.2+|*Uwagi*
+
+|*nazwa*
+|*oznaczenie*
+
+|Długość, odległość
+|jednostka astronomiczna długości
+|image:w123.gif[]
+|Jednostka astronomiczna długości jest to długość promienia nieperturbowanej orbity kołowej ciała o masie znikomo małej,
+które krąży dookoła Słońca z prędkością kątową gwiazdową 0,0017 202 098 950 radiana na dobe mającą 86400 sekund
+efemerydalnych image:w124.gif[]
+|Do stosowania w astronomii i dziedzinach związanych.
+
+|
+|parsek
+|image:w125.gif[]
+|Parsek jest to odległość środka koła od jego cięciwy o długości 1 UA (jednostka astronomiczna długości) opartej na łuku
+odpowiadającym kątowi środkowemu 1'' (sekunda) image:w126.gif[]
+|
+
+|Masa
+|tona
+|image:w127.gif[]
+|image:w128.gif[]
+|
+
+|Czas
+|minuta godzina doba
+|image:w129.gif[] image:w131.gif[] image:w133.gif[]
+|image:w130.gif[] image:w132.gif[] image:w134.gif[]
+|Jednostki kalendarzowe dzień, tydzień, miesiąc, rok
+
+|Temperatura
+|stopień Celsjusza
+|image:w135.gif[]
+|Dla różnicy temperatur image:w136.gif[]
+|Stosuje się do wyrażania temperatury Celsjusza t i różnicy temperatur image:w137.gif[]
+
+|Kąt płaski
+|stopień
+|image:w138.gif[]
+|image:w139.gif[]
+|
+
+|
+|minuta
+|image:w140.gif[]
+|image:w141.gif[]
+|
+
+|
+|sekunda
+|image:w142.gif[]
+|image:w143.gif[]
+|
+
+|
+|grad
+|image:w144.gif[]
+|image:w145.gif[]
+|
+
+|Powierzchnia
+|hektar
+|image:w146.gif[]
+|image:w147.gif[]
+|Stosuje się do wyrażania powierzchni gruntów.
+
+|Objętość, pojemność
+|litr
+|image:w148.gif[]
+|image:w149.gif[]
+|Stosuje się do pomiarów objętości płynów i ciał sypkich.
+
+|Prędkość liniowa
+|kilometr na godzinę
+|image:w150.gif[]
+|image:w151.gif[]
+|
+
+|Prędkość obrotowa
+|obrót na sekundę
+|image:w152.gif[]
+|image:w153.gif[]
+|Stosowana jest również nazwa: częstość obrotów
+
+|
+|obrót na minutę
+|image:w154.gif[]
+|image:w155.gif[]
+|
+
+|Gęstość (masy)
+|kilogram na litr
+|image:w156.gif[]
+|image:w157.gif[]
+|Stosuje się do wyrażania gęstości płynów i ciał sypkich.
+
+|Energia, praca
+|kilowatogodzina
+|image:w158.gif[]
+|image:w159.gif[]
+|
+
+|
+|elektronowolt
+|image:w160.gif[]
+|Elektronowolt jest to energia kinetyczna, jaką uzyskuje elektron po przejściu w próżni drogi miedzy dwoma punktami, gdy
+różnica potencjałów miedzy tymi punktami jest równa 1V (wolt) image:w161.gif[]
+|Do stosowania w technice jądrowej i dziedzinach związanych.
+
+|Strumień objętości
+|metr sześcienny na minutę
+|image:w162.gif[]
+|image:w163.gif[]
+|Stosowana również nazwa: przepływ objętości.
+
+|
+|metr sześcienny na godzinę
+|image:w164.gif[]
+|image:w165.gif[]
+|
+
+|
+|litr na sekundę
+|image:w166.gif[]
+|image:w167.gif[]
+|
+
+|Strumień masy
+|kilogram na godzinę
+|image:w168.gif[]
+|image:w169.gif[]
+|Stosowana jest również nazwa: przepływ masy.
+
+|
+|tona na godzinę
+|image:w170.gif[]
+|image:w171.gif[]
+|
+
+|Ładunek elektryczny
+|amperogodzina
+|image:w172.gif[]
+|image:w173.gif[]
+|
+
+|Moc
+|woltoamper
+|image:w174.gif[]
+|image:w175.gif[]
+|Do wyrażania mocy elektrycznej pozornej.
+
+|
+|var
+|image:w176.gif[]
+|image:w177.gif[]
+|Do wyrażania mocy elektrycznej biernej.
+
+|Ilość światła
+|lumenogodzina
+|image:w178.gif[]
+|image:w179.gif[]
+|
+
+|Poziom (bezwzględny) ciśnienia akustycznego
+|bel
+|image:w180.gif[]
+|Bel jest to poziom ciśnienia akustycznego występujący, gdy podwojony logarytm dziesiętny stosunku tego ciśnienia do
+ciśnienia odniesienia image:w181.gif[] (paskala) jest równy 1.
+|
+
+|
+|decybel
+|image:w182.gif[]
+|image:w183.gif[]
+|
+
+|Poziom głośności
+|fon
+|image:w184.gif[]
+|Fon jest to poziom głośności dźwięku o częstotliwości 1000Hz (herców) i poziomie ciśnienia akustycznego 1 dB (decybel).
+|
+
+|Masa atomowa
+|jednostak masy atomowej
+|image:w185.gif[]
+|Jednostka masy atomowej jest to masa atomowa równa image:w186.gif[] części masy atomowej image:w187.gif[] (węgla 12)
+image:w188.gif[]
+|
+
+|Objętość molowa
+|litr na mol
+|image:w189.gif[]
+|image:w190.gif[]
+|
+
+|Stężenie molowe
+|mol na litr
+|image:w191.gif[]
+|image:w192.gif[]
+|
+
+|Ilość informacji
+|bit
+|image:w193.gif[]
+|Bit jest ilość inforamcji, jaka odpowiada zajściu jednego z dwóch przeciwnych zdarzeń, gdy logarytm przy podstawie 2
+odwrotności prawdopodobieństwa tego zdarzenia jest równy 1.
+|
+
+|Strumień informacji
+|bit na sekundę
+|image:w194.gif[]
+|Bit na sekundę jest to strumień informacji, przy którym ilość informacji 1 bit (bit) przepływa przez dany przekrój
+kanału informacyjnego w czasie 1s (sekunda).
+|
+
+|Zdolność skupiająca układu optycznego
+|dioptria
+|
+|image:w195.gif[]
+|
+|===

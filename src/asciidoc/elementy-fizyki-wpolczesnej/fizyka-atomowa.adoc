@@ -1,0 +1,335 @@
+:imagesdir: ../img/elementy-fizyki-wspolczesnej/fizyka-atomowa
+:toc:
+
+= Fizyka atomowa
+
+== Rozwój poglądów na budowę materii
+
+Już w V wieku p.n.e grecki filozof Demokryt zakładał, że wszelka materia składa się z niepodzielnych i niezmiennych cząstek
+- atomów, a różnice jej składu chemicznego i stanu fizycznego pochodzą z różnic wielkości, postaci, liczby i porządku,
+tworzących ją atomów.
+
+Teoria atomistyczna uznawana była przez wielkich uczonych epoki odrodzenia, jednak odkrycia fizyków i chemików dziewiętnastego
+wieku stworzyły z koncepcji filozoficznej - podstawy współczesnej wiedzy o wewnętrznej budowie materii. Jej zasady były
+następujące:
+
+* atomy stanowią elementarne, niepodzielne cząstki materii
+* istnieje tyle rodzajów atomów, ile jest pierwiastków chemicznych, przy czym każdy pierwiastek charakteryzuje się określoną
+masą atomową
+* związki chemiczne powstają przez połączenie atomów różnych pierwiastków w prostych stosunkach liczbowych
+
+Jednakże późniejsze badania nie potwierdziły założeń o niepodzielności atomu i rzuciły światło na jego budowę wewnętrzną.
+
+=== Odkrycie elektronu - 1897
+
+Do doświadczenia Joseph Thomson użył szklanej rury z umocowaną z jednej strony katodą. Wokół rury wytworzono pole elektryczne
+i pole magnetyczne.
+
+image::r01.gif[]
+
+image::w01.gif[]
+
+Pole magnetyczne odchyla cząstki w górę. Tak dobrano natężenie pola elektrycznego i natężenie pola magnetycznego, by
+cząstki poruszały się bez zmiany kierunku. Siła elektrostatyczna zrównoważyła się z siłą Lorentza.
+
+image::w02.gif[]
+
+Wyłączono pole elektryczne. Pole magnetyczne zakrzywiało tor ruchu cząstek. Poruszały się po łuku, więc siła Lorentza
+pełniła rolę siły dośrodkowej.
+
+image::w03.gif[]
+
+Zamiast prędkości podstawiamy wcześniej wyliczony iloraz:
+
+image::w04.gif[]
+
+Obliczony stosunek image:w05.gif[]
+okazał się 1000 razy większy niż taki stosunek dla jonu wodoru (najmniejszej znanej wówczas cząstki). Ładunki q obu cząstek
+były równe, więc masa cząstek odkrytych przez Thomsona była ponad 1000 razy mniejsza od masy jonu wodoru. Te cząstki
+nazwano *elektronami*.
+
+==== Budowa atomu według Thomsona (model rodzynkowy)
+
+image::r02.gif[]
+
+Według Thomsona atom był wypełniony substancją o ładunku dodatnim, a w niej "zanurzone" były elektronu.
+
+
+=== Odkrycie jądra atomowego - 1911
+
+Ernest Rutherford prowadził doświadczenia, polegające na bombardowaniu cienkiej folii ze złota cząstkami image:w06.gif[],
+emitowanymi przez rad. Fizyk zauważył, że większość cząstek przelatuje prosto przez folię, niektóre tylko odchylają się
+o niewielki kąt. Dalsze doświadczenia pokazały cząstki, które całkowicie się odbijały.
+
+Obserwacje te doprowadziły fizyka do wniosku, iż cały ładunek dodatni atomu skupiony jest na niewielkich obszarze zwanym
+*jądrem atomowym*, a wokół niego krążą elektrony.
+
+==== Model planetarny budowy atomu
+
+image::r03.gif[]
+
+Taki model budowy atomu kłóci się jednak z zasadami fizyki klasycznej, gdyż ładunek poruszający się po linii krzywej
+emituje promieniowanie, czyli elektron traciłby energię.
+
+=== Model budowy atomu Bohra
+
+==== Postulaty Bohra
+
+[upperroman]
+. Elektron krąży wokół jądra po orbicie kołowej, ale tylko takie orbity są dozwolone, na których moment pędu elektronu
+równy jest całkowitej wielokrotności stałej image:w07.gif[].
++
+image::w08.gif[]
++
+L - moment pędu
++
+image::w09.gif[]
+
+. Elektron krążąc po dozwolonej orbicie nie traci energii (nie emituje energii). Energia wysyłana jest, gdy elektron
+przeskakuje z wyższej orbity na niższą.
++
+image::r04.gif[]
++
+image::w10.gif[]
+
+Wyprowadźmy wzór na promień kolejnych orbit. Siła Coulomba pełni wówczas rolę siły dośrodkowej:
+
+image::w11.gif[]
+
+Zamiast prędkości podstawiamy wzór uzyskany przy I postulacie Bohra:
+
+image::w12.gif[]
+
+Zamiast stałej image:w07.gif[] wstawiamy iloraz image:w13.gif[]:
+
+image::w14.gif[]
+
+Uzyskaliśmy wzór na promień kolejnych orbit. Sprawdźmy, jaką energię posiada elektron na orbicie:
+
+image::w15.gif[]
+
+Do wzoru na energię kinetyczną potrzebujemy znać wartość prędkości, więc wyprowadzamy wzór na tą wielkość porównując siłę
+Coulomba z siłą dośrodkową:
+
+image::w16.gif[]
+
+Uzyskaną wartość podstawiamy do wzoru na energię kinetyczną:
+
+image::w17.gif[]
+
+Energia całkowita składa się z energii potencjalnej i energii kinetycznej:
+
+image::w18.gif[]
+
+Podstawiamy do wyprowadzenia wcześniej uzyskany wzór na promień orbity:
+
+image::w19.gif[]
+
+Rozważmy zmianę energii, gdy elektron przeskakuje z orbity wyższej na niższą:
+
+image::w20.gif[]
+
+Rozpatrujemy orbity według wcześniej wyprowadzonego wzoru:
+
+image::w21.gif[]
+
+i uzyskujemy:
+
+image::w22.gif[]
+
+Zamiast iloczynu przed nawiasem wstawiamy stałą zwaną stałą Rydberga:
+
+image::w23.gif[]
+
+i mamy:
+
+image::w24.gif[]
+
+==== Widmo światła wodoru
+
+Bohr analizował promieniowanie emitowane przez atomy pobudzone bodźcami fizycznymi takimi, jak: wysoka temperatura lub
+łuk elektryczny. Wzbudzone w ten sposób atomy wysyłają promieniowanie, które można zobaczyć przy pomocy metod analizy
+spektroskopowej. Promieniowanie jest charakterystyczne dla danego rodzaju atomów. Nosi nazwę widma i składa się z pasm
+promieniowania o określonej długości fali, co w świetle widzialnym można zobaczyć jako oddzielne pasma o różnej barwie.
+
+image::r05.gif[]
+
+Na podstawie widma atomu wodoru można stwierdzić, że  wzbudzony atom wysyła jedynie pewne długości światła. Widmo to nie
+jest ciągłe, jest dyskretne - przyjmuje jedynie niektóre wartości długości fal. Bohr dostrzegł, że stosowanie dotychczasowej
+teorii elektrodynamiki C. Maxwella nie pozwala wytłumaczyć nieciągłości widma atomowego. Do tej pory bowiem, teoria budowy
+atomu dopuszczała, by elektrony poruszały się wokół atomu na orbitach o dowolnych promieniach. Zatem przejście elektronu
+z jednej na inną orbitę prowadziłaby do emisji lub absorpcji promieniowania o dowolnej długości fali tworząc widmo ciągłe.
+Dodatkowo, zgodnie z zasadami klasycznej elektrodynamiki, elektrony musiałyby tracić energię, co z kolei powodowałoby
+zmniejszanie się promienia orbity elektronu i w efekcie jego spadek na powierzchnię jądra. Atomy takie musiałyby być
+nietrwałe.
+
+=== Falowy model budowy atomu
+
+Współczesny model budowy atomu bierze pod uwagę falowe własności cząstek. Z poruszającym się w atomie elektronem związana
+jest fala materii (jest ona falą stojącą). Fala ta jest opisana tzw. funkcją falową. W związku z tym, że w mechanice
+kwantowej nie ma pojęcia toru ruchu, to falowy model budowy atomu odrzuca pojęcie orbity, możemy mówić jedynie
+o prawdopodobieństwie znalezienia elektronu w danym miejscu.
+
+image::w25.gif[]
+
+n - główna liczba kwantowa
+
+[quote]
+Elektron mając daną wartość energii może znajdować się w różnych stanach. Zespół wszystkich stanów o tej samej energii
+nazywa się powłoką elektronową.
+
+Powłoki są oznaczane, licząc od jądra atomowego, kolejnymi literami: K, L, M, N, O, P, Q. Największa liczba elektronów N
+na pierwszych czterech orbitach określana jest wzorem:
+
+image::w26.gif[]
+
+Każdy elektron poruszający się po orbicie w atomie posiada orbitalny moment pędu L:
+
+image::w27.gif[]
+
+l - orbitalna liczba kwantowa, która przyjmuje wartości:
+
+image::w28.gif[]
+
+[quote]
+Zespół stanów o tej samej orbitalnej liczbie kwantowej l nazywamy podpowłoką elektronową.
+
+Podpowłoki oznaczane są małymi literami: s, p, d, f, g.
+
+Rzutujemy moment pędu na kierunek linii pola magnetycznego:
+
+image::r06.gif[]
+
+image::w29.gif[]
+
+Zrzutowany moment pędu zależy od magnetycznej liczby kwantowej:
+
+image::w30.gif[]
+
+przyjmującej wartości:
+
+image::w31.gif[]
+
+Elektron w atomie posiada dodatkowy moment pędu, tzw. spin.
+
+image:w32.gif[] - własny moment pędu
+
+image::w33.gif[]
+
+image::r07.gif[]
+
+image::w34.gif[]
+
+Magnetyczna spinowa liczba kwantowa wynosi:
+
+image::w35.gif[]
+
+==== Zasada Paulliego
+
+[quote]
+W atomie nie może być równocześnie dwóch elektronów w tym samym stanie kwantowym.
+
+== Analiza widmowa
+
+Każdy pierwiastek wysyła charakterystyczne tylko dla siebie długości promieniowania (odkryli to Kirchhoff i Bunsen).
+Analizując dane promieniowanie można określić jaki pierwiastek to promieniowanie wyemitował.
+
+[quote]
+Analiza składu chemicznego danej substancji na podstawie badania widma, które ono wysyła nazywa się analizą widmową.
+
+Do analizy widmowej używany jest spektroskop.
+
+image::r08.gif[]
+
+== Promieniowanie rentgenowskie
+
+Badając wyładowania w gazach rozrzedzonych, niemiecki fizyk Roentgen odkrył niewidzialne dla oka promieniowanie, które
+nazwano *promieniowaniem rentgenowskim* (promieniowaniem X). Jest to promieniowanie elektromagnetyczne o niewielkiej
+długości fali, czyli o bardzo dużej częstotliwości. Powstaje ono w wyniku bombardowania płytki metalowej strumieniem
+pędzących z dużą prędkością elektronów.
+
+Teoria kwantów tłumaczy to zjawisko oddziaływaniem pola elektrycznego jąder atomów metalu na poruszające się elektrony,
+w wyniku czego ulegają one zahamowaniu, zaś energia hamowania uwalnia się w postaci fotonów promieniowania rentgenowskiego,
+zgodnie z zasadą zachowania energii.
+
+=== Właściwości promieniowania rentgenowskiego
+
+* są niewidzialne dla oka, lecz naświetlają kliszę fotograficzną
+* rozchodzą się prostoliniowo oraz podlegają interferencji i ugięciu
+* nie odchylają się w polu elektrycznym i magnetycznym
+* wywołują jonizację gazów oraz wzbudzają luminescencję
+* przenikają przez wiele materiałów nieprzezroczystych dla światła, a zwłaszcza przez materiały o niewielkim ciężarze właściwym
+* są pochłaniane przez inne materiały, zwłaszcza o dużym ciężarze właściwym, przy czym ilość pochłoniętego promieniowania
+jest zależna od rodzaju materiału i grubości prześwietlanej warstwy.
+
+== Zjawisko Comptona
+
+Korpuskularna natura fal elektromagnetycznych ujawnia się chyba najpełniej w zjawisku rozpraszania fal elektromagnetycznych
+na swobodnych elektronach, nazywanym *zjawiskiem Comptona*. Zjawisko to polega na zmianie długości fali promieniowania
+rozproszonego w porównaniu z długością fali promieniowania padającego. Najprostszym sposobem zrozumienia tego zjawiska
+jest rozpatrzenie zderzenia elektronu z fotonem jako zdarzenia sprężystego dwóch cząstek, z których jedna (elektron)
+początkowo spoczywała. W wyniku takiego zderzenia foton oddaje elektronowi część swojej energii i pędu. Energia fotonu
+rozproszonego jest więc mniejsza od energii fotonu padającego, zatem długość fali fotonu rozproszonego powinna być większa
+od długości fali fotonu padającego.
+
+Przesunięciem Comptona nazywamy różnicę:
+
+image::w36.gif[]
+
+gdzie:
+
+image:w37.gif[] - długość fali fotonu rozproszonego
+
+image:w38.gif[] - długość fali fotonu padającego
+
+Przesunięcie Comptona zależy od kąta rozproszenia:
+
+image::w39.gif[]
+
+image:w40.gif[] - kąt rozproszenia.
+
+== Zasada działania lasera
+
+Pierwszy laser, którego nazwa pochodzi od pierwszych liter angielskiego zwrotu Light Amplification by Stimulated Emission
+of Radiation, co w polskim tłumaczeniu brzmi "Wzmocnienie światła przez wymuszoną emisję promieniowania" zbudowany został
+dopiero w 1960 roku przez T. Maimana.
+
+Działanie lasera opiera się na dwóch zjawiskach: inwersji obsadzeń i emisji wymuszonej.
+
+*Emisja wymuszona* zachodzi, gdy atom wzbudzony zderza się z fotonem o takiej częstotliwości, że jego energia kwantu jest
+równa różnicy energii poziomów między stanem wzbudzonym a podstawowym. Foton uderzający nie ulega pochłonięciu, ale
+przyspiesza przejście atomu ze stanu wzbudzonego do podstawowego i dlatego z atomu wylatują w tym samym kierunku dwa spójne,
+to znaczy zgodne w fazie fotony o tej samej energii, więc i częstotliwości.
+
+Aby mogła zachodzić w dużych ilościach emisja wymuszona należy w ośrodku wzmacniającym stworzyć odpowiednie warunki
+(spowodować, by więcej elektronów było w stanie wzbudzonym niż w stanie podstawowym). Taki proces nosi nazwę *inwersji
+obsadzeń* (odwrócenia obsadzeń). Odwrócenie obsadzeń uzyskuje się za pomocą oświetlenia światłem (pompowanie optyczne),
+innym laserem, światłem błyskowym, wyładowaniem prądu w gazach, reakcjami chemicznymi albo wykorzystując rekombinację
+w półprzewodnikach.
+
+*Poziom metastabilny* jest to poziom wzbudzony, na którym czas przebywania elektronu jest dostatecznie długi by zaszła
+inwersja obsadzeń.
+
+*Wzmacniacz laserowy* zamienia się w generator, gdy ośrodek wzmacniający zostanie umieszczony w rezonatorze. Wówczas
+promieniowanie wprowadzone wzdłuż osi rezonatora odbija się od zwierciadła umieszczonego na jednym końcu rezonatora oraz
+od półprzeźroczystego zwierciadła na drugim końcu. Pomiędzy zwierciadłami fale są wzmacniane wskutek emisji wymuszonej.
+Promieniowanie wychodzi z rezonatora przez półprzeźroczyste zwierciadło w postaci spójnej, monochromatycznej, równoległej
+wiązki światła o dużej mocy. Emitowana wiązka jest doskonale równoległa, bowiem fale, które nie wędrują tam i z powrotem
+między zwierciadłami, szybko uciekają na boki ośrodka drgającego bez wzmocnienia.
+
+image::r09.gif[]
+
+Rodzaje laserów:
+
+* rubinowy (ma pręt ze sztucznego rubinu, emituje czerwone światło)
+* gazowy
+* półprzewodnikowy (dł. ok. 1mm; mała moc; wiązka na ogół nie jest skupiona)
+* jonowy
+* molekularny
+* barwnikowy
+* chemiczny
+
+Lasery znalazły wiele zastosowań; są na przykład używane do spawania, w medycynie np. chirurgii, holografii, drukarkach,
+telekomunikacji optycznej oraz do odczytywania Informacji cyfrowej.
+
+

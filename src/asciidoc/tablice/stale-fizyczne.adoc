@@ -1,0 +1,196 @@
+:imagesdir: ../img/tablice/stale-fizyczne
+:toc:
+
+= Stałe fizyczne
+
+|===
+|Stała|Symbol|Wartość
+
+|prędkość światła w próżni
+|image:w01.gif[]
+|image:w02.gif[]
+
+|przenikalność magnetyczna próżni
+|image:w03.gif[]
+|image:w04.gif[]
+
+|przenikalność elektryczna próżni
+|image:w05.gif[]
+|image:w06.gif[]
+
+|impedancja właściwa próżni
+|image:w07.gif[]
+|image:w08.gif[]
+
+|stała grawitacji
+|image:w09.gif[]
+|image:w10.gif[]
+
+|normalne przyspieszenie ziemskie
+|image:w11.gif[]
+|image:w12.gif[]
+
+|stała Plancka
+|image:w13.gif[]
+|image:w14.gif[]
+
+|stała Plancka jako jednostka momentu pędu i spinu dla cząstek elementarnych
+|image:w15.gif[]
+|image:w16.gif[]
+
+|masa Plancka
+|image:w17.gif[]
+|image:w18.gif[]
+
+|długość Plancka
+|image:w19.gif[]
+|image:w20.gif[]
+
+|czas Plancka
+|image:w21.gif[]
+|image:w22.gif[]
+
+|ładunek elementarny elektronu
+|image:w23.gif[]
+|image:w24.gif[]
+
+|masa spoczynkowa elektronu
+|image:w25.gif[]
+|image:w26.gif[]
+
+|masa spoczynkowa protonu
+|image:w27.gif[]
+|image:w28.gif[]
+
+|masa spoczynkowa neutronu
+|image:w29.gif[]
+|image:w30.gif[]
+
+|jednostka masy atomowej
+|image:w31.gif[]
+|image:w32.gif[]
+
+|liczba Avogadro
+|image:w33.gif[]
+|image:w34.gif[]
+
+|stała Loschmidta w 0&deg;C, 101325 Pa
+|image:w35.gif[]
+|image:w36.gif[]
+
+|stała Boltzmanna
+|image:w37.gif[]
+|image:w38.gif[]
+
+|stała Faradaya
+|image:w39.gif[]
+|image:w40.gif[]
+
+|stała gazowa (na 1 mol)
+|image:w41.gif[]
+|image:w42.gif[]
+
+|zero stopni Celsjusza
+|image:w43.gif[]
+|image:w44.gif[]
+
+|normalna objętość gazu doskonałego
+|image:w45.gif[]
+|image:w46.gif[]
+
+|atmosfera wzorcowa (na poziomie morza)
+|image:w47.gif[]
+|image:w48.gif[]
+
+|stała struktury subtelnej
+|image:w49.gif[]
+|image:w50.gif[]
+
+|odwrotność stałej struktury subtelnej
+|image:w51.gif[]
+|image:w52.gif[]
+
+|promień atomu Bohra
+|image:w53.gif[]
+|image:w54.gif[]
+
+|energia Hartree'go
+|image:w55.gif[]
+|image:w56.gif[]
+
+|energia spoczynkowa elektronu
+|image:w57.gif[]
+|image:w58.gif[]
+
+|energia spoczynkowa protonu
+|image:w59.gif[]
+|image:w60.gif[]
+
+|energia spoczynkowa neutronu
+|image:w61.gif[]
+|image:w62.gif[]
+
+|stała Rydberga
+|image:w63.gif[]
+|image:w64.gif[]
+
+|magneton Bohra
+|image:w65.gif[]
+|image:w66.gif[]
+
+|moment magnetyczny elektronu
+|image:w67.gif[]
+|image:w68.gif[]
+
+|g - czynnik Landego dla elektronu
+|image:w69.gif[]
+|image:w70.gif[]
+
+|magneton jądrowy
+|image:w71.gif[]
+|image:w72.gif[]
+
+|moment magnetyczny protonu
+|image:w73.gif[]
+|image:w74.gif[]
+
+|giromagnetyczny stosunek protonu
+|image:w75.gif[]
+|image:w76.gif[]
+
+|moment magnetyczny protonu w H~2~0, &mu;'p
+|image:w77.gif[]
+|image:w78.gif[]
+
+|częstotliwość rezonansowa protonu dla obszaru H~2~0
+|image:w79.gif[]
+|image:w80.gif[]
+
+|współczynnik Stefana-Boltzmanna
+|image:w81.gif[]
+|image:w82.gif[]
+
+|pierwsza prędkość kosmiczna
+|image:w83.gif[]
+|image:w84.gif[]
+
+|druga prędkość kosmiczna
+|image:w85.gif[]
+|image:w86.gif[]
+
+|trzecia prędkość kosmiczna
+|image:w87.gif[]
+|image:w88.gif[]
+
+|czwarta prędkość kosmiczna
+|image:w89.gif[]
+|image:w90.gif[]
+
+|pierwsza stała promieniowania
+|image:w91.gif[]
+|image:w92.gif[]
+
+|druga stała promieniowania
+|image:w93.gif[]
+|image:w94.gif[]
+|===

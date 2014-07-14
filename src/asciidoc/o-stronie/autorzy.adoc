@@ -1,0 +1,17 @@
+= Autorzy
+
+Fizyka.kopernik.mielec.pl jest serwisem poświęconym fizyce. Zawiera zagadnienia poruszane na lekcjach fizyki w szkole
+średniej, a także dodatkowe informacje fizyczne i matematyczne.
+
+Pomysłodawcą powstania tego serwisu jest mgr *Waldemar Bartłomowicz*. Opiekunem na czas rozwoju był mgr *Alfred Ortyl*.
+
+Jedynymi autorami tej strony są (kolejność alfabetyczna):
+
+* Radosław Kędzior (FaLCoN)
+* Justyna Kusek (tincia)
+* Łukasz Kusek (lukek)
+* Łukasz Werenkowicz (WeRen)
+
+Za stworzenie działu "Astronomia" dziękujemy Grzegorzowi Rożnieckiemu.
+
+Dziękujemy wszystkim internautom za odwiedziny.

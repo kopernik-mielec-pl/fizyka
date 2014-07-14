@@ -1,0 +1,4533 @@
+:imagesdir: ../img/tablice/wlasciwosci-fizyczne
+:toc:
+
+= Właściwości fizyczne
+
+== Współczynnik tarcia
+
+[cols="7"]
+|===
+|Wielkość
+3+|Współczynnik tarcia statycznego
+3+|Współczynnik tarcia kinetycznego
+
+|
+|*na sucho*
+|*smar. olejem*
+|*zwilż. wodą*
+|*na sucho*
+|*smar. olejem*
+|*zwilż. wodą*
+
+|Drewno o drewno
+|0,65
+|0,2
+|0,7
+|0,2-0,4
+|0,04-0,16
+|0,25
+
+|Żeliwo o żeliwo
+|-
+|0,16
+|-
+|0,16-0,22
+|0,07-0,10
+|0,31
+
+|Stal o żeliwo lub brąz
+|0,18
+|0,1
+|-
+|0,16
+|0,01
+|-
+
+|Stal o stal
+|0,15
+|0,11
+|-
+|0,15
+|0,01
+|-
+
+|Brąz o brąz
+|-
+|0,11
+|-
+|0,20
+|0,06
+|0,1
+
+|Żeliwo o brąz
+|-
+|-
+|-
+|0,22
+|0,075
+|0,31
+
+|Drewno o metal
+|0,60
+|0,11
+|0,65
+|0,40
+|0,05
+|0,24
+
+|Skóra o metal
+|0,60
+|0,25
+|0,62
+|0,25
+|0,12
+|0,36
+
+|Pas skórzany o żeliwo
+|0,50
+|0,12
+|0,37
+|0,28
+|0,12
+|0,38
+
+|Lina konopna o drewno
+|-
+|-
+|-
+|0,33
+|-
+|-
+
+|Lina stalowa o żeliwo
+|-
+|-
+|-
+|0,11-0,13
+|-
+|-
+
+|Stal o lód
+|0,02-0,03
+|-
+|-
+|0,015
+|-
+|-
+
+|Drewno o śnieg
+|-
+|-
+|-
+|0,035
+|-
+|-
+
+|Stal po piasku
+|1,0
+|-
+|-
+|0,3
+|-
+|-
+
+|Stal po żużlu
+|1,2
+|-
+|-
+|0,7
+|-
+|-
+|===
+
+== Gęstość substancji
+
+|===
+
+|Substancja|Gęstość d (kg/m^3^)|Substancja|Gęstość d (kg/m^3^)|Substancja|Gęstość d (kg/m^3^)
+
+|*_Gazy_*
+|
+|*_Czyste metale_*
+|
+|*_Tworzywa sztuczne_*
+|
+
+|Wodór
+|0,0823
+|Lit
+|532
+|Aerożele
+|1-10
+
+|Hel
+|0,164
+|Potas
+|860
+|Styropian
+|15-30
+
+|Metan
+|0,657
+|Sód
+|970
+|Pianka PCW
+|100-300
+
+|Amoniak
+|0,708
+|Rubid
+|1530
+|Polipropylen
+|900
+
+|Neon
+|0,824
+|Wapń
+|1550
+|Kauczuk
+|920
+
+|Tlenek węgla
+|1,145
+|Magnez
+|1740
+|Polietylen (LD)
+|920
+
+|Azot
+|1,146
+|Beryl
+|1850
+|Polietylen (HD)
+|960
+
+|Powietrze
+|1,185
+|Cez
+|1900
+|Polistyren
+|1040
+
+|Tlenek azotu
+|1,228
+|Glin
+|2700
+|Polioctan winylu
+|1170
+
+|Tlen
+|1,309
+|Tytan
+|4500
+|Pleksi
+|1190
+
+|Siarkowodór
+|1,410
+|Cyrkon
+|6510
+|Poliwęglany
+|1200
+
+|Chlorowodór
+|1,490
+|Antymon
+|6690
+|Poliuretany
+|1200
+
+|Argon
+|1,635
+|Cynk
+|7140
+|Bakelit
+|1400
+
+|Dwutlenek węgla
+|1,811
+|Chrom
+|7170
+|PCW
+|1420
+
+|Ozon
+|1,964
+|Cyna (biała)
+|7280
+|Aminoplasty
+|1500
+
+|Dwutlenek siarki
+|2,680
+|Mangan
+|7470
+|Teflon
+|2200
+
+|Chlor
+|2,950
+|Żelazo
+|7870
+|
+|
+
+|Bromowodór
+|3,339
+|Kadm
+|8650
+|*_Drewno_* (wysuszone na powietrzu)
+|
+
+|Krypton
+|3,430
+|Kobalt
+|8900
+|Balsa
+|110-140
+
+|Jodowodór
+|5,245
+|Nikiel
+|8910
+|Korek
+|220-350
+
+|Ksenon
+|5,396
+|Miedź
+|8950
+|Bambus
+|300-400
+
+|Sześciofluorek siarki, SF~6~
+|5,971
+|Bizmut
+|9810
+|Lipa
+|320-590
+
+|Radon
+|9,078
+|Molibden
+|10250
+|Sosna
+|370-700
+
+|Sześciofluorek wolframu, WF~6~
+|12,18
+|Srebro
+|10490
+|Topola
+|350-500
+
+|
+|
+|Ołów
+|11340
+|Świerk
+|350-750
+
+|*_Skroplone gazy_*
+|
+|Tal
+|11860
+|Jodła
+|360-740
+
+|Wodór
+|71
+|Pallad
+|11990
+|Modrzew
+|440-560
+
+|Hel
+|126
+|Rod
+|12400
+|Cedr
+|490-570
+
+|Metan
+|422
+|Tantal
+|16650
+|Klon
+|530-800
+
+|Etan
+|546
+|Uran
+|19050
+|Brzoza
+|550-770
+
+|Propan
+|585
+|Wolfram
+|19270
+|Mahoń
+|560-1060
+
+|Acetylen
+|618
+|Złoto
+|19280
+|Jesion
+|570-940
+
+|Amoniak
+|682
+|Pluton
+|19860
+|Orzech
+|600-800
+
+|Azot
+|808
+|Neptun
+|20450
+|Jabłoń
+|660-840
+
+|Powietrze
+|960
+|Ren
+|21000
+|Buk
+|680-970
+
+|Tlen
+|1141
+|Platyna
+|21410
+|Dąb
+|690-1030
+
+|Neon
+|1200
+|Osm
+|22570
+|Wiśnia
+|700-900
+
+|Argon
+|1400
+|Iryd
+|22610
+|Eukaliptus
+|1060
+
+|Chlor
+|1650
+|
+|
+|Heban
+|1110-1330
+
+|Krypton
+|2160
+|*_Stopy metali_*
+|
+|
+|
+
+|Ksenon
+|3000
+|Elektron (stop Mg)
+|1800
+|*_Stałe niemetale_*
+|
+
+|
+|
+|Magnal (Mg-Al)
+|2500
+|Fosfor biały
+|1823
+
+|*_Woda_*
+|
+|Duraluminium
+|2600-2900
+|Siarka
+|2070
+
+|Woda (0&ordm;C)
+|999,84
+|Stopy tytanu
+|4500
+|Grafit
+|2270
+
+|Woda (3,9834&ordm;C)
+|1000,00
+|Żeliwo szare
+|7100
+|Krzem
+|2328
+
+|Woda (5&deg;C)
+|999,97
+|Żeliwo białe
+|7700
+|Bor
+|2350
+
+|Woda (10&deg;C)
+|999,70
+|Stal "typowa"
+|7800
+|Diament
+|3510
+
+|Woda (15&deg;C)
+|999,10
+|Inwar
+|7900
+|Selen
+|4810
+
+|Woda (20&deg;C)
+|998,21
+|Stal nierdzewna
+|8100
+|Jod
+|4940
+
+|Woda (25&deg;C)
+|997,04
+|Permendur
+|8150
+|German
+|5323
+
+|Woda (30&deg;C)
+|995,65
+|Nichrom
+|8400
+|Arsen
+|5780
+
+|Woda (40&deg;C)
+|992,22
+|Manganin
+|8400
+|Tellur
+|6250
+
+|Woda (50&deg;C)
+|988,03
+|Nikielina
+|8800
+|
+|
+
+|Woda (60&deg;C)
+|983,22
+|Monel
+|8800
+|*_Gęstość nasypowa_*
+|
+
+|Woda (70&deg;C)
+|977,78
+|Konstantan
+|8880
+|Świeży śnieg
+|20-60
+
+|Woda (80&deg;C)
+|971,82
+|Mosiądz
+|8200-8950
+|Siano
+|70-280
+
+|Woda (90&deg;C)
+|965,35
+|Brąz
+|7500-9100
+|Słoma
+|75-230
+
+|Woda (100&deg;C)
+|958,40
+|Stop lutowniczy
+|9300
+|Trociny
+|150-250
+
+|
+|
+|Stop Wooda
+|9700
+|Śnieg zleżały
+|140-500
+
+|*_Inne ciecze_*
+|
+|Ołów akumulator.
+|10900
+|Torf suchy
+|320-410
+
+|Heksan
+|654,8
+|Platynoiryd
+|21620
+|Koks
+|350-700
+
+|Eter etylowy
+|707,8
+|
+|
+|Mąka
+|400-500
+
+|Benzyna
+|720
+|*_Inne ciała stałe_*
+|
+|Żużel
+|600-1000
+
+|Cykloheksan
+|773,9
+|Pumeks
+|400-900
+|Żyto
+|700-750
+
+|Aceton
+|785,0
+|Papier
+|600-1200
+|Ziemniaki
+|700-750
+
+|Etanol
+|785,1
+|Lód (0^o^C)
+|916
+|Cukier
+|700-1200
+
+|Metanol
+|786,6
+|Wosk pszczeli
+|960
+|Węgiel kamienny
+|800-900
+
+|Terpentyna
+|860
+|Tłuszcze
+|920-960
+|Sól kamienna
+|1000-1200
+
+|Toluen
+|862,3
+|Stearyna
+|1000
+|Cement
+|1100-1400
+
+|Benzen
+|873,7
+|Smoła
+|1020
+|Piasek suchy
+|1400-1800
+
+|Ropa naftowa
+|900
+|Bursztyn
+|1050
+|Glina
+|1500-2500
+
+|Olej słonecznikowy
+|922
+|Ciało ludzkie
+(wartość średnia)
+|1050
+|Piasek mokry
+|1700-2000
+
+|Wódka czysta
+|931
+|Kalafonia
+|1070
+|Żwir
+|1900-2000
+
+|Pirydyna
+|977,9
+|Guma
+|1100-1200
+|
+|
+
+|Anilina
+|1017,5
+|Asfalt
+|1100-1500
+|*_Różne_*
+|
+
+|Dioksan
+|1026,9
+|Węgiel kamienny
+|1200-1500
+|Przestrzeń międzygalaktyczna
+|10^-27^
+
+|Mleko
+|1030
+|Cegła zwykła
+|1400-2100
+|Przestrzeń międzyplanetarna
+|10^-21^
+
+|Kwas octowy
+|1049,7
+|Cukier (sacharoza)
+|1590
+|Warkocz komety
+|10^-16^
+
+|Ciężka woda
+|1104,4
+|Beton
+|1800-2300
+|Jądro Ziemi
+|13090
+
+|Glikol
+|1109,7
+|Kość słoniowa
+|1900
+|Wnętrze Słońca
+|148000
+
+|Nitrobenzen
+|1198,7
+|Sól kamienna
+|2170
+|Jądro atomu
+|10^17^
+
+|Dwusiarczek węgla, CS~2~
+|1256,6
+|Porcelana
+|2250-2500
+|Gwiazdy neutronowe
+|do 6&middot;10^18^
+
+|Gliceryna
+|1258,2
+|Gips
+|2300-2400
+|Wszechświat po epoce inflacyjnej
+|10^70^
+
+|Dichlorometan
+|1316,8
+|Szkło okienne
+|2400-2700
+|Gęstość Plancka
+|5&middot;10^93^
+
+|Nadtlenek wodoru
+|1442,5
+|Marmur
+|2600-2800
+|
+|
+
+|Chloroform
+|1479,9
+|Kwarc
+|2648
+|
+|
+
+|Czterochlorek węgla
+|1584,2
+|Granit
+|2700-2800
+|
+|
+
+|Kwas siarkowy
+|1830,5
+|Korund
+|3960
+|
+|
+
+|Bromoform
+|2877,6
+|Baryt
+|4300-4700
+|
+|
+
+|Czterobromek węgla
+|2930
+|Biel ołowiana
+|6700
+|
+|
+
+|Brom
+|3101,7
+|Cynober
+|8100
+|
+|
+
+|Rtęć
+|13534
+|Minia
+|8600-9200
+|
+|
+|===
+
+== Gęstość substancji pod zwiększonym ciśnieniem
+
+[cols="9"]
+|===
+|Substancja
+8+|Gęstość (kg/m^3^) pod ciśnieniem
+
+
+|*0,1 MPa*
+|*1,0 GPa*
+|*5 GPa*
+|*10 GPa*
+|*30 GPa*
+|*50 GPa*
+|*100 GPa*
+|*1000 GPa*
+
+|Woda
+|997,04
+|1199^a^
+|1700^b^
+|1800^b^
+|2200^b^
+|2600^b^
+|-
+|-
+
+|Sód
+|970
+|1120
+|1471
+|1657
+|2211
+|2400
+|2700
+|9000
+
+|Glin
+|2700
+|2736
+|2860
+|3000
+|3420
+|3740
+|4340
+|8000
+
+|Miedź
+|8950
+|9010
+|9260
+|9530
+|10420
+|11110
+|12390
+|16000
+
+|Molibden
+|10250
+|10290
+|10430
+|10620
+|11250
+|11820
+|13000
+|20000
+
+|Ołów
+|11340
+|11610
+|12650
+|13400
+|14500
+|16000
+|18000
+|36000
+|===
+Dane dotyczą temperatury 25^o^C
+
+^a^ - pod ciśnieniem 0,8 GPa
+
+^b^ - lód
+
+== Punkty krytyczne substancji
+
+|===
+|Substancja|p~kryt~ (MPa)|d~kryt~ (kg/m^3^)|T~kryt~ (K)|z~kryt~|Substancja|p~kryt~ (MPa)|d~kryt~ (kg/m^3^)|T~kryt~ (K)|z~kryt~
+
+|Hel^a^
+|0,2275
+|70
+|5,19
+|0,302
+|Heksan
+|3,03
+|234
+|507,5
+|0,264
+
+|Wodór
+|1,30
+|31
+|33,2
+|0,156
+|Aceton
+|4,70
+|272
+|508,1
+|0,237
+
+|Azot
+|3,4
+|313
+|126,2
+|0,290
+|Metanol
+|8,09
+|271
+|512,6
+|0,224
+
+|Powietrze
+|3,77
+|350
+|132,4
+|0,284
+|Etanol
+|6,14
+|275
+|513,9
+|0,240
+
+|Tlenek węgla
+|3,50
+|301
+|133,0
+|0,295
+|Chloroform
+|5,5
+|498
+|536,4
+|0,296
+
+|Tlen
+|5,043
+|436
+|154,58
+|0,288
+|Benzen
+|4,90
+|307
+|562,2
+|0,246
+
+|Argon
+|4,865
+|535
+|150,8
+|0,290
+|Brom
+|10,3
+|1184
+|584
+|0,286
+
+|Metan
+|4,592
+|163
+|190,56
+|0,285
+|Toluen
+|4,11
+|288
+|591,8
+|0,267
+
+|Ksenon
+|5,84
+|1110
+|289,73
+|0,287
+|Ciężka woda
+|21,88
+|364
+|644,2
+|0,224
+
+|Dwutlenek węgla
+|7,38
+|468
+|304,2
+|0,274
+|Woda
+|22,06
+|322
+|647,2
+|0,229
+
+|Propan
+|4,25
+|217
+|370,0
+|0,281
+|Anilina
+|5,30
+|339
+|698,9
+|0,250
+
+|CF~2~Cl~2~
+|4,12
+|555
+|385,0
+|0,281
+|Jod
+|
+|1637
+|826,2
+|
+
+|Amoniak
+|11,33
+|235
+|405,4
+|0,244
+|Rtęć
+|166,1
+|4179
+|1460
+|0,657
+
+|Chlor
+|7,70
+|572
+|417,2
+|0,275
+|Lit
+|68,9
+|105
+|3200
+|0,171
+
+|Butan
+|3,80
+|228
+|425,2
+|0,274
+|Żelazo
+|
+|
+|6000
+|
+
+|Dwutlenek siarki
+|7,884
+|525
+|430,6
+|0,269
+|Złoto
+|
+|
+|9500
+|
+
+|Dwutlenek azotu
+|10,13
+|1118
+|431,4
+|0,116
+|Wolfram
+|
+|
+|12000
+|
+
+|Eter etylowy
+|3,64
+|264
+|466,7
+|0,263
+|Ren
+|
+|
+|20500
+|
+|===
+
+p~kryt~ - ciśnienie krytyczne
+
+d~kryt~ - gęstość krytyczna
+
+T~kryt~ - temperatura krytyczna
+
+z~kryt~ - współczynnik ściśliwości dla warunków krytycznych
+
+^a^ - diagram fazowy helu jest nietypowy
+
+== Ciepło przemian fazowych
+
+[cols="5"]
+|===
+
+.2+|*Substancja*
+2+|*Topnienie*
+2+|*Wrzenie*
+
+|image:w01.gif[]
+|image:w02.gif[]
+|image:w03.gif[]
+|image:w04.gif[]
+
+|Aceton
+|-96,53
+|5,70
+|56,3
+|29,10
+
+|Acetylen
+|-81,8^a^
+|
+|-83,8^s^
+|21,3
+
+|Amoniak
+|-77,4
+|5,98
+|-33,4
+|23,35
+
+|Anilina
+|-5,98
+|10,56
+|184,4
+|42,44
+
+|Antracen
+|216,3
+|28,8
+|340
+|
+
+|Antymon
+|630,6
+|20
+|1590
+|124
+
+|Argon
+|-189,33
+|1,21
+|-185,86
+|6,52
+
+|Arsen
+|817^a^
+|28^a^
+|615^s^
+|32
+
+|Azot
+|-210,0
+|0,72
+|-195,8
+|3,577
+
+|Azotan amonu
+|169,7
+|5,86
+|rozkł.
+|
+
+|Azotan srebra
+|209
+|12,1
+|300r
+|r
+
+|Bar
+|727
+|7,1
+|1850
+|180
+
+|Benzen
+|5,53
+|9,837
+|80,1
+|30,72
+
+|Beryl
+|1287
+|13
+|2500
+|291
+
+|Bizmut
+|271,40
+|11,4
+|1564
+|200
+
+|Bor
+|2100
+|51
+|3700
+|512
+
+|Brom
+|-7,25
+|10,57
+|59,5
+|30,0
+
+|Bromowodór
+|-86,91
+|2,41
+|-66,8
+|17,6
+
+|Butan
+|-138,4
+|4,66
+|-0,5
+|22,4
+
+|CCl~4~
+|-23,0
+|3,276
+|76,8
+|29,82
+
+|Cer
+|804
+|5,5
+|3470
+|409
+
+|Cez
+|28,5
+|2,09
+|705
+|67
+
+|Chlor
+|-101,0
+|6,41
+|-34,0
+|20,4
+
+|Chlorek potasu
+|771
+|26,32
+|1400
+|152
+
+|Chlorek sodu
+|801
+|28,20
+|1413
+|138
+
+|Chloroform
+|-63,5
+|8,80
+|61,2
+|29,24
+
+|Chlorowodór
+|-114,2
+|2,0
+|-85,1
+|16,2
+
+|Chrom
+|1910
+|21
+|2700
+|338
+
+|Cyjanowodór
+|-13,2
+|8,41
+|25,7
+|25,2
+
+|Cykloheksan
+|6,55
+|2,665
+|80,74
+|29,97
+
+|Cyna
+|231,93
+|7,20
+|2610
+|230
+
+|Cynk
+|419,53
+|7,28
+|907
+|114,8
+
+|Cyrkon
+|1859
+|14,6
+|4340
+|558
+
+|Deuter
+|-254,42
+|0,197
+|-249,48
+|1,126
+
+|Dichlorometan
+|-95,1
+|4,6
+|39,8
+|28,06
+
+|Dwutlenek krzemu
+|1719
+|9,6
+|2230
+|600
+
+|Dwutlenek siarki
+|-75,5
+|4,32
+|-10,02
+|24,94
+
+|Dwutlenek toru
+|3350
+|90
+|4400
+|750
+
+|Dwutlenek węgla
+|-56,58^a^
+|7,95
+|-78,5
+|25,2
+
+|Europ
+|826
+|9,2
+|1439
+|147
+
+|Etan
+|-183,2
+|2,857
+|-88,6
+|14,7
+
+|Etanol
+|-114,5
+|5,021
+|78,3
+|38,56
+
+|Eter etylowy
+|-116,23
+|7,19
+|34,5
+|26,52
+
+|Etylen
+|-169,1
+|3,351
+|-103,7
+|13,5
+
+|Fenol
+|40,91
+|11,6
+|181,82
+|47,3
+
+|Fluorowodór
+|-83,57
+|3,93
+|19,55
+|7,49
+
+|Fosfor biały
+|44,15
+|0,659
+|270,5
+|13,1
+
+|Gal
+|29,76
+|5,56
+|2300
+|256
+
+|German
+|939
+|37,0
+|2850
+|334
+
+|Gliceryna
+|18,18
+|8,48
+|290
+|73
+
+|Glikol
+|-12,3
+|11,6
+|197,3
+|57,03
+
+|Glin
+|660,32
+|10,7
+|2520
+|284
+
+|Hafn
+|2233
+|26
+|4700
+|569
+
+|Heksan
+|-95,3
+|13,0
+|68,7
+|28,85
+
+|Hel
+|-271,4^ab^
+|0,0084
+|-268,93
+|0,0837
+
+|Ind
+|156,60
+|3,28
+|2080
+|228
+
+|Iryd
+|2443
+|26
+|4550
+|613
+
+|Izopren
+|-146,0
+|4,83
+|34,1
+|25,8
+
+|Jod
+|113,6
+|15,6
+|185,2
+|41,8
+
+|Jodowodór
+|-50,84
+|2,87
+|-35,4
+|19,8
+
+|Kadm
+|321,1
+|6,4
+|765
+|99,6
+
+|Kamfora
+|178,8
+|6,82
+|209
+|
+
+|Kobalt
+|1495
+|16,3
+|3100
+|376
+
+|Krypton
+|-157,2
+|1,48
+|-153,4
+|9,05
+
+|Krzem
+|1417
+|50,2
+|3280
+|297
+
+|Ksenon
+|-111,8
+|3,1
+|-108,1
+|12,65
+
+|Kwas azotowy
+|-41,6
+|10,5
+|83,9
+|35,5
+
+|Kwas mrówkowy
+|8,3
+|12,7
+|100,7
+|22,3
+
+|Kwas octowy
+|16,63
+|11,54
+|117,9
+|23,70
+
+|Kwas siarkowy
+|10,35
+|10,7
+|274r
+|50,1
+
+|Kwas stearynowy
+|69,3
+|
+|360r
+|66
+
+|Lantan
+|920
+|6,2
+|3420
+|413
+
+|Lit
+|180,5
+|3,00
+|1340
+|138
+
+|Lutet
+|1655
+|22
+|3300
+|356
+
+|Magnez
+|650
+|8,5
+|1105
+|128
+
+|Mangan
+|1244
+|13,4
+|2060
+|227
+
+|Metan
+|-182,43
+|0,938
+|-161,48
+|8,18
+
+|Metanol
+|-97,7
+|3,177
+|64,7
+|35,21
+
+|Miedź
+|1084,6
+|13,0
+|2570
+|307
+
+|Mocznik
+|135
+|15,1
+|154r
+|r
+
+|Molibden
+|2620
+|40
+|4700
+|582
+
+|Naftalen
+|80,3
+|19,0
+|218,0
+|
+
+|Neon
+|-248,58
+|0,33
+|-246,05
+|1,74
+
+|Nikiel
+|1454
+|17,2
+|2920
+|370
+
+|Niob
+|2470
+|31
+|4800
+|662
+
+|Nitrobenzen
+|5,85
+|12,1
+|211,0
+|55
+
+|Oktan
+|-56,8
+|20,7
+|125,7
+|34,6
+
+|Ołów
+|327,5
+|4,81
+|1756
+|4,77
+
+|Osm
+|3045
+|32
+|5030
+|748
+
+|Ozon
+|-192,5
+|2,09
+|-111,9
+|15,19
+
+|Pallad
+|1552
+|18
+|2940
+|353
+
+|Platyna
+|1770
+|20
+|4170
+|510
+
+|Pluton
+|640
+|2,8
+|3300
+|351
+
+|Potas
+|63,7
+|2,32
+|765
+|76,6
+
+|Propan
+|-187,6
+|2,52
+|-42,2
+|18,8
+
+|Radon
+|-71
+|2,9
+|-62
+|18
+
+|Ren
+|3180
+|34
+|5700
+|716
+
+|Rod
+|1960
+|22
+|3760
+|496
+
+|Rtęć
+|-38,83
+|2,30
+|356,9
+|59,11
+
+|Rubid
+|39,9
+|2,19
+|688
+|70
+
+|Ruten
+|2282
+|26
+|4050
+|600
+
+|Selen
+|219
+|5,42
+|685
+|29
+
+|Siarka
+|119,6
+|1,70
+|444,6
+|90,6
+
+|Siarkowodór
+|-85,5
+|2,38
+|-60,28
+|18,7
+
+|Sód
+|97,9
+|2,60
+|881
+|99
+
+|Srebro
+|961,8
+|11,1
+|2155
+|258
+
+|Stront
+|768
+|8,2
+|1381
+|134
+
+|Tal
+|303
+|4,2
+|1460
+|162
+
+|Tantal
+|3022
+|36
+|5530
+|745
+
+|Tellur
+|450
+|17,7
+|988
+|51
+
+|Tlen
+|-218,78
+|0,44
+|-182,96
+|6,82
+
+|Tlenek berylu
+|2578
+|86
+|4120
+|490
+
+|Tlenek glinu
+|2054
+|111,4
+|2700
+|490
+
+|Tlenek magnezu
+|2830
+|77,5
+|3600
+|544
+
+|Tlenek wapnia
+|2630
+|52
+|2850
+|625
+
+|Tlenek węgla
+|-205,02
+|0,839
+|-191,5
+|6,04
+
+|Tor
+|1750
+|13,8
+|4600
+|540
+
+|Tryt
+|-252,53
+|0,250
+|-248,11
+|1,396
+
+|Tytan
+|1669
+|15,1
+|3330
+|410
+
+|Uran
+|1135
+|8,7
+|3930
+|417
+
+|Wanad
+|1950
+|23
+|3400
+|445
+
+|Węglik boru
+|2450
+|105
+|
+|
+
+|Węglik hafnu
+|3960
+|308
+|5400
+|
+
+|Węglik krzemu
+|2700r
+|
+|r
+|
+
+|Węglik tantalu
+|3980
+|154
+|5500
+|
+
+|Węglik wolframu
+|2870
+|
+|6000
+|
+
+|Woda
+|0,00
+|6,01
+|99,974
+|40,66
+
+|Woda ciężka
+|3,81
+|6,31
+|101,42
+|41,9
+
+|Wodór
+|-259,32
+|0,117
+|-252,88
+|0,904
+
+|Wolfram
+|3420
+|46
+|5700
+|825
+
+|Złoto
+|1064,2
+|12,8
+|2800
+|342
+
+|Żelazo
+|1538
+|13,8
+|2800
+|400
+|===
+
+T - temperatura przemiany
+
+image:w05.gif[] - entalpia przemiany (ciepło przemiany pod stałym ciśnieniem)
+
+r - następuje rozkład
+
+^s^ - sublimacja
+
+^a^ - pod zwiększonym ciśnieniem
+
+^b^ - przy 3MPa
+
+== Temperatura topnienia w zależności od ciśnienia
+
+[cols="9"]
+|===
+
+.2+|*Substancja*
+.2+|*a (&deg;C/MPa)*
+7+|*Temperatura topnienia (&deg;C) pod ciśnieniem (w MPa)*
+
+|*0,1^a^*
+|*10*
+|*100*
+|*500*
+|*1000*
+|*3000*
+|*5000*
+
+|Benzen
+|0,298
+|5,53
+|9
+|32,5
+|117
+|190
+|440
+|
+
+|Bizmut
+|-0,0357
+|271,4
+|271,1
+|267,5
+|252
+|228
+|250
+|425
+
+|CCl~4~
+|0,405
+|-23,0
+|-19,0
+|15
+|128
+|192
+|220
+|
+
+|Chlorek sodu
+|0,238
+|801
+|803
+|824
+|910
+|1004
+|1285
+|
+
+|Chlorobenzen
+|0,189
+|-45,6
+|-44
+|-28
+|25
+|84,5
+|222
+|
+
+|Cyna
+|0,026
+|231,9
+|232,1
+|234
+|245
+|256
+|299
+|420
+
+|Dwutlenek węgla
+|0,208
+|-56,6
+|-55
+|-5
+|21,4
+|75,4
+|93,5
+|
+
+|Etanol
+|0,091
+|-114,1
+|-115
+|-108
+|-75
+|-38
+|82
+|
+
+|Gal
+|-0,021
+|29,76
+|29,6
+|28
+|19
+|8
+|50
+|100
+
+|Glin
+|0,064
+|660,3
+|661,0
+|667
+|692
+|724
+|852
+|981
+
+|Hel
+|0,301
+|-
+|-269,8
+|-258,4
+|-234
+|-212
+|
+|
+
+|Kwas octowy
+|0,247
+|16,6
+|19
+|37,7
+|119
+|148,3
+|
+|
+
+|Ołów
+|0,077
+|327,5
+|328,3
+|335
+|364
+|398
+|516
+|612
+
+|Rtęć
+|0,052
+|-38,83
+|-38,3
+|-34
+|-13
+|12
+|100
+|190
+
+|Srebro
+|0,049
+|961,8
+|961,3
+|966
+|985
+|1010
+|1108
+|1206
+
+|Wapń
+|0,149
+|842
+|843
+|857
+|916
+|985
+|1090
+|
+
+|Węgiel
+|0,196
+|3762
+|3764
+|3781
+|3860
+|3958
+|4350
+|4742
+
+|Woda
+|-0,0768
+|0,00
+|-0,8
+|-8,8
+|-7,5
+|26
+|135
+|
+
+|Wodór
+|0,296
+|-259,3
+|-256
+|-239
+|-198
+|-160
+|
+|
+
+|Wolfram
+|0,078
+|3420
+|3421
+|3426
+|3455
+|3424
+|3640
+|3780
+
+|Żelazo
+|0,03
+|1538
+|1538
+|1541
+|1553
+|1568
+|1628
+|1645
+|===
+
+a - zmiana temperatury topnienia z ciśnieniem w pobliżu ciśnienia atmosferycznego
+
+== Ciepło właściwe substancji
+
+|===
+|Substancja|c~p~ (J/kgK)|Substancja|c~p~ (J/kgK)
+
+|*_Ciała stałe_*
+|
+|*_Ciecze_*
+|
+
+|Tor
+|113
+|Rtęć
+|139,5
+
+|Uran
+|116
+|Brom
+|473,6
+
+|Bizmut
+|122
+|Chloroform
+|974,2
+
+|Ołów
+|128
+|Kwas siarkowy
+|1402
+
+|Złoto
+|129,1
+|Benzen
+|1739
+
+|Wolfram
+|132
+|Olej lniany
+|1840
+
+|Platyna
+|133
+|Kwas octowy
+|2050
+
+|Minia (Pb~3~O~4~
+|214,0
+|Benzyna
+|2100
+
+|Jod
+|214,5
+|Aceton
+|2152
+
+|Cyna
+|228
+|Olej parafinowy
+|2200
+
+|Srebro
+|235,7
+|Heksan
+|2263
+
+|Miedź
+|384,6
+|Gliceryna
+|2400
+
+|Cynk
+|388,4
+|Etanol
+|2442
+
+|Baryt
+|437
+|Ciężka woda (D~2~O
+|4209
+
+|Nikiel
+|445
+|Woda (0&deg;C)
+|4221,9
+
+|Żelazo
+|449,1
+|Woda (10&deg;C)
+|4193,0
+
+|Szkło "flint"
+|490
+|Woda (15&deg;C)
+|4185,5
+
+|Diament
+|509
+|Woda (20&deg;C)
+|4179,6
+
+|Magnetyt
+|636
+|Woda (25&deg;C)
+|4175,4
+
+|Azotek krzemu
+|663
+|Woda (50&deg;C)
+|4178,4
+
+|Granit
+|670
+|Woda (100&deg;C)
+|4212,3
+
+|Szkło okienne
+|670
+|
+|
+
+|Krzem
+|705
+|*_Gazy_*
+|
+
+|Siarka
+|707,6
+|Radon
+|93,6
+
+|Grafit
+|710,2
+|Ksenon
+|158,3
+
+|Szkło kwarcowe
+|740
+|Krypton
+|248,0
+
+|Korund
+|775
+|Chlor
+|478,5
+
+|Piasek
+|800
+|Argon
+|520,3
+
+|Beton
+|800
+|Sześciofluorek siarki
+|664,4
+
+|Szkło termometryczne
+|840
+|Chlorowodór
+|799,2
+
+|Cegła
+|850
+|Dwutlenek węgla
+|843,8
+
+|Sól kamienna
+|864
+|Tlen
+|918,2
+
+|Kreda
+|890
+|Powietrze
+|1008
+
+|Bazalt
+|900
+|Neon
+|1030,0
+
+|Glin
+|902,5
+|Azot
+|1039,6
+
+|Magnez
+|1024
+|Tlenek węgla
+|1040
+
+|Bor
+|1026
+|Etylen
+|1530
+
+|Polichlorek winylu
+|1040
+|Acetylen
+|1694
+
+|Porcelana
+|1080
+|Etan
+|1750
+
+|Styropian
+|1200
+|Para wodna (100&deg;C)
+|2044
+
+|Polistyren
+|1220
+|Amoniak
+|2092
+
+|Glikoza
+|1227
+|Metan
+|2225
+
+|Cukier (sacharoza)
+|1247
+|Hel
+|5192,6
+
+|Naftalen
+|1290
+|Wodór
+|14303
+
+|Pleksi
+|1380
+|
+|
+
+|Tlenek berylu
+|1438
+|
+|
+
+|Skóry
+|1490
+|
+|
+
+|Drewno (dąb)
+|1500
+|
+|
+
+|Papier
+|1500
+|
+|
+
+|Guma
+|1600
+|
+|
+
+|Asfalt
+|1680
+|
+|
+
+|Polietylen
+|1700
+|
+|
+
+|Korek
+|1800
+|
+|
+
+|Beryl metaliczny
+|1824
+|
+|
+
+|Lód (0&deg;C)
+|2097
+|
+|
+
+|Lit
+|3582
+|
+|
+
+|Wodorek litu, LiH
+|3642
+|
+|
+|===
+
+== Ściśliwość wybranych substancji
+
+|===
+|Substancja|image:w06.gif[]|Substancja|image:w06.gif[]|Substancja|image:w06.gif[]
+
+|Gaz doskonały
+|9869,2
+|*_Niemetaliczne ciała stałe_*
+|
+|*_Metale_*
+|
+
+|*_Ciecze_*
+|
+|Adamantan
+|0,243
+|Beryl
+|0,0088
+
+|Aceton
+|1,24
+|Chlorek sodu
+|0,0427
+|Bizmut
+|0,0322
+
+|Anilina
+|0,467
+|Diament
+|0,00185
+|Cez
+|0,50
+
+|Benzen
+|0,968
+|Gips
+|0,025
+|Cyna
+|0,0182
+
+|Brom
+|0,60
+|Grafit
+|0,030
+|Cynk
+|0,0144
+
+|Bromoform
+|0,41
+|Granit
+|0,040
+|Glin
+|0,0133
+
+|Chloroform
+|0,974
+|Hel stały
+|0,35
+|Iryd
+|0,0028
+
+|Cykloheksan
+|1,18
+|Jod
+|0,12
+|Kobalt
+|0,0060
+
+|Czterochlorek węgla
+|1,06
+|Korund
+|0,00317
+|Magnez
+|0,0284
+
+|Dwusiarczek węgla
+|0,94
+|Krzem
+|0,0102
+|Miedź
+|0,0066
+
+|Etanol
+|1,15
+|Kwarc topiony
+|0,0278
+|Molibden
+|0,0040
+
+|Eter dietylowy
+|1,97
+|Lód
+|0,13
+|Nikiel
+|0,0056
+
+|Gliceryna
+|0,24
+|Neon stały
+|1,0
+|Ołów
+|0,0236
+
+|Glikol etylowy
+|0,372
+|PCW
+|0,182
+|Platyna
+|0,0036
+
+|Heksan
+|1,67
+|Pleksi
+|0,196
+|Potas
+|0,327
+
+|Kwas octowy
+|0,89
+|Polietylen LD
+|0,30
+|Sód
+|0,162
+
+|Metanol
+|1,26
+|Poliizopren (guma)
+|0,50
+|Srebro
+|0,0090
+
+|Nitrobenzen
+|0,503
+|Polistyren
+|0,20
+|Tytan
+|0,0092
+
+|Octan etylu
+|1,07
+|Siarka
+|0,104
+|Uran
+|0,0102
+
+|Rtęć
+|0,040
+|Szkło "ciężki flint"
+|0,017
+|Wapń
+|0,0548
+
+|Toluen
+|0,93
+|Topaz
+|0,0061
+|Wolfram
+|0,0034
+
+|Woda
+|0,452
+|Węglik wolframu
+|0,0016
+|Złoto
+|0,0060
+
+|Woda ciężka
+|0,468
+|Wodór stały
+|5
+|Żelazo
+|0,0058
+|===
+
+== Parametry gazów rzeczywistych
+
+[cols="7"]
+|===
+
+.2+|*Gaz*
+.2+|*Masa molowa (g/mol)*
+.2+|*Temperatura skraplania (&deg;C)*
+.2+|*Gęstość w 25&deg;C (kg/m^3^)*
+.2+|*Objętość molowa w war.norm. (dm^3^/mol)*
+2+|*Parametry van der Waalsa*
+
+|*a (J&middot;m^3^/mol^2^)*
+|*b (10^-5^m^3^/mol)*
+
+|Wodór
+|2,016
+|-252,88
+|0,0823
+|22,43
+|0,0248
+|2,66
+
+|Hel
+|4,003
+|-268,93
+|0,164
+|22,42
+|0,00346
+|2,37
+
+|Metan
+|16,043
+|-161,48
+|0,657
+|22,38
+|0,228
+|4,28
+
+|Amoniak
+|17,031
+|-33,4
+|0,708
+|22,05
+|0,422
+|3,71
+
+|Para wodna
+|18,016
+|99,974
+|-
+|-
+|0,554
+|3,05
+
+|Tlenek węgla
+|28,010
+|-191,5
+|1,145
+|22,41
+|0,151
+|3,98
+
+|Azot
+|28,014
+|-195,8
+|1,146
+|22,40
+|0,141
+|3,91
+
+|Tlen
+|31,999
+|-182,96
+|1,309
+|22,39
+|0,138
+|3,18
+
+|Siarkowodór
+|34,082
+|-60,28
+|1,410
+|22,14
+|0,449
+|4,29
+
+|Argon
+|39,948
+|-185,86
+|1,635
+|22,39
+|0,136
+|3,22
+
+|Dwutlenek węgla
+|44,010
+|-88
+|1,811
+|22,26
+|0,364
+|4,27
+
+|Ozon
+|47,998
+|-111,9
+|1,964
+|22,39
+|0,357
+|4,87
+
+|Dwutlenek siarki
+|64,065
+|-10,05
+|2,680
+|21,90
+|0,680
+|5,64
+
+|Chlor
+|75,905
+|-34,0
+|2,950
+|22,02
+|0,658
+|5,62
+
+|Ksenon
+|131,29
+|-108,1
+|5,396
+|22,29
+|0,425
+|5,10
+
+|Powietrze
+|28,964
+|-192
+|1,185
+|22,40
+|0,136
+|3,65
+|===
+
+== Napięcie powierzchniowe różnych cieczy
+
+|===
+
+|Ciecz|image:w07.gif[]|Ciecz|image:w07.gif[]
+
+|*_Ciecze (oprócz wody)_*
+|
+|*_Woda_*
+|
+
+|Aceton
+|0,02268
+|Woda (0&deg;C)
+|0,07564
+
+|Anilina
+|0,04279
+|Woda (10&deg;C)
+|0,07423
+
+|Benzen
+|0,0282
+|Woda (20&deg;C)
+|0,07275
+
+|Brom
+|0,040
+|Woda (25&deg;C)
+|0,07198
+
+|Bromoform
+|0,0448
+|Woda (50&deg;C)
+|0,06794
+
+|Ciężka woda
+|0,0719
+|Woda (70&deg;C)
+|0,06447
+
+|Chloroform
+|0,0266
+|Woda (100&deg;C)
+|0,05891
+
+|Cykloheksan
+|0,0244
+|Woda (150&deg;C)
+|0,0487
+
+|Dioksan
+|0,0330
+|Woda (300&deg;C)
+|0,0144
+
+|Etanol
+|0,0220
+|
+|
+
+|Eter dietylowy
+|0,0165
+|*_Ciekłe sole i metale_*
+|
+
+|Gliceryna
+|0,0625
+|Rtęć (0&deg;C)
+|0,4906
+
+|Kwas azotowy
+|0,0412
+|Rtęć (25&deg;C)
+|0,4855
+
+|Kwas octowy
+|0,0269
+|Sód (98&deg;C)
+|0,192
+
+|Kwas siarkowy
+|0,06
+|Glin (700&deg;C)
+|0,840
+
+|Metanol
+|0,0221
+|NaCl (908&deg;C)
+|0,106
+
+|Nitrobenzen
+|0,0428
+|KCl (908&deg;C)
+|0,088
+
+|Nitrometan
+|0,0362
+|Złoto (1130&deg;C)
+|1,102
+
+|Octan etylu
+|0,0232
+|Platyna (2000&deg;C)
+|1,82
+
+|n-Propanol
+|0,0234
+|
+|
+
+|Toluen
+|0,0278
+|*_Granica faz woda/inna ciecz (w temp. 20&deg;C)_*
+|
+
+|
+|
+|Woda/rtęć
+|0,375
+
+|*_Skroplone gazy_*
+|
+|Woda/benzen
+|0,035
+
+|Ciekły azot (70K)
+|0,01053
+|Woda/heksan
+|0,051
+
+|Ciekły azot (90K)
+|0,0062
+|Woda/eter
+|0,0107
+
+|Ciekły hel (3K)
+|0,000256
+|Woda/oliwa
+|0,020
+
+|Ciekły tlen (70K)
+|0,0183
+|
+|
+
+|Ciekły wodór (20,4K)
+|0,00191
+|
+|
+|===
+
+== Współczynniki dyfuzji w powietrzu w temperaturze 0&deg;C
+
+|===
+
+|Układ|image:w08.gif[]|image:w09.gif[]|Układ|image:w08.gif[]|image:w09.gif[]
+
+|Wodór
+|6,34&middot;10^-5^
+|1,750
+|Tlenek węgla
+|1,82&middot;10^-5^
+|1,730
+
+|Hel
+|6,2&middot;10^-5^
+|1,729
+|Tlen
+|1,78&middot;10^-5^
+|
+
+|Dwutlenek węgla
+|2,07&middot;10^-5^
+|1,590
+|Argon
+|1,65&middot;10^-5^
+|1,749
+
+|Para wodna
+|2,05&middot;10^-5^
+|2,072
+|Etanol (pary)
+|1,02&middot;10^-5^
+|
+
+|Metan
+|1,86&middot;10^-5^
+|1,747
+|Benzen (pary)
+|0,75&middot;10^-5^
+|
+|===
+
+D~0~ - współczynnik dyfuzji w warunkach normalnych
+
+image:w09.gif[] - wykłądnik, pozwalający obliczyć D w innych temperaturach
+
+== Współczynniki dyfuzji w wybranych cieczach i ciałach stałych
+
+|===
+
+|Układ|T (&deg;C)|D (&middot;10^-9^m^2^/s)|Układ|T (&deg;C)|D (&middot;10^-9^m^2^/s)
+
+|*_Dyfuzja w cieczach_*
+|
+|
+|*_Dyfuzja w ciałach stałych^b^_*
+|
+|
+
+|Tlen w wodzie
+|25
+|2,5
+|Cząsteczki wody w lodzie
+|0
+|0,000007
+
+|Dwutlenek węgla w wodzie
+|25
+|1,96
+|Lit w krzemie
+|25
+|0,0000000026
+
+|Woda w wodzie
+|25
+|2,43
+|Lit w krzemie
+|200
+|0,000030
+
+|Ciężka woda w wodzie
+|25
+|2,0
+|Lit w krzemie
+|500
+|0,014
+
+|Chlorek sodu w wodzie
+|25
+|1,61
+|Lit w krzemie
+|1300
+|0,21
+
+|Etanol w wodzie
+|25
+|1,24
+|Bor w krzemie
+|1300
+|0,0000020
+
+|Cukier w wodzie
+|15
+|3,6
+|Arsen w krzemie
+|1300
+|0,00000015
+
+|Etanol w etanolu
+|25
+|1,05
+|Krzem w krzemie
+|1300
+|0,00000014
+
+|Hemoglobina w wodzie
+|20
+|0,069
+|Wodór w szkle kwarcowym
+|500
+|0,85
+
+|Gliceryna w wodzie
+|25
+|0,94
+|Wodór w palladzie
+|500
+|9,2
+
+|Woda w glicerynie
+|27
+|0,0083
+|Cynk w miedzi
+|360
+|0,00083
+
+|Sód w rtęci
+|25
+|0,9
+|Cynk w miedzi
+|880
+|0,56
+
+|Złoto w rtęci
+|25
+|0,85
+|Złoto w srebrze
+|880
+|0,00096
+
+|Srebro w stopionym KNO~3~
+|360
+|4,6
+|Srebro w srebrze
+|880
+|0,00023
+
+|Neutrony w wodzie^a^
+|25
+|36
+|Neutrony w graficie^a^
+|25
+|210
+
+|Neutrony w ciężkiej wodzie^a^
+|25
+|200
+|Neutrony w berylu^a^
+|25
+|120
+|===
+
+^a^ - zjawisko rozważane przy budowie reaktorów jądrowych
+
+^b^ - współczynnik dyfuzji rośnie ze wzrostem temperatury według wzoru:
+
+image::w10.gif[]
+
+gdzie: E~akt~ - energia aktywacji dyfuzji, R - stała gazowa, D~0~ - graniczna wartość współczynnika dyfuzji
+
+
+== Lepkości wybranych gazów i cieczy
+
+|===
+|Substancja|image:w11.gif[]|Substancja|image:w11.gif[]
+
+|*_Ciecze (oprócz wody)_*
+|
+|*_Gazy_*
+|
+
+|Woda (0&deg;C)
+|1,793
+|Argon
+|0,0226
+
+|Woda (5&deg;C)
+|1,519
+|Azot
+|0,0177
+
+|Woda (10&deg;C)
+|1,307
+|Chlor
+|0,0135
+
+|Woda (15&deg;C)
+|1,1404
+|Dwutlenek węgla
+|0,0149
+
+|Woda (20&deg;C)
+|1,0021
+|Hel
+|0,0198
+
+|Woda (25&deg;C)
+|0,8905
+|Krypton
+|0,0254
+
+|Woda (30&deg;C)
+|0,7977
+|Para wodna (100&deg;C)
+|0,0126
+
+|Woda (40&deg;C)
+|0,6532
+|Powietrze (0&deg;C)
+|0,0171
+
+|Woda (50&deg;C)
+|0,5470
+|Powietrze (20&deg;C)
+|0,0182
+
+|Woda (60&deg;C)
+|0,4665
+|Powietrze (25&deg;C)
+|0,0185
+
+|Woda (80&deg;C)
+|0,3544
+|Powietrze (4&deg;C)
+|0,0190
+
+|Woda (100&deg;C)
+|0,2818
+|Powietrze (100&deg;C)
+|0,0219
+
+|Aceton
+|0,3040
+|Tlen
+|0,0208
+
+|Benzen
+|0,6028
+|Wodór
+|0,00885
+
+|Ciekły azot (70K)
+|0,2039
+|
+|
+
+|Ciekły hel (3K)
+|0,0385
+|*_Inne_*
+|
+
+|Nadciekły hel (2K)
+|0
+|Lód (0&deg;C)
+|1&middot;10^16^
+
+|Etanol
+|1,078
+|Smoła (0&deg;C)
+|5&middot;10^13^
+
+|Metanol
+|0,5445
+|Szkło (600&deg;C)
+|2,5&middot;10^9^
+
+|Gliceryna (-20&deg;C)
+|135000
+|Szkło (1000&deg;C)
+|1&middot;10^4^
+
+|Gliceryna (0&deg;C)
+|12110
+|Wosk (8&deg;C)
+|4,7&middot;10^8^
+
+|Gliceryna (25&deg;C)
+|945
+|
+|
+
+|Glikol
+|16,1
+|*_Lawa wulkaniczna (1100&deg;C)_*
+|
+
+|Oliwa z oliwek (20&deg;C)
+|84
+|Bazaltowa
+|10^2^-10^4^
+
+|Rtęć
+|1,526
+|Kwaśna
+|10^5^-10^9^
+
+|Sód ciekły (98&deg;C)
+|0,690
+|
+|
+
+|Sód ciekły (250&deg;C)
+|0,387
+|
+|
+
+|10% roztworu cukru
+|1,336
+|
+|
+
+|30% roztworu cukru
+|3,187
+|
+|
+
+|50% roztworu cukru
+|15,43
+|
+|
+
+|70% roztworu cukru
+|481,6
+|
+|
+|===
+
+== Właściwości sprężyste różnych substancji
+
+|===
+|Substancja|Y (GPa)|B (GPa)|G (GPa)|image:w09.gif[]|Substancja|Y (GPa)|B (GPa)|G (GPa)|image:w09.gif[]
+
+|*_Substancje niemetaliczne_*
+|
+|
+|
+|
+|*_Substancje metaliczne_*
+|
+|
+|
+|
+
+|Azotek krzemu
+|380
+|-
+|-
+|-
+|Beryl
+|308
+|113
+|147
+|0,048
+
+|Bambus
+|33
+|-
+|-
+|-
+|Bizmut
+|33
+|31
+|12
+|0,33
+
+|Beton
+|20-40
+|-
+|-
+|0,2
+|Cez
+|1,8
+|2
+|0,7
+|0,35
+
+|Diament
+|1200
+|542
+|480
+|0,25
+|Chrom
+|250
+|190
+|220
+|0,31
+
+|Drewno dębowe &#124;&#124;
+|10
+|-
+|-
+|-
+|Cyna
+|45
+|55
+|18
+|0,33
+
+|Grafit (wisker)
+|900
+|-
+|-
+|-
+|Cynk
+|108
+|69,4
+|43
+|0,249
+
+|Granit
+|30
+|25
+|12
+|0,30
+|Fe~80~B~20~
+|168
+|140
+|65
+|0,3
+
+|Guma
+|0,002
+|2,0
+|0,0006
+|0,49
+|Glin
+|71
+|75,2
+|26
+|0,345
+
+|Korund
+|400
+|315
+|156
+|0,28
+|Iryd
+|520
+|355
+|220
+|0,28
+
+|Krzem
+|110
+|97,8
+|42
+|0,313
+|Kobalt
+|200
+|167
+|78
+|0,32
+
+|Szkło kwarcowe
+|73
+|36
+|31
+|0,165
+|Lantan
+|37
+|25
+|15
+|0,26
+
+|Lód (0&deg;C)
+|9
+|7,7
+|3,3
+|0,36
+|Lit
+|5,0
+|11,8
+|1,8
+|0,42
+
+|Nylon 66
+|3,3
+|5,1
+|1,14
+|0,45
+|Magnez
+|25
+|34
+|17
+|0,35
+
+|Pleksi
+|3,2
+|5,1
+|1,14
+|0,40
+|Miedź
+|130
+|138
+|48
+|0,343
+
+|Polichlorek winylu
+|3,5
+|5,5
+|1,23
+|0,42
+|Molibden
+|320
+|253
+|120
+|0,31
+
+|Polietylen HD
+|0,7
+|5,0
+|0,24
+|0,47
+|Nikiel
+|210
+|180
+|75
+|0,35
+
+|Polietylen LD
+|0,2
+|3,3
+|0,067
+|0,49
+|Ołów
+|17
+|45,8
+|5,9
+|0,44
+
+|Polipropylen
+|1,15
+|4,8
+|0,39
+|0,46
+|Platyna
+|160
+|279
+|65
+|0,36
+
+|Polistyren
+|3,4
+|5,0
+|1,23
+|0,38
+|Potas
+|3,5
+|3,1
+|1,3
+|0,35
+
+|Skóra
+|0,1
+|-
+|-
+|-
+|Sód
+|8,9
+|6,2
+|3,5
+|0,26
+
+|Styropian
+|0,05
+|-
+|-
+|-
+|Srebro
+|74
+|104
+|27
+|0,367
+
+|Szkło "ciężki flint"
+|80
+|58
+|23
+|0,27
+|Tytan
+|110
+|109
+|41,5
+|0,33
+
+|Teflon
+|0,45
+|4,0
+|0,15
+|0,48
+|Wanad
+|140
+|139
+|50
+|0,36
+
+|Węglik wolframu
+|534
+|320
+|219
+|0,22
+|Wolfram
+|370
+|300
+|145
+|0,28
+
+|Włókno Kevlar 49
+|130
+|-
+|-
+|-
+|Złoto
+|79
+|165
+|28
+|0,42
+
+|Włókno szklane
+|90
+|-
+|20-30
+|-
+|Żelazo czyste
+|220
+|160
+|85
+|0,293
+|===
+
+Y - moduł sprężystości podłużnej
+
+B - moduł sprężystości objętościowej
+
+G - moduł skręcalności
+
+image:w09.gif[] - liczba Poissona
+
+== Twardość wybranych substancji w skali Brinella
+
+|===
+|Substancja|image:w11.gif[]|Substancja|image:w11.gif[]
+
+|*_Czyste metale_*
+|
+|*_Substancje niemetaliczne_*
+|
+
+|Bar
+|15
+|Asfalt
+|200
+
+|Beryl
+|1000
+|Azotek krzemu Si~3~N~4~
+|20000
+
+|Bizmut
+|95
+|Bor
+|30000
+
+|Cez
+|0,15
+|Diament
+|70000
+
+|Chrom
+|1200
+|Dwutlenek cyrkonu
+|12000
+
+|Cyna
+|50
+|Fosfor biały
+|6
+
+|Cynk
+|330
+|Grafit
+|500
+
+|Cyrkon
+|700
+|Korund
+|13000
+
+|German
+|1800
+|Krzem
+|11000
+
+|Glin
+|180
+|Pleksi
+|100
+
+|Kadm
+|200
+|Polichlorek winylu
+|80
+
+|Lit
+|10
+|Polietylen (HD)
+|20
+
+|Magnez
+|350
+|Polistyren
+|140
+
+|Mangan
+|1000
+|Selen
+|750
+
+|Miedź
+|400
+|Siarka
+|200
+
+|Molibden
+|2200
+|Szkło
+|5000
+
+|Nikiel
+|850
+|Szkło kwarcowe
+|10000
+
+|Ołów
+|40
+|Węglik hafnu
+|28000
+
+|Osm
+|4000
+|Węglik krzemu
+|25000
+
+|Pallad
+|400
+|Węglik tantalu
+|18000
+
+|Platyna
+|300
+|Węglik tytanu
+|32000
+
+|Potas
+|0,37
+|Węglik wolframu
+|20000
+
+|Ren
+|2500
+|*_Stopy metali_*
+|
+
+|Rubid
+|0,22
+|Babbit (stop łożysk.)
+|300
+
+|Sód
+|0,3
+|Brąz berylowy
+|3800
+
+|Srebro
+|250
+|Brąz cynowy
+|1500
+
+|Tytan
+|1800
+|Brąz fosforowy
+|4000
+
+|Uran
+|2200
+|Duraluminium
+|1300
+
+|Wanad
+|700
+|Mosiądz
+|1500
+
+|Wapń
+|170
+|Stale specjalne
+|13000
+
+|Wolfram
+|2000
+|Stal zwykła
+|2000
+
+|Złoto
+|180
+|Stopy magnezu
+|500
+
+|Żelazo (czyste)
+|650
+|Szkła metaliczne
+|10000
+|===
+
+== Wytrzymałość ciał stałych na rozciąganie
+
+|===
+|Substancja|image:w12.gif[]|image:w13.gif[]|Substancja|image:w12.gif[]|image:w13.gif[]
+
+|*_Metale_*
+|
+|
+|*_Włókna_*
+|
+|
+
+|Beryl
+|300
+|2
+|Azbestowe
+|300
+|-
+
+|Cyna
+|14
+|70
+|Bambusowe
+|350
+|-
+
+|Cynk
+|123
+|12
+|Bawełna (tkanina)
+|70
+|30
+
+|Glin
+|64
+|45
+|Bawełniane
+|400
+|8
+
+|Kobalt
+|240
+|4
+|Borowe
+|3000
+|0,8
+
+|Magnez
+|200
+|-
+|Grafitowe
+|3000
+|1
+
+|Miedź
+|200
+|60
+|Jedwabne
+|450
+|25
+
+|Molibden
+|320
+|25
+|Karborundowe
+|3000
+|0,4
+
+|Ołów
+|14
+|50
+|Kevlar 49
+|3600
+|2,5
+
+|Platyna
+|142
+|30
+|Korundowe
+|2000
+|-
+
+|Sód
+|10
+|-
+|Lniane
+|600
+|2,5
+
+|Srebro
+|140
+|45
+|Nylonowe
+|500
+|25
+
+|Tytan
+|250
+|70
+|Pajęczyna
+|180
+|-
+
+|Wolfram
+|1715
+|2
+|Polioctan celulozy
+|70
+|-
+
+|Złoto
+|120
+|40
+|Szklane
+|4000
+|4
+
+|Żelazo (czyste)
+|250
+|50
+|Teflonowe
+|900
+|8
+
+|
+|
+|
+|Cyrkoniowe (ZrO~2~)
+|500
+|-
+
+|*_Stopy metali_*
+|
+|
+|Wełniane (grube)
+|170
+|30
+
+|Brąz berylowy
+|1000
+|<50
+|Wełniane (cienkie)
+|230
+|40
+
+|Brąz cynowy
+|450
+|60
+|Węglik boru
+|2400
+|-
+
+|Brąz fosforowy
+|500
+|<60
+|Wiskozowe
+|350
+|13
+
+|Duraluminium
+|500
+|10
+|Wiskozowe specj.
+|700
+|20
+
+|Elektron (MgA110)
+|200
+|-
+|
+|
+|
+
+|Monel
+|1200
+|-
+|*_Inne substancje niemetaliczne_*
+|
+|
+
+|Mosiądz
+|200
+|-
+|Azotek krzemu
+|500
+|-
+
+|Stal zwykła
+|400
+|20
+|Beton
+|2-5
+|-
+
+|Stale specjalne
+|2000
+|5
+|Diament
+|1800
+|-
+
+|Stopy magnezu
+|250
+|15
+|Drewno (balsa) &#124;&#124;
+|30
+|-
+
+|Struny stalowe
+|4200
+|-
+|Drewno (dąb) &#124;&#124;
+|100
+|-
+
+|Szkła metaliczne
+|2000
+|5
+|Drewno (dąb) image:w16.gif[]
+
+|10
+|-
+
+|
+|
+|
+|Drewno (sosna) &#124;&#124;
+|50
+|-
+
+|*_Tworzywa sztuczne_*
+|
+|
+|Guma naturalna
+|20
+|700
+
+|Nylon
+|44
+|100
+|Guma syntetyczna
+|10
+|300
+
+|PCW
+|55
+|2-40
+|Jelita zwierzęce
+|200
+|-
+
+|Pleksi
+|75
+|3-8
+|Kość
+|100
+|-
+
+|Polietylen (HD)
+|30
+|300
+|Krzem
+|700
+|-
+
+|Polietylen (LD)
+|10
+|100
+|Lód (0&deg;C)
+|0,8
+|-
+
+|Polipropylen
+|30
+|600
+|Pas skórzany
+|30
+|50
+
+|Polistyren
+|50
+|1,5
+|Porcelana
+|45
+|-
+
+|Styropian
+|0,3
+|-
+|Szkło
+|30-70
+|-
+
+|Teflon
+|20
+|300
+|Szkło kwarcowe
+|50
+|-
+
+|
+|
+|
+|Węglik krzemu
+|400
+|-
+
+|*_Wiskery_* (kryształy włosowe)
+|
+|
+|Węglik wolframu
+|1440
+|-
+
+|AIN
+|15000
+|-
+|
+|
+|
+
+|Grafitowy
+|25000
+|-
+|
+|
+|
+
+|Korundowy
+|40000
+|-
+|
+|
+|
+
+|Żelazowy
+|13000
+|-
+|
+|
+|
+
+|SiC (karborund)
+|35000
+|-
+|
+|
+|
+
+|Si~3~N~4~
+|15000
+|-
+|
+|
+|
+|===
+
+R~m~ - wytrzymałość na rozciąganie
+
+image:w13.gif[] - względne wydłużenie w chwili zerwania
+
+== Wytrzymałość ciał stałych na ściskanie
+
+|===
+|Substancja|R~s~ (MPa)|Substancja|R~s~ (MPa)|Substancja|R~s~ (MPa)
+
+|Azotek krzemu Si~3~N~4~
+|3000
+|Dwutlenek cyrkonu
+|2100
+|Pleksi
+|4
+
+|Beton
+|7-50
+|Grunty piaszczyste^b^
+|0,1-0,4
+|Polietylen (HD)
+|20-35
+
+|Bor/epoksyd^a^
+|2500
+|Grunty skaliste^b^
+|do 4
+|Polipropylen
+|100
+
+|Bor/magnez^a^
+|1200
+|Korund
+|2400
+|Polistyren
+|100
+
+|Diament
+|17000
+|Kość
+|150
+|Porcelana
+|500
+
+|Drewno (dąb) &#124;&#124;
+|50
+|Lód (0&deg;C)
+|3
+|Styropian
+|1
+
+|Drewno (dąb) image:w16.gif[]
+|10
+|Mika
+|250
+|Szkło
+|500
+
+|Drewno (sosna) &#124;&#124;
+|40
+|Mur ceglany
+|1-5^c^
+|Szkło kwarcowe
+|1100
+
+|Drut stalowy/Al^a^
+|1500
+|Mur ceglany
+|0,5-1^d^
+|Węglik krzemu
+|2000
+|===
+
+^a^ - materiały kompozytowe, drugi składnik stanowi matrycę, w której umieszczono włókna lub druty wykonane z pierwszego
+z wymienionych materiałów
+
+^b^ - dopuszczalne obciążenie gruntów budowlanych
+
+^c^ - z cegły pełnej
+
+^d^ - z cegły dziurawki
+
+== Rozszerzalność objętościowa gazów i cieczy
+
+|===
+|Substancja|image:w14.gif[]|Substancja|image:w14.gif[]
+
+|*_Gazy_* (0&deg;C)
+|
+|*_Inne ciecze_*
+|
+
+|Gaz doskonały^a^
+|36,61
+|Cyna (300&deg;C)
+|1,06
+
+|Hel
+|36,6
+|Gal (100&deg;C)
+|1,21
+
+|Wodór
+|36,6
+|Kwas octowy
+|1,2
+
+|Tlen
+|36,7
+|Rtęć
+|1,81
+
+|Powietrze
+|36,70
+|Woda ciężka
+|2,2
+
+|Azot
+|36,73
+|Gliceryna
+|5,0
+
+|Argon
+|36,8
+|Kwas siarkowy
+|5,5
+
+|Acetylen
+|37,39
+|Glikol etylenowy
+|6,3
+
+|Para wodna (25&deg;C)
+|41,87
+|Oleje roślinne
+|ok. 7
+
+|Para wodna (100&deg;C)
+|26,8
+|Anilina
+|8,6
+
+|
+|
+|Benzonitryl
+|8,8
+
+|*_Woda_*
+|
+|Bromoform
+|9,1
+
+|Woda (-45&deg;C)^b^
+|-102,6
+|Nafta
+|10,4
+
+|Woda (-30&deg;C)^b^
+|-12,5
+|Toluen
+|10,9
+
+|Woda (-10&deg;C)^b^
+|-2,86
+|Dioksan
+|11,0
+
+|Woda (0&deg;C)
+|-0,69
+|Etanol
+|11,1
+
+|Woda (3,9834&deg;C)^c^
+|0,00
+|Brom
+|11,1
+
+|Woda (5&deg;C)
+|0,16
+|Metanol
+|12,0
+
+|Woda (10&deg;C)
+|0,88
+|Benzen
+|12,2
+
+|Woda (15&deg;C)
+|1,5
+|Czterochlorek węgla
+|12,2
+
+|Woda (20&deg;C)
+|2,07
+|Chloroform
+|12,5
+
+|Woda (25&deg;C)
+|2,57
+|Kwas azotowy
+|12,5
+
+|Woda (30&deg;C)
+|3,03
+|Heksan
+|13,6
+
+|Woda (40&deg;C)
+|3,85
+|Dichlorometan
+|13,7
+
+|Woda (50&deg;C)
+|4,48
+|Aceton
+|14,2
+
+|Woda (100&deg;C)
+|7,50
+|Eter dietylowy
+|16,2
+
+|Woda (150&deg;C)^d^
+|10,3
+|Ciekły azot (70K)
+|60,3
+
+|Woda (200&deg;C)^d^
+|13,6
+|Ciekły hel (4K)
+|1290
+
+|Woda (300&deg;C)^d^
+|31,4
+|Ciekły hel (3K)
+|615
+
+|Woda (374&deg;C)^de^
+|314
+|Nadciekły hel (2K)
+|-122
+
+|
+|
+|Nadciekły hel (1K)
+|30,9
+
+|
+|
+|Ciekły hel 3 (3,2K)
+|5800
+|===
+
+^a^ - współczynnik rozszerzalności gazu doskonałego dany jest wzorem: image:w15.gif[], dla p = const
+
+^b^ - woda przechłodzona
+
+^c^ - w maksimum gęstości
+
+^d^ - w stanie wrzenia pod zwiększonym ciśnieniem
+
+^e^ - w pobliżu punktu krytycznego
+
+== Rozszerzalność liniowa ciał stałych
+
+|===
+|Substancja^a^|image:w17.gif[]|Substancja^a^|image:w17.gif[]|Substancja^a^|image:w17.gif[]
+
+|Asfalt
+|1,9
+|Korund
+|0,081^c^
+|Siarka
+|0,75
+
+|Azotek krzemu
+|0,0033
+|Kowar
+|0,048^d^
+|Sól kamienna
+|0,40
+
+|Beton
+|0,08-0,14
+|Kwarc &#124;&#124;
+|0,08
+|Srebro
+|0,195
+
+|Brąz
+|0,16-0,18
+|Kwarc image:w16.gif[]
+
+|0,14
+|Stal (typowa)
+|0,12^e^
+
+|Cyna
+|0,220
+|Lód (-80&deg;C)
+|0,39
+|Stale specjalne
+|0,10-0,16
+
+|Cynk
+|0,283
+|Lód (0&deg;C)
+|0,49
+|Stop Fe~3~Pt
+|-0,30
+
+|Diament
+|0,0118
+|Magnez
+|0,248
+|Stop lutowniczy
+|0,25
+
+|Drewno (buk) &#124;&#124;
+|0,026
+|Marmur
+|0,15
+|Stopy aluminium
+|0,20-0,25
+
+|Drewno (dąb) &#124;&#124;
+|0,049
+|Miedź
+|0,162
+|Styropian
+|0,5
+
+|Drewno (dąb) image:w16.gif[]
+
+|0,5
+|Mosiądz
+|0,18-0,21
+|Superinwar^b^
+|<0,001
+
+|Drewno (jesion) &#124;&#124;
+|0,095
+|Neon (27K)
+|19,4
+|Szkło Corning 9600
+|-0,0001
+
+|Drewno (sosna) &#124;&#124;
+|0,054
+|Nylon 66
+|0,95
+|Szkło kwarcowe
+|0,045
+
+|Drewno (sosna) image:w16.gif[]
+
+|0,34
+|Ołów
+|0,290
+|Szkło ołowiane
+|0,10
+
+|Ebonit
+|0,8
+|Papier
+|0,1
+|Szkło Pyrex
+|0,032
+
+|Gips
+|0,25
+|Platyna
+|0,090^d^
+|Szkło (typowe)
+|0,03-0,09
+
+|Glin
+|0,224
+|Pleksi
+|0,8
+|Tytan
+|0,083
+
+|Glina
+|0,08
+|Pluton (470&deg;C)
+|-0,58
+|Wolfram
+|0,043
+
+|Granit
+|0,083
+|Polichlorek winylu
+|1,0
+|Wodór (13,96K)
+|48,0
+
+|Inwar^b^
+|0,015
+|Polietylen
+|1,5
+|Wosk
+|14,6
+
+|Kauczuk
+|0,77
+|Polistyren
+|1,5
+|Złoto
+|0,142
+
+|Konstantan
+|0,17
+|Porcelana
+|0,02-0,06
+|Żeliwo
+|0,07-0,11
+|===
+
+^a^ - znak || oznacza rozszerzalność wzdłuż osi głównej (wzdłuż włókien), image:w16.gif[] - prostopadle do niej (w poprzek
+włókien)
+
+^b^ - stopy o bardzo małej rozszerzalności cieplnej i nietypowych właściwościach magnetycznych
+
+^c^ - średnia w zakresie temperatur 20-1000K
+
+^d^ - możliwość trwałego łączenia ze szkłem
+
+^e^ - możliwość trwałego łączenia z betonem (żelbet)

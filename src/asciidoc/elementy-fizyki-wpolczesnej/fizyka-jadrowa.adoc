@@ -1,0 +1,515 @@
+:imagesdir: ../img/elementy-fizyki-wspolczesnej/fizyka-jadrowa
+:toc:
+
+= Fizyka jądrowa
+
+== Właściwości jąder atomowych
+
+*Jądra atomowe* składa się z nukleonów, tj. dwóch rodzajów cząstek: protonów i neutronów. Inna nazwa jądra atomowego to
+nuklid.
+
+image::w01.gif[]
+
+X - pierwiastek
+
+Z - liczba atomowa (porządkowa) - liczba protonów w jądrze
+
+A - liczba masowa - liczba protonów i neutronów w jądrze
+
+[quote]
+Izotopy to jądra atomowe, które mają tyle samo protonów, a różną liczbę neutronów. Izotopy mają takie same własności
+chemiczne.
+
+Izotopy wodoru:
+
+image:w02.gif[] - prot
+
+image:w03.gif[] - deuter
+
+image:w04.gif[] - tryt
+
+[quote]
+Izobary to jądra atomowe, które mają taką samą liczbę masową, a różną liczbę atomową.
+
+Np.: image:w04.gif[] i image:w05.gif[]
+
+[quote]
+Izotony to jądra atomowe, które mają taką samą liczbę neutronów, a różną liczbę protonów.
+
+Np.: image:w04.gif[] i image:w06.gif[]
+
+=== Promień jądra atomowego
+
+image::w07.gif[]
+
+image:w08.gif[] - promień jądra wodoru image::w09.gif[]
+
+A - liczba masowa
+
+=== Objętość jądra atomowego
+
+image::w10.gif[]
+
+Objętość jądra atomowego jest wprost proporcjonalna do liczby masowej.
+
+=== Masa jądra atomowego
+
+Rzeczywista masa jądra atomowego nie jest równa sumie mas jego składników. Do wyznaczania rzeczywistych mas jądra atomowego
+służy spektrometr masowy.
+
+image::w11.gif[]
+
+*Spektrometr masowy* - instrument pozwalający na precyzyjny pomiar stosunku masy do ładunku (m/q) analizowanych substancji.
+Podstawowym rodzajem spektrometru masowego jest spektrometr statycznych skrzyżowanych pól elektrycznego i magnetycznego.
+Każdy spektrometr masowy składa się z pewnych niezbędnych podzespołów - układu wprowadzania próbki, źródła jonów,
+analizatora jonów, detektora jonów, analizy danych - niezależnych od typu instrumentu czy sposobu jego wykorzystania.
+
+=== Gęstość jądra atomowego
+
+Gęstość każdego jądra atomowego jest taka sama.
+
+image::w12.gif[]
+
+== Niedobór masy. Energia wiązania
+
+[quote]
+Ubytkiem masy (niedoborem) nazywamy różnicę między sumą mas składników, a rzeczywistą masą jądra atomowego.
+
+image::w13.gif[]
+
+A - liczba masowa
+
+Z - liczba atomowa
+
+image:w14.gif[] - masa protonu
+
+image:w15.gif[] - masa neutronu
+
+Masę protonu i neutronu wyrażamy w atomowych jednostkach masy u:
+
+image::w16.gif[]
+
+Podczas łączenia nukleonów w jądro (lub lżejszych jąder w cięższe) pewna część masy zamienia się na energię.
+
+image::w17.gif[]
+
+Proces ten nazywamy *syntezą termojądrową*, a energia, na którą zamienia się część masy - *energią wiązania*.
+
+Aby móc mówić o stabilności jądra atomowego, wprowadzono wielkość średniej energii wiązania:
+
+image::w18.gif[]
+
+== Synteza termojądrowa
+
+Przykłady:
+
+image:w19.gif[] (+4MeV)
+
+image:w20.gif[] (+3,2MeV)
+
+image:w21.gif[] (+22,3MeV)
+
+Aby mogło dojść do syntezy jąder atomowych musimy tym jądrom nadać olbrzymie energie, aby mogły się do siebie zbliżyć,
+pokonując siłę elektrostatycznego odpychania. Taką energię jądra atomowe mogą uzyskać w bardzo wysokiej temperaturze
+(rzędu kilkunastu milionów kelwinów). W takiej temperaturze materia występuje w postaci całkowicie zjonizowanej.
+Nazywamy taki stan *plazmą gorącą*.
+
+=== Siły jądrowe
+
+Między nukleonami w jądrze atomowym działają siły jądrowe. Siły te są siłami przyciągania, są niezależne od ładunku
+i najsilniejsze ze wszystkich oddziaływań. Mają niewielki zasięg (10^-15^m).
+
+== Promieniowanie naturalne
+
+W roku 1896 francuski uczony Becquerel odkrył, że minerały zawierające uran emitują niewidoczne dla oka promieniowanie,
+przenikające przez ciała nieprzezroczyste i działające na kliszę fotograficzną. Badania tego zjawiska prowadzone przez
+Marię Skłodowską-Curie i jej męża Piotra Curie doprowadziły do odkrycia nowych pierwiastków: polonu i radu, emitujących
+to promieniowanie i nazwanych pierwiastkami promieniotwórczymi lub radioaktywnymi.
+
+Dalsze badania prowadzone głównie przez Rutherforda i Soddy'ego wykazały, że zjawisku promieniotwórczości towarzyszy
+powstawanie nowych pierwiastków, a więc jego istota polega na zmianach zachodzących w jądrach atomowych. Ponadto stwierdzono,
+że pierwiastki radioaktywne emitują trzy rodzaje promieniowania o różnej naturze, które nazwano promieniowaniem image:w22.gif[].
+
+=== Promieniowanie image:w23.gif[]
+
+Większość jąder atomowych o liczbie Z>83 (A>209) emituje promieniowanie image:w23.gif[].
+
+image:w24.gif[] - cząstka image:w23.gif[]
+
+image::w25.gif[]
+
+Np.: image:w26.gif[]
+
+Właściwości promieniowania image:w23.gif[]:
+
+* jest bardzo jonizujące
+* bardzo słabo przenikalne
+* zasięg w powietrzu rzędu kilku centymetrów
+
+=== Promieniowanie image:w27.gif[]
+
+Wyróżniamy dwa rodzaje promieniowania image:w27.gif[]: promieniowanie image:w28.gif[] i image:w29.gif[].
+
+==== rozpad image:w28.gif[]
+
+image::w30.gif[]
+
+image:w31.gif[] - cząstka image:w27.gif[]
+
+image:w32.gif[] - antyneutrino
+
+Np.: image:w33.gif[]
+
+Oddziaływania słabe powodują, że w jądrze atomowym zachodzi przemiana:
+
+image::w34.gif[]
+
+Właściwości promieniowania image:w27.gif[]:
+
+* jest mniej jonizujące niż promieniowanie image:w23.gif[]
+* lepiej przenikalne niż image:w23.gif[]
+* zasięg w powietrzu kilkumetrowy
+
+==== rozpad image:w29.gif[]
+
+image::w35.gif[]
+
+image:w36.gif[] - pozyton
+
+image:w37.gif[] - neutrino
+
+Np.: image:w38.gif[]
+
+Promieniowanie image:w29.gif[] to strumień pozytonów.
+
+image::w39.gif[]
+
+ANIHILACJA - proces fizyczny, w którym para cząstka-antycząstka zamienia się w inne cząstki elementarne
+
+image::w40.gif[]
+
+=== Promieniowanie image:w41.gif[]
+
+Promieniowanie image:w41.gif[] to promieniowanie elektromagnetyczne, emitowane przez wzbudzone jądro atomowe.
+
+image::w42.gif[]
+
+Właściwości tego promieniowania:
+
+* ma największą częstotliwość
+* ma najmniejszą zdolność jonizacyjną
+* jest niebezpieczne
+* duża zdolność do przenikania
+* zasięg w powietrzu jest duży
+
+== Wpływ promieniowania jonizującego na organizmy
+
+Szczególnym rodzajem promieniowania jest promieniowanie jonizujące. Wywołuje ono w obojętnych atomach i cząsteczkach
+materii zmiany w ładunkach elektrycznych, czyli jonizację. Promieniowanie jonizujące może mieć postać promieniowania
+korpuskularnego albo elektromagnetycznego. Promieniowanie jonizujące nie oddziałuje na nasze zmysły.
+
+Wpływ promieniowania jonizującego na organizmy żywe jest w naturalny sposób związany z oddziaływaniem tego promieniowania
+na komórki żywe. Jeżeli promieniowanie dotrze do cząsteczek istotnych jako funkcje życiowe, jak np: cząsteczki DNA -
+uszkodzenie komórki będzie większe niż w przypadku, gdy będzie oddziaływało ono z mniej istotnymi cząsteczkami, jak np.:
+cząsteczki wody. Najbardziej podatne na wpływ promieniowania są te komórki, które szybko się rozmnażają Komórki mają jednak
+pewną zdolność do regenerowania uszkodzeń. Jednak, jeżeli komórka podzieli się zanim zdoła zregenerować swe uszkodzenie
+popromienne, nowe komórki mogą nie być identycznymi kopiami komórki wyjściowej. W kontakcie komórki żywej z promieniowaniem
+jonizującym możemy mieć do czynienia z różnymi efektami:
+
+* Zniszczenie komórki jest tak duże, że nie będzie ona w stanie pełnić swoich dotychczasowych funkcji i umrze.
+* Komórka -choć żywa - traci swą zdolność do reprodukcji.
+
+Źródłami promieniowania wytworzonymi przez człowieka, a znajdującymi się w dużej bliskości użytkowników, są:
+
+* zakłady produkujące i dystrybuujące izotopy
+* akceleratory
+* reaktory jądrowe
+* defektoskopy i czujniki dymu zawierające źródła izotopowe
+* aparaty rentgenowskie
+* nieostrożny transport odpadów
+* składowiska odpadów promieniotwórczych
+* materiały budowlane uzyskane z popiołów elektrociepłowni
+
+Źródła promieniowania dzieli się na:
+
+* zamknięte - odznaczające się szczelną obudową uniemożliwiającą rozproszenie się materiałów promieniotwórczych
+* otwarte - mogące emitować pyły, gazy, roztwory radionuklidów i ich związki
+
+=== Skutki napromieniowania
+
+W zależności od dawki i rodzaju promieniowania, jego skutki mogą być mniej lub bardziej groźne dla zdrowia Podczas badań
+różnych skutków biologicznych napromieniowań stosowane są dwa podejścia: epidemiologiczne i eksperymenty na żywych komórkach.
+Poniższy wykaz odnosi się do dawek wchłoniętych jednorazowo przez równomierne napromieniowanie całego ciała. W takim wypadku
+l grej jest równoważny l siwertowi w przypadku promieniowania X, gamma i beta, oraz 25 siwertom w przypadku promieniowania
+aha. W radioterapii stosuje się na daną część ciała dawki skumulowane - znacznie przekraczające 5 grejów.
+
+=== Charakterystyczne wielkości
+
+*Dawką promieniowania* nazywamy stosunek energii pochłoniętej przez ciało do jego masy.
+
+image:w43.gif[] image:w44.gif[]
+
+Gy, mGy - jednostki określające ilość przeniesionej energii przez promieniowanie do każdego kilograma materii przez którą przechodzi.
+
+*Równoważnik dawki* jest wprost proporcjonalny do dawki promieniowania.
+
+image:w45.gif[] image:w46.gif[]
+
+Q - współczynnik jakości promieniowania (1-20)
+
+== Detektory promieniowań jądrowych
+
+Istnieje wiele detektorów promieniowań jądrowych, jednakże dwa spośród nich są najczęściej używane: komora Wilsona
+i licznik Geigera-Müllera.
+
+*Komora Wilsona*, czyli przyrząd do wykrywania i obserwacji promieniowania, składa się z metalowego cylindra, wypełnionego
+nasyconą parą wodną, z przesuwanym wewnątrz niego szczelnym tłokiem oraz ze szklanej pokrywy umożliwiającej obserwację
+i fotografowanie oświetlonego wewnątrz cylindra. Działanie komory Wilsona jest oparte na właściwości skraplania się
+cząsteczek nasyconej pary wodnej wokół jonów, wytworzonych w wyniku promieniowania. W tym celu przesuwając szybko tłok
+do dołu powoduje się nagłe rozprężanie i oziębienie znajdującego się w komorze powietrza, a tym samym przesycenie zawartej
+pary wodnej. Promieniowanie jonizujące emitowane przez preparat promieniotwórczy wywołuje jonizację atomów gazu i zostawia
+ślady torów cząstek jonizujących w postaci jasnych smug kropelek wody na ciemnym tle. Ślad taki musi być natychmiast
+sfotografowany, gdyż po upływie krótkiego okresu czasu zanika.
+
+Najbardziej rozpowszechnionym przyrządem służącym do liczenia cząstek promieniowania jest *licznik Geigera-Müllera*,
+który składa się z cienkościennej rurki miedzianej, połączonej z ujemnym biegunem źródła napięcia stałego oraz z włókna
+wolframowego umieszczonego wewnątrz rurki i połączonego biegunem dodatnim źródła. Rurka znajduje się w szczelnej obudowie
+szklanej zawierającej rozrzedzoną mieszaninę argonu i pary alkoholu. Ponieważ przestrzeń między włóknem a metalową rurką
+wypełnia gaz obojętny to obwód jest otwarty. Jeżeli jednak do wnętrza rurki wpadnie cząstka jonizująca lub foton
+promieniowania elektromagnetycznego, to nastąpi jonizacja cząsteczek gazu, a wybite z nich elektrony nabiorą w polu
+elektrycznym dużej prędkości i zderzając się z atomami spowodują jonizację lawinową. Ruch jonów i elektronów wywoła
+w rurce krótkotrwałe wyładowanie o dość znacznym natężeniu, które może być wzmocnione i zarejestrowane przez licznik
+mechaniczny lub elektroniczny.
+
+== Prawo rozpadu promieniotwórczego
+
+[quote]
+Aktywnością promieniotwórczą źródła nazywamy ilość jąder atomowych rozpadających się w jednostce czasu.
+
+image:w47.gif[] image:w48.gif[]
+
+image::w49.gif[]
+
+image:w50.gif[] - stała rozpadu
+
+image:w51.gif[] - aktywność początkowa
+
+e - podstawa logarytmu naturalnego
+
+image::r01.gif[]
+
+image::w52.gif[]
+
+Powyższy wzór jest prawem rozpadu promieniotwórczego, gdzie:
+
+image:w53.gif[] - liczba jąder atomowych na początku
+
+N - liczba jąder atomowych, która zostanie po upływie czasu t
+
+Inną wielkość charakteryzującą jądra atomowe jest średni czas życia jąder image:w54.gif[].
+
+image::w55.gif[]
+
+Charakterystyczną wielkością dla rozpadu promieniotwórczego jest czas połowicznego rozpadu (zaniku) T:
+
+image::w56.gif[]
+
+Wzór ten można udowodnić, opierając się na własnościach funkcji wykładniczej i logarytmicznej:
+
+image::w57.gif[]
+
+== Reakcje jądrowe
+
+W 1911 roku Ernest Rutherford przeprowadził pierwszą reakcję jądrową.
+
+image::w58.gif[]
+
+[quote]
+Reakcją jądrową nazywamy proces przemiany jąder atomowych w jądro innego pierwiastka w wyniku bombardowania ich różnymi
+cząstkami: neutronami, protonami, jądrami deuteru, cząstkami alfa, fotonami o dużej energii.
+
+W każdej reakcji jądrowej musi być zachowana:
+
+* zasada zachowania liczby nukleonów
+* zasada zachowania ładunku
+* zasada zachowania pędu
+* zasada zachowania energii
+
+W 1930 roku włoski fizyk Enrico Fermi przeprowadził pierwszą reakcję łańcuchową.
+
+image::w59.gif[]
+
+Ogólny wzór:
+
+image::w60.gif[]
+
+[quote]
+Reakcją łańcuchową nazywamy proces, w którym po rozszczepieniu jądra, wywołanym przez jeden neutron, następują samorzutnie,
+dalsze rozszczepienia.
+
+image::r02.gif[]
+
+[quote]
+Masa krytyczna to najmniejsza masa potrzebna, żeby zaszła reakcja łańcuchowa.
+
+=== Reaktor jądrowy
+
+image::r03.gif[]
+
+1 - pręty paliwowe - materiał rozszczepialny
+
+2 - moderator (ma spowalniać neutrony) - grafit lub tzw. ciężka woda
+
+3 - kanał chłodzenia - ciekły sód lub woda
+
+4 - pręty regulacyjne (z kadmu, pochłania neutrony - ma spowalniać lub przyspieszać reakcję)
+
+5 - reflektor (odbija neutrony)
+
+6 - betonowa osłona
+
+== Cząstki elementarne
+
+Cząstki elementarne dzielimy na:
+
+* leptony - nie mają żadnej wewnętrznej struktury, zaliczamy do nich:
+** elektron image:w61.gif[] i pozyton image:w62.gif[]
+** neutrino image:w63.gif[] i antyneutrino image:w64.gif[]
+** mion image:w65.gif[] i antymion image:w66.gif[]
+** neutrino mionowe image:w67.gif[] i antyneutrino mionowe image:w68.gif[]
+** taon image:w69.gif[] i antytaon image:w70.gif[]
+** neutrino taonowe image:w71.gif[] i antyneutrino taonowe image:w72.gif[]
+
+Wszystkim leptonom dopisujemy liczbę leptonową (-1,1). W reakcjach między cząstkami musi być zachowana zasada zachowania
+liczby leptonowej. Wszystkie leptony mają spin połówkowy (są fermionami).
+
+* hadrony - są zbudowane z kwarków, dzielimy jej na:
+** mezony - można podzielić na: piony image:w73.gif[] i kaony image:w74.gif[]
+** bariony - dzielimy na: nukleony image:w75.gif[] i hiperony image:w76.gif[]
+
+Wszystkim barionom przypisuje się liczbę barionową (-1,1). W reakcjach między cząstkami musi być zachowana zasada zachowania
+liczby barionowej.
+
+* nośniki oddziaływań (kwanty pól)
+** fotony - oddziaływanie elektromagnetyczne
+** gluony - oddziaływanie silne
+** bozony image::w77.gif[] - oddziaływanie słabe
+** grawitony - oddziaływanie grawitacyjne
+
+== Kwarki
+
+Za *cząstkę elementarną* w fizyce uważa się cząstkę, która zawsze zachowuje się jako niepodzielna całość. Jest to zatem
+taka cząstka, której nie możemy (w tej chwili) rozłożyć na elementy prostsze.
+
+Fizycy stworzyli teorię, zwaną Modelem Standardowym, która opisuje materię oraz wszystkie siły we wszechświecie (z wyjątkiem
+grawitacji). Potrafi ona wyjaśnić skomplikowane procesy oraz budowę i własności setek cząstek przy pomocy kilku tylko cząstek
+elementarnych i oddziaływań pomiędzy nimi.
+
+=== Historia kwarków
+
+W roku 1964 Murray Gell-Mann i George Zweig zaproponowali, aby setki znanych w tych czasach cząstek przedstawić jako kombinacje
+tylko trzech elementarnych składników. Gell-Man wybrał dla nich dziwaczną nazwę "kwarki". To słowo pojawia się w zdaniu
+"three quarks for Muster Mark", z powieści Jamesa Joycea "Finnegan's Wake".
+
+Rewolucyjną częścią ich pomysłu było to, że kwarkom przypisali ułamkowy ładunek elektryczny 2/3 i -1/3 (jednostką jest
+ładunek protonu): takie ładunki nigdy nie zostały zaobserwowane. Na początku teorie kwarków uważano za model matematyczny,
+ale eksperymenty przekonały wszystkich, ze kwarki rzeczywiście istnieją.
+
+=== Zapachy kwarków
+
+Istnieje sześć zapachów kwarków - zapachy oznaczają tu po prostu różne rodzaje. Fizycy przeważnie mówią o trzech parach kwarków:
+górny/dolny (Up/Down), powabny/dziwny (Charm/Strange) i prawdziwy/piękny (True/Beauty lub Top/Bottom) - do każdego kwarku
+istnieje kwark z antymaterii, czyli antykwark.
+
+* Dwa najlżejsze to górny i dolny.
+* Trzeci kwark jest dziwny. Ta nazwa była już skojarzona z mezonem K, ponieważ jego długi czas życia wydawał się być dziwną
+i niespodziewaną właściwością (mezon K zawiera dziwny kwark).
+* Powabny - czwarty kwark został tak nazwany dla kaprysu. Został odkryty w roku 1974 w Stanfbrd Linear Accelerator Center
+(Centrum Akceleratora Liniowego w Stanfbrd) w cząstce nazwanej T (psi) i jednocześnie w Brookhaven National Laboratory
+(Narodowe Laboratorium Brookhaven, w którym nazwano ją "J". Cząstka J/H^1^ jest kombinacją kwarków powabny-antypowabny (CC).
+* Piąty i szósty kwark początkowo nazwane były prawdziwy i piękny (Truth and Beauty). Obecnie powszechnie są nazywane po
+angielsku Top oraz Bottom (szczytowy i denny). Kwark piękny w układzie piękny-antypiękny (bb) tworzy cząstkę zwaną
+Epsilon (T), która została po raz pierwszy zaobserwowana w Narodowym Instytucie im. Fermiego (Fermi National Laboratory)
+w roku 1977. 2 marca 1995 laboratorium Fermilab ogłosiło odkrycie kwarku prawdziwego (Top), ostatniego z sześciu kwarków
+przewidywanych przez teorie. Poszukiwania rozpoczęły się w roku 1977, kiedy fizycy odkryli piąty, piękny kwark, również
+w Fermilab. Zajęło to tak dużo czasu, ponieważ szósty kwark okazał się mieć dużo większą masę, niż pierwotnie przewidywano,
+dlatego tez potrzebowano dużo potężniejszego akceleratora cząstek, aby go wytworzyć. Pomimo ze kwark prawdziwy rozpada się
+zbyt szybko, aby zostać zaobserwowanym, pozostawia cząstki, które świadczą o jego istnieniu. Kwark ten może się rozpadać
+na więcej niż jeden sposób. Ponieważ szósty kwark pojawia się raz na miliardy zderzeń cząstek, koniecznym okazało się
+przeprowadzenie trylionów zderzeń. Fizycy wciąż nie mogą zrozumieć, dlaczego kwark ten jest taki ciężki. Jest on 40 razy
+bardziej masywny niż drugi najcięższy kwark oraz około 35000 razy cięższy niż kwarki górny i dolny, z których zbudowana
+jest większość otaczającej nas materii. W zasadzie ciągle pozostaje aktualne pytanie, dlaczego cokolwiek w ogóle ma masę.
+Fizycy wierzą, ze odkrycie szóstego kwarku pozwoli im wniknąć w te problemy.
+
+=== Ładunek kolorowy
+
+Kwarki są nietypowe pod względem ładunku, gdyż posiadają ułamkowy ładunek elektryczny 2/3 albo -1/3, w przeciwieństwie
+do elektronu (ładunek -1) czy protonu (ładunek +1). Kwarki posiadają jeszcze inny rodzaj ładunku.
+
+Okazuje się, że niektóre cząstki (kwarki i gluony) mają ładunek, który nie jest ładunkiem elektromagnetycznym. Ten ładunek
+nazywany jest ładunkiem kolorowym. Oddziaływanie pomiędzy kolorowo naładowanymi cząstkami jest bardzo silne i stąd nazwa
+oddziaływania silnego. Siła ta łączy kwarki w hadrony, jej cząstki pośredniczące są nazywane gluonami, ponieważ "sklejają"
+(ang. glue - klej) kwarki. Główną różnicą pomiędzy oddziaływaniami elektromagnetycznymi i silnymi jest to, że cząstki
+przenoszące silne oddziaływania (gluony) same niosą ładunek kolorowy. Fotony natomiast nie niosą ładunku.
+
+Dwa lub więcej kwarków blisko siebie szybko wymienia gluony tworząc bardzo silne "pole kolorowe" łączące kwarki. Istnieją
+trzy kolorowe ładunki i trzy odpowiednie antykolorowe ładunki. Kwarki ciągle zmieniają swój kolor podczas wymiany gluonów
+z innymi kwarkami.
+
+Każdy kwark ma jeden z trzech kolorowych ładunków i każdy antykwark ma jeden z trzech antykolorowych ładunków. Gluony
+przenoszą pary ładunków kolor/antykolor (nie koniecznie tego samego rodzaju; np. są gluony niosące ładunek czerwony/antyniebieski).
+Mamy 9 kombinacji par kolor/antykolor, ale jedna z nich jest wyeliminowana ze względu na symetrię. Gluon może nieść jedną
+z ośmiu możliwych kombinacji kolor/antykolor.
+
+Należy zauważyć, że tylko kwarki i gluony maja kolorowy ładunek Hadrony (jak proton czy neutron) są kolorowo neutralne.
+Podobnie leptony. Z tego powodu siła ta działa tylko na małych odległościach pomiędzy kwarkami.
+
+=== Uwięzienie kwarków
+
+Kolorowo naładowane cząstki nie występują pojedynczo. Z tego powodu naładowane kolorowo kwarki są uwięzione w grupach (hadrony)
+z innymi kwarkami. Te grupy są kolorowo neutralne.
+
+Dopóki nie opracowano teorii silnych oddziaływań w Modelu Standartowym fizycy nie mogli wyjaśnić, dlaczego kwarki wiążą się
+tylko w bariony (obiekty złożone z trzech kwarków) i mezony (obiekty złożone z układu kwark-antykwark), a nie na przykład
+w cząstki złożone z czterech kwarków. Teraz wiemy, że tylko takie obiekty są kolorowo neutralne.
+
+Kolorowy ładunek jest zawsze zachowany. Stąd, kiedy kwark emituje lub absorbuje gluon, kolor kwarku musi zmieniać się
+w ten sposób, by zachować ładunek kolorowy. Np. rozważmy "czerwony" kwark, który zmienia się na "niebieski" kwark i emituje
+"czerwony/antyniebieski" gluon. Całkowity kolor jest ciągle czerwony.
+
+Kwarki wewnątrz hadronu bardzo często absorbują i emitują gluony. Stąd nie można zaobserwować koloru poszczególnych kwarków.
+Wewnątrz hadronu kolor dwóch kwarków wymieniających gluon będzie się zmieniał w ten sposób, by utrzymać cały układ
+w stanie kolorowo neutralnym.
+
+=== Pole sił kolorowych
+
+Kwarki w danym hadronie bardzo szybko wymieniają gluony. Z tego powodu fizycy mówią o polu sił kolorowych, które składa się
+z gluonów łączących razem kwarki. Jeżeli jeden z kwarków w danym hadronie zostaje odepchnięty od swoich sąsiadów, pole sił
+kolorowych naciąga się pomiędzy oddalonym kwarkiem i resztą kwarków. Jeżeli kwark ciągle by się oddalał pole staje się coraz
+silniejsze. W pewnym momencie energetycznie taniej dla rozciągniętego pola staje się jest wytworzyć nową parę kwarków.
+Energia w takim przypadku jest zachowana, ponieważ energia pola kolorowego jest zamieniana na masę powstałej pary kwarków
+i pole sił kolorowych może wrócić do "nienaciągniętego stanu".
+
+=== Rodzaje hadronów
+
+==== Bariony
+
+Bariony są to hadrony zbudowane z trzech kwarków. Na przykład protony zbudowane są z dwóch kwarków górnych i jednego dolnego (uud):
+
+image::w78.gif[]
+
+Neutrony składają się z jednego kwarku górnego i dwóch dolnych (udd):
+
+image::w79.gif[]
+
+Dla każdego barionu istnieje barion z antymaterii (antybarion), zbudowany z trzech odpowiednich antykwarków.
+
+
+==== Mezony
+
+Mezony zbudowane są z kwarku, i antykwarku, oraz wiążących je gluonów. Przykładem może być pion o ładunku + l (n+),
+składający się z kwarku górnego (up) i antykwarku dolnego (anti-down). Antycząstką dla mezonu jest mezon zbudowany
+z kwarków, które są antykwarkami dla kwarków pierwotnego mezonu. Na przykład antycząstką dla n+ jest TT, która składa
+się z kwarku dolnego (down) i antykwarku górnego (anti-up). Mezony nie posiadają ładunku kolorowego, ponieważ składające
+się na nie kwark i antykwark mają przeciwne ładunki kolorowe. Dlatego mezony mogą występować samodzielnie. Wszystkie
+mezony są niestabilne.
