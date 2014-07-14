@@ -1,0 +1,2175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<!--[if IE]><meta http-equiv="X-UA-Compatible" content="IE=edge"><![endif]-->
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="generator" content="Asciidoctor 1.5.0.preview.7">
+<title>Optyka</title>
+<style>
+/* Asciidoctor default stylesheet | MIT License | http://asciidoctor.org */
+article, aside, details, figcaption, figure, footer, header, hgroup, main, nav, section, summary { display: block; }
+audio, canvas, video { display: inline-block; }
+audio:not([controls]) { display: none; height: 0; }
+[hidden], template { display: none; }
+script { display: none !important; }
+html { font-family: sans-serif; -ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%; }
+body { margin: 0; }
+a { background: transparent; }
+a:focus { outline: thin dotted; }
+a:active, a:hover { outline: 0; }
+h1 { font-size: 2em; margin: 0.67em 0; }
+abbr[title] { border-bottom: 1px dotted; }
+b, strong { font-weight: bold; }
+dfn { font-style: italic; }
+hr { -moz-box-sizing: content-box; box-sizing: content-box; height: 0; }
+mark { background: #ff0; color: #000; }
+code, kbd, pre, samp { font-family: monospace, serif; font-size: 1em; }
+pre { white-space: pre-wrap; }
+q { quotes: "\201C" "\201D" "\2018" "\2019"; }
+small { font-size: 80%; }
+sub, sup { font-size: 75%; line-height: 0; position: relative; vertical-align: baseline; }
+sup { top: -0.5em; }
+sub { bottom: -0.25em; }
+img { border: 0; }
+svg:not(:root) { overflow: hidden; }
+figure { margin: 0; }
+fieldset { border: 1px solid #c0c0c0; margin: 0 2px; padding: 0.35em 0.625em 0.75em; }
+legend { border: 0; padding: 0; }
+button, input, select, textarea { font-family: inherit; font-size: 100%; margin: 0; }
+button, input { line-height: normal; }
+button, select { text-transform: none; }
+button, html input[type="button"], input[type="reset"], input[type="submit"] { -webkit-appearance: button; cursor: pointer; }
+button[disabled], html input[disabled] { cursor: default; }
+input[type="checkbox"], input[type="radio"] { box-sizing: border-box; padding: 0; }
+input[type="search"] { -webkit-appearance: textfield; -moz-box-sizing: content-box; -webkit-box-sizing: content-box; box-sizing: content-box; }
+input[type="search"]::-webkit-search-cancel-button, input[type="search"]::-webkit-search-decoration { -webkit-appearance: none; }
+button::-moz-focus-inner, input::-moz-focus-inner { border: 0; padding: 0; }
+textarea { overflow: auto; vertical-align: top; }
+table { border-collapse: collapse; border-spacing: 0; }
+meta.foundation-mq-small { font-family: "only screen and (min-width: 768px)"; width: 768px; }
+meta.foundation-mq-medium { font-family: "only screen and (min-width:1280px)"; width: 1280px; }
+meta.foundation-mq-large { font-family: "only screen and (min-width:1440px)"; width: 1440px; }
+*, *:before, *:after { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
+html, body { font-size: 100%; }
+body { background: white; color: #222222; padding: 0; margin: 0; font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif; font-weight: normal; font-style: normal; line-height: 1; position: relative; cursor: auto; }
+a:hover { cursor: pointer; }
+img, object, embed { max-width: 100%; height: auto; }
+object, embed { height: 100%; }
+img { -ms-interpolation-mode: bicubic; }
+#map_canvas img, #map_canvas embed, #map_canvas object, .map_canvas img, .map_canvas embed, .map_canvas object { max-width: none !important; }
+.left { float: left !important; }
+.right { float: right !important; }
+.text-left { text-align: left !important; }
+.text-right { text-align: right !important; }
+.text-center { text-align: center !important; }
+.text-justify { text-align: justify !important; }
+.hide { display: none; }
+.antialiased, body { -webkit-font-smoothing: antialiased; }
+img { display: inline-block; vertical-align: middle; }
+textarea { height: auto; min-height: 50px; }
+select { width: 100%; }
+p.lead, .paragraph.lead > p, #preamble > .sectionbody > .paragraph:first-of-type p { font-size: 1.21875em; line-height: 1.6; }
+.subheader, #content #toctitle, .admonitionblock td.content > .title, .exampleblock > .title, .imageblock > .title, .listingblock > .title, .literalblock > .title, .mathblock > .title, .openblock > .title, .paragraph > .title, .quoteblock > .title, .sidebarblock > .title, .tableblock > .title, .verseblock > .title, .videoblock > .title, .dlist > .title, .olist > .title, .ulist > .title, .qlist > .title, .hdlist > .title, .tableblock > caption { line-height: 1.4; color: #7a2518; font-weight: 300; margin-top: 0.2em; margin-bottom: 0.5em; }
+div, dl, dt, dd, ul, ol, li, h1, h2, h3, #toctitle, .sidebarblock > .content > .title, h4, h5, h6, pre, form, p, blockquote, th, td { margin: 0; padding: 0; direction: ltr; }
+a { color: #005498; text-decoration: underline; line-height: inherit; }
+a:hover, a:focus { color: #00467f; }
+a img { border: none; }
+p { font-family: inherit; font-weight: normal; font-size: 1em; line-height: 1.6; margin-bottom: 1.25em; text-rendering: optimizeLegibility; }
+p aside { font-size: 0.875em; line-height: 1.35; font-style: italic; }
+h1, h2, h3, #toctitle, .sidebarblock > .content > .title, h4, h5, h6 { font-family: Georgia, "URW Bookman L", Helvetica, Arial, sans-serif; font-weight: normal; font-style: normal; color: #ba3925; text-rendering: optimizeLegibility; margin-top: 1em; margin-bottom: 0.5em; line-height: 1.2125em; }
+h1 small, h2 small, h3 small, #toctitle small, .sidebarblock > .content > .title small, h4 small, h5 small, h6 small { font-size: 60%; color: #e99b8f; line-height: 0; }
+h1 { font-size: 2.125em; }
+h2 { font-size: 1.6875em; }
+h3, #toctitle, .sidebarblock > .content > .title { font-size: 1.375em; }
+h4 { font-size: 1.125em; }
+h5 { font-size: 1.125em; }
+h6 { font-size: 1em; }
+hr { border: solid #dddddd; border-width: 1px 0 0; clear: both; margin: 1.25em 0 1.1875em; height: 0; }
+em, i { font-style: italic; line-height: inherit; }
+strong, b { font-weight: bold; line-height: inherit; }
+small { font-size: 60%; line-height: inherit; }
+code { font-family: Consolas, "Liberation Mono", Courier, monospace; font-weight: normal; color: #6d180b; }
+ul, ol, dl { font-size: 1em; line-height: 1.6; margin-bottom: 1.25em; list-style-position: outside; font-family: inherit; }
+ul, ol { margin-left: 1.5em; }
+ul.no-bullet, ol.no-bullet { margin-left: 1.5em; }
+ul li ul, ul li ol { margin-left: 1.25em; margin-bottom: 0; font-size: 1em; }
+ul.square li ul, ul.circle li ul, ul.disc li ul { list-style: inherit; }
+ul.square { list-style-type: square; }
+ul.circle { list-style-type: circle; }
+ul.disc { list-style-type: disc; }
+ul.no-bullet { list-style: none; }
+ol li ul, ol li ol { margin-left: 1.25em; margin-bottom: 0; }
+dl dt { margin-bottom: 0.3125em; font-weight: bold; }
+dl dd { margin-bottom: 1.25em; }
+abbr, acronym { text-transform: uppercase; font-size: 90%; color: #222222; border-bottom: 1px dotted #dddddd; cursor: help; }
+abbr { text-transform: none; }
+blockquote { margin: 0 0 1.25em; padding: 0.5625em 1.25em 0 1.1875em; border-left: 1px solid #dddddd; }
+blockquote cite { display: block; font-size: inherit; color: #555555; }
+blockquote cite:before { content: "\2014 \0020"; }
+blockquote cite a, blockquote cite a:visited { color: #555555; }
+blockquote, blockquote p { line-height: 1.6; color: #6f6f6f; }
+.vcard { display: inline-block; margin: 0 0 1.25em 0; border: 1px solid #dddddd; padding: 0.625em 0.75em; }
+.vcard li { margin: 0; display: block; }
+.vcard .fn { font-weight: bold; font-size: 0.9375em; }
+.vevent .summary { font-weight: bold; }
+.vevent abbr { cursor: auto; text-decoration: none; font-weight: bold; border: none; padding: 0 0.0625em; }
+@media only screen and (min-width: 768px) { h1, h2, h3, #toctitle, .sidebarblock > .content > .title, h4, h5, h6 { line-height: 1.4; }
+  h1 { font-size: 2.75em; }
+  h2 { font-size: 2.3125em; }
+  h3, #toctitle, .sidebarblock > .content > .title { font-size: 1.6875em; }
+  h4 { font-size: 1.4375em; } }
+.print-only { display: none !important; }
+@media print { * { background: transparent !important; color: #000 !important; box-shadow: none !important; text-shadow: none !important; }
+  a, a:visited { text-decoration: underline; }
+  a[href]:after { content: " (" attr(href) ")"; }
+  abbr[title]:after { content: " (" attr(title) ")"; }
+  .ir a:after, a[href^="javascript:"]:after, a[href^="#"]:after { content: ""; }
+  pre, blockquote { border: 1px solid #999; page-break-inside: avoid; }
+  thead { display: table-header-group; }
+  tr, img { page-break-inside: avoid; }
+  img { max-width: 100% !important; }
+  @page { margin: 0.5cm; }
+  p, h2, h3, #toctitle, .sidebarblock > .content > .title { orphans: 3; widows: 3; }
+  h2, h3, #toctitle, .sidebarblock > .content > .title { page-break-after: avoid; }
+  .hide-on-print { display: none !important; }
+  .print-only { display: block !important; }
+  .hide-for-print { display: none !important; }
+  .show-for-print { display: inherit !important; } }
+table { background: white; margin-bottom: 1.25em; border: solid 1px #dddddd; }
+table thead, table tfoot { background: whitesmoke; font-weight: bold; }
+table thead tr th, table thead tr td, table tfoot tr th, table tfoot tr td { padding: 0.5em 0.625em 0.625em; font-size: inherit; color: #222222; text-align: left; }
+table tr th, table tr td { padding: 0.5625em 0.625em; font-size: inherit; color: #222222; }
+table tr.even, table tr.alt, table tr:nth-of-type(even) { background: #f9f9f9; }
+table thead tr th, table tfoot tr th, table tbody tr td, table tr td, table tfoot tr td { display: table-cell; line-height: 1.6; }
+.clearfix:before, .clearfix:after, .float-group:before, .float-group:after { content: " "; display: table; }
+.clearfix:after, .float-group:after { clear: both; }
+*:not(pre) > code { font-size: 0.9375em; padding: 1px 3px 0; white-space: nowrap; background-color: #f2f2f2; border: 1px solid #cccccc; -webkit-border-radius: 4px; border-radius: 4px; text-shadow: none; }
+pre, pre > code { line-height: 1.4; color: inherit; font-family: Consolas, "Liberation Mono", Courier, monospace; font-weight: normal; }
+.keyseq { color: #555555; }
+kbd:not(.keyseq) { display: inline-block; color: #222222; font-size: 0.75em; line-height: 1.4; background-color: #F7F7F7; border: 1px solid #ccc; -webkit-border-radius: 3px; border-radius: 3px; -webkit-box-shadow: 0 1px 0 rgba(0, 0, 0, 0.2), 0 0 0 2px white inset; box-shadow: 0 1px 0 rgba(0, 0, 0, 0.2), 0 0 0 2px white inset; margin: -0.15em 0.15em 0 0.15em; padding: 0.2em 0.6em 0.2em 0.5em; vertical-align: middle; white-space: nowrap; }
+.keyseq kbd:first-child { margin-left: 0; }
+.keyseq kbd:last-child { margin-right: 0; }
+.menuseq, .menu { color: #090909; }
+b.button:before, b.button:after { position: relative; top: -1px; font-weight: normal; }
+b.button:before { content: "["; padding: 0 3px 0 2px; }
+b.button:after { content: "]"; padding: 0 2px 0 3px; }
+p a > code:hover { color: #561309; }
+#header, #content, #footnotes, #footer { width: 100%; margin-left: auto; margin-right: auto; margin-top: 0; margin-bottom: 0; max-width: 62.5em; *zoom: 1; position: relative; padding-left: 0.9375em; padding-right: 0.9375em; }
+#header:before, #header:after, #content:before, #content:after, #footnotes:before, #footnotes:after, #footer:before, #footer:after { content: " "; display: table; }
+#header:after, #content:after, #footnotes:after, #footer:after { clear: both; }
+#header { margin-bottom: 2.5em; }
+#header > h1 { color: black; font-weight: normal; border-bottom: 1px solid #dddddd; margin-bottom: -28px; padding-bottom: 32px; }
+#header span { color: #6f6f6f; }
+#header #revnumber { text-transform: capitalize; }
+#header br { display: none; }
+#header br + span { padding-left: 3px; }
+#header br + span:before { content: "\2013 \0020"; }
+#header br + span.author { padding-left: 0; }
+#header br + span.author:before { content: ", "; }
+#toc { border-bottom: 3px double #ebebeb; padding-bottom: 1.25em; }
+#toc > ul { margin-left: 0.25em; }
+#toc ul.sectlevel0 > li > a { font-style: italic; }
+#toc ul.sectlevel0 ul.sectlevel1 { margin-left: 0; margin-top: 0.5em; margin-bottom: 0.5em; }
+#toc ul { list-style-type: none; }
+#toctitle { color: #7a2518; }
+@media only screen and (min-width: 768px) { body.toc2 { padding-left: 15em; padding-right: 0; }
+  #toc.toc2 { position: fixed; width: 15em; left: 0; top: 0; border-right: 1px solid #ebebeb; border-bottom: 0; z-index: 1000; padding: 1em; height: 100%; overflow: auto; }
+  #toc.toc2 #toctitle { margin-top: 0; font-size: 1.2em; }
+  #toc.toc2 > ul { font-size: .90em; }
+  #toc.toc2 ul ul { margin-left: 0; padding-left: 1em; }
+  #toc.toc2 ul.sectlevel0 ul.sectlevel1 { padding-left: 0; margin-top: 0.5em; margin-bottom: 0.5em; }
+  body.toc2.toc-right { padding-left: 0; padding-right: 15em; }
+  body.toc2.toc-right #toc.toc2 { border-right: 0; border-left: 1px solid #ebebeb; left: auto; right: 0; } }
+@media only screen and (min-width: 1280px) { body.toc2 { padding-left: 20em; padding-right: 0; }
+  #toc.toc2 { width: 20em; }
+  #toc.toc2 #toctitle { font-size: 1.375em; }
+  #toc.toc2 > ul { font-size: 0.95em; }
+  #toc.toc2 ul ul { padding-left: 1.25em; }
+  body.toc2.toc-right { padding-left: 0; padding-right: 20em; } }
+#content #toc { border-style: solid; border-width: 1px; border-color: #d9d9d9; margin-bottom: 1.25em; padding: 1.25em; background: #f2f2f2; border-width: 0; -webkit-border-radius: 4px; border-radius: 4px; }
+#content #toc > :first-child { margin-top: 0; }
+#content #toc > :last-child { margin-bottom: 0; }
+#content #toc a { text-decoration: none; }
+#content #toctitle { font-weight: bold; font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif; font-size: 1em; padding-left: 0.125em; }
+#footer { max-width: 100%; background-color: #222222; padding: 1.25em; }
+#footer-text { color: #dddddd; line-height: 1.44; }
+.sect1 { padding-bottom: 1.25em; }
+.sect1 + .sect1 { border-top: 3px double #ebebeb; }
+#content h1 > a.anchor, h2 > a.anchor, h3 > a.anchor, #toctitle > a.anchor, .sidebarblock > .content > .title > a.anchor, h4 > a.anchor, h5 > a.anchor, h6 > a.anchor { position: absolute; width: 1em; margin-left: -1em; display: block; text-decoration: none; visibility: hidden; text-align: center; font-weight: normal; }
+#content h1 > a.anchor:before, h2 > a.anchor:before, h3 > a.anchor:before, #toctitle > a.anchor:before, .sidebarblock > .content > .title > a.anchor:before, h4 > a.anchor:before, h5 > a.anchor:before, h6 > a.anchor:before { content: '\00A7'; font-size: .85em; vertical-align: text-top; display: block; margin-top: 0.05em; }
+#content h1:hover > a.anchor, #content h1 > a.anchor:hover, h2:hover > a.anchor, h2 > a.anchor:hover, h3:hover > a.anchor, #toctitle:hover > a.anchor, .sidebarblock > .content > .title:hover > a.anchor, h3 > a.anchor:hover, #toctitle > a.anchor:hover, .sidebarblock > .content > .title > a.anchor:hover, h4:hover > a.anchor, h4 > a.anchor:hover, h5:hover > a.anchor, h5 > a.anchor:hover, h6:hover > a.anchor, h6 > a.anchor:hover { visibility: visible; }
+#content h1 > a.link, h2 > a.link, h3 > a.link, #toctitle > a.link, .sidebarblock > .content > .title > a.link, h4 > a.link, h5 > a.link, h6 > a.link { color: #ba3925; text-decoration: none; }
+#content h1 > a.link:hover, h2 > a.link:hover, h3 > a.link:hover, #toctitle > a.link:hover, .sidebarblock > .content > .title > a.link:hover, h4 > a.link:hover, h5 > a.link:hover, h6 > a.link:hover { color: #a53221; }
+.imageblock, .literalblock, .listingblock, .mathblock, .verseblock, .videoblock { margin-bottom: 1.25em; }
+.admonitionblock td.content > .title, .exampleblock > .title, .imageblock > .title, .listingblock > .title, .literalblock > .title, .mathblock > .title, .openblock > .title, .paragraph > .title, .quoteblock > .title, .sidebarblock > .title, .tableblock > .title, .verseblock > .title, .videoblock > .title, .dlist > .title, .olist > .title, .ulist > .title, .qlist > .title, .hdlist > .title { text-align: left; font-weight: bold; }
+.tableblock > caption { text-align: left; font-weight: bold; white-space: nowrap; overflow: visible; max-width: 0; }
+table.tableblock #preamble > .sectionbody > .paragraph:first-of-type p { font-size: inherit; }
+.admonitionblock > table { border: 0; background: none; width: 100%; }
+.admonitionblock > table td.icon { text-align: center; width: 80px; }
+.admonitionblock > table td.icon img { max-width: none; }
+.admonitionblock > table td.icon .title { font-weight: bold; text-transform: uppercase; }
+.admonitionblock > table td.content { padding-left: 1.125em; padding-right: 1.25em; border-left: 1px solid #dddddd; color: #6f6f6f; }
+.admonitionblock > table td.content > :last-child > :last-child { margin-bottom: 0; }
+.exampleblock > .content { border-style: solid; border-width: 1px; border-color: #e6e6e6; margin-bottom: 1.25em; padding: 1.25em; background: white; -webkit-border-radius: 4px; border-radius: 4px; }
+.exampleblock > .content > :first-child { margin-top: 0; }
+.exampleblock > .content > :last-child { margin-bottom: 0; }
+.exampleblock > .content h1, .exampleblock > .content h2, .exampleblock > .content h3, .exampleblock > .content #toctitle, .sidebarblock.exampleblock > .content > .title, .exampleblock > .content h4, .exampleblock > .content h5, .exampleblock > .content h6, .exampleblock > .content p { color: #333333; }
+.exampleblock > .content h1, .exampleblock > .content h2, .exampleblock > .content h3, .exampleblock > .content #toctitle, .sidebarblock.exampleblock > .content > .title, .exampleblock > .content h4, .exampleblock > .content h5, .exampleblock > .content h6 { line-height: 1; margin-bottom: 0.625em; }
+.exampleblock > .content h1.subheader, .exampleblock > .content h2.subheader, .exampleblock > .content h3.subheader, .exampleblock > .content .subheader#toctitle, .sidebarblock.exampleblock > .content > .subheader.title, .exampleblock > .content h4.subheader, .exampleblock > .content h5.subheader, .exampleblock > .content h6.subheader { line-height: 1.4; }
+.exampleblock.result > .content { -webkit-box-shadow: 0 1px 8px #d9d9d9; box-shadow: 0 1px 8px #d9d9d9; }
+.sidebarblock { border-style: solid; border-width: 1px; border-color: #d9d9d9; margin-bottom: 1.25em; padding: 1.25em; background: #f2f2f2; -webkit-border-radius: 4px; border-radius: 4px; }
+.sidebarblock > :first-child { margin-top: 0; }
+.sidebarblock > :last-child { margin-bottom: 0; }
+.sidebarblock h1, .sidebarblock h2, .sidebarblock h3, .sidebarblock #toctitle, .sidebarblock > .content > .title, .sidebarblock h4, .sidebarblock h5, .sidebarblock h6, .sidebarblock p { color: #333333; }
+.sidebarblock h1, .sidebarblock h2, .sidebarblock h3, .sidebarblock #toctitle, .sidebarblock > .content > .title, .sidebarblock h4, .sidebarblock h5, .sidebarblock h6 { line-height: 1; margin-bottom: 0.625em; }
+.sidebarblock h1.subheader, .sidebarblock h2.subheader, .sidebarblock h3.subheader, .sidebarblock .subheader#toctitle, .sidebarblock > .content > .subheader.title, .sidebarblock h4.subheader, .sidebarblock h5.subheader, .sidebarblock h6.subheader { line-height: 1.4; }
+.sidebarblock > .content > .title { color: #7a2518; margin-top: 0; line-height: 1.6; }
+.exampleblock > .content > :last-child > :last-child, .exampleblock > .content .olist > ol > li:last-child > :last-child, .exampleblock > .content .ulist > ul > li:last-child > :last-child, .exampleblock > .content .qlist > ol > li:last-child > :last-child, .sidebarblock > .content > :last-child > :last-child, .sidebarblock > .content .olist > ol > li:last-child > :last-child, .sidebarblock > .content .ulist > ul > li:last-child > :last-child, .sidebarblock > .content .qlist > ol > li:last-child > :last-child { margin-bottom: 0; }
+.literalblock pre:not([class]), .listingblock pre:not([class]) { background: none; }
+.literalblock pre, .literalblock pre[class], .listingblock pre, .listingblock pre[class] { border-width: 1px 0; border-style: dotted; border-color: #bfbfbf; -webkit-border-radius: 4px; border-radius: 4px; padding: 0.75em 0.75em 0.5em 0.75em; word-wrap: break-word; }
+.literalblock pre.nowrap, .literalblock pre[class].nowrap, .listingblock pre.nowrap, .listingblock pre[class].nowrap { overflow-x: auto; white-space: pre; word-wrap: normal; }
+.literalblock pre > code, .literalblock pre[class] > code, .listingblock pre > code, .listingblock pre[class] > code { display: block; }
+@media only screen { .literalblock pre, .literalblock pre[class], .listingblock pre, .listingblock pre[class] { font-size: 0.8em; } }
+@media only screen and (min-width: 768px) { .literalblock pre, .literalblock pre[class], .listingblock pre, .listingblock pre[class] { font-size: 0.9em; } }
+@media only screen and (min-width: 1280px) { .literalblock pre, .literalblock pre[class], .listingblock pre, .listingblock pre[class] { font-size: 1em; } }
+.listingblock pre.highlight { padding: 0; }
+.listingblock pre.highlight > code { padding: 0.75em 0.75em 0.5em 0.75em; }
+.listingblock > .content { position: relative; }
+.listingblock:hover code[class*=" language-"]:before { text-transform: uppercase; font-size: 0.9em; color: #999; position: absolute; top: 0.375em; right: 0.375em; }
+.listingblock:hover code.asciidoc:before { content: "asciidoc"; }
+.listingblock:hover code.clojure:before { content: "clojure"; }
+.listingblock:hover code.css:before { content: "css"; }
+.listingblock:hover code.groovy:before { content: "groovy"; }
+.listingblock:hover code.html:before { content: "html"; }
+.listingblock:hover code.java:before { content: "java"; }
+.listingblock:hover code.javascript:before { content: "javascript"; }
+.listingblock:hover code.python:before { content: "python"; }
+.listingblock:hover code.ruby:before { content: "ruby"; }
+.listingblock:hover code.sass:before { content: "sass"; }
+.listingblock:hover code.scss:before { content: "scss"; }
+.listingblock:hover code.xml:before { content: "xml"; }
+.listingblock:hover code.yaml:before { content: "yaml"; }
+.listingblock.terminal pre .command:before { content: attr(data-prompt); padding-right: 0.5em; color: #999; }
+.listingblock.terminal pre .command:not([data-prompt]):before { content: '$'; }
+table.pyhltable { border: 0; margin-bottom: 0; }
+table.pyhltable td { vertical-align: top; padding-top: 0; padding-bottom: 0; }
+table.pyhltable td.code { padding-left: .75em; padding-right: 0; }
+.highlight.pygments .lineno, table.pyhltable td:not(.code) { color: #999; padding-left: 0; padding-right: .5em; border-right: 1px solid #dddddd; }
+.highlight.pygments .lineno { display: inline-block; margin-right: .25em; }
+table.pyhltable .linenodiv { background-color: transparent !important; padding-right: 0 !important; }
+.quoteblock { margin: 0 0 1.25em; padding: 0.5625em 1.25em 0 1.1875em; border-left: 1px solid #dddddd; }
+.quoteblock blockquote { margin: 0 0 1.25em 0; padding: 0 0 0.5625em 0; border: 0; }
+.quoteblock blockquote > .paragraph:last-child p { margin-bottom: 0; }
+.quoteblock .attribution { margin-top: -.25em; padding-bottom: 0.5625em; font-size: inherit; color: #555555; }
+.quoteblock .attribution br { display: none; }
+.quoteblock .attribution cite { display: block; margin-bottom: 0.625em; }
+table thead th, table tfoot th { font-weight: bold; }
+table.tableblock.grid-all { border-collapse: separate; border-spacing: 1px; -webkit-border-radius: 4px; border-radius: 4px; border-top: 1px solid #dddddd; border-bottom: 1px solid #dddddd; }
+table.tableblock.frame-topbot, table.tableblock.frame-none { border-left: 0; border-right: 0; }
+table.tableblock.frame-sides, table.tableblock.frame-none { border-top: 0; border-bottom: 0; }
+table.tableblock td .paragraph:last-child p > p:last-child, table.tableblock th > p:last-child, table.tableblock td > p:last-child { margin-bottom: 0; }
+th.tableblock.halign-left, td.tableblock.halign-left { text-align: left; }
+th.tableblock.halign-right, td.tableblock.halign-right { text-align: right; }
+th.tableblock.halign-center, td.tableblock.halign-center { text-align: center; }
+th.tableblock.valign-top, td.tableblock.valign-top { vertical-align: top; }
+th.tableblock.valign-bottom, td.tableblock.valign-bottom { vertical-align: bottom; }
+th.tableblock.valign-middle, td.tableblock.valign-middle { vertical-align: middle; }
+tbody tr th { display: table-cell; line-height: 1.6; background: whitesmoke; }
+tbody tr th, tbody tr th p, tfoot tr th, tfoot tr th p { color: #222222; font-weight: bold; }
+td > div.verse { white-space: pre; }
+ol { margin-left: 1.75em; }
+ul li ol { margin-left: 1.5em; }
+dl dd { margin-left: 1.125em; }
+dl dd:last-child, dl dd:last-child > :last-child { margin-bottom: 0; }
+ol > li p, ul > li p, ul dd, ol dd, .olist .olist, .ulist .ulist, .ulist .olist, .olist .ulist { margin-bottom: 0.625em; }
+ul.unstyled, ol.unnumbered, ul.checklist, ul.none { list-style-type: none; }
+ul.unstyled, ol.unnumbered, ul.checklist { margin-left: 0.625em; }
+ul.checklist li > p:first-child > i[class^="icon-check"]:first-child, ul.checklist li > p:first-child > input[type="checkbox"]:first-child { margin-right: 0.25em; }
+ul.checklist li > p:first-child > input[type="checkbox"]:first-child { position: relative; top: 1px; }
+ul.inline { margin: 0 auto 0.625em auto; margin-left: -1.375em; margin-right: 0; padding: 0; list-style: none; overflow: hidden; }
+ul.inline > li { list-style: none; float: left; margin-left: 1.375em; display: block; }
+ul.inline > li > * { display: block; }
+.unstyled dl dt { font-weight: normal; font-style: normal; }
+ol.arabic { list-style-type: decimal; }
+ol.decimal { list-style-type: decimal-leading-zero; }
+ol.loweralpha { list-style-type: lower-alpha; }
+ol.upperalpha { list-style-type: upper-alpha; }
+ol.lowerroman { list-style-type: lower-roman; }
+ol.upperroman { list-style-type: upper-roman; }
+ol.lowergreek { list-style-type: lower-greek; }
+.hdlist > table, .colist > table { border: 0; background: none; }
+.hdlist > table > tbody > tr, .colist > table > tbody > tr { background: none; }
+td.hdlist1 { padding-right: .8em; font-weight: bold; }
+td.hdlist1, td.hdlist2 { vertical-align: top; }
+.literalblock + .colist, .listingblock + .colist { margin-top: -0.5em; }
+.colist > table tr > td:first-of-type { padding: 0 .8em; line-height: 1; }
+.colist > table tr > td:last-of-type { padding: 0.25em 0; }
+.qanda > ol > li > p > em:only-child { color: #00467f; }
+.thumb, .th { line-height: 0; display: inline-block; border: solid 4px white; -webkit-box-shadow: 0 0 0 1px #dddddd; box-shadow: 0 0 0 1px #dddddd; }
+.imageblock.left, .imageblock[style*="float: left"] { margin: 0.25em 0.625em 1.25em 0; }
+.imageblock.right, .imageblock[style*="float: right"] { margin: 0.25em 0 1.25em 0.625em; }
+.imageblock > .title { margin-bottom: 0; }
+.imageblock.thumb, .imageblock.th { border-width: 6px; }
+.imageblock.thumb > .title, .imageblock.th > .title { padding: 0 0.125em; }
+.image.left, .image.right { margin-top: 0.25em; margin-bottom: 0.25em; display: inline-block; line-height: 0; }
+.image.left { margin-right: 0.625em; }
+.image.right { margin-left: 0.625em; }
+a.image { text-decoration: none; }
+span.footnote, span.footnoteref { vertical-align: super; font-size: 0.875em; }
+span.footnote a, span.footnoteref a { text-decoration: none; }
+#footnotes { padding-top: 0.75em; padding-bottom: 0.75em; margin-bottom: 0.625em; }
+#footnotes hr { width: 20%; min-width: 6.25em; margin: -.25em 0 .75em 0; border-width: 1px 0 0 0; }
+#footnotes .footnote { padding: 0 0.375em; line-height: 1.3; font-size: 0.875em; margin-left: 1.2em; text-indent: -1.2em; margin-bottom: .2em; }
+#footnotes .footnote a:first-of-type { font-weight: bold; text-decoration: none; }
+#footnotes .footnote:last-of-type { margin-bottom: 0; }
+#content #footnotes { margin-top: -0.625em; margin-bottom: 0; padding: 0.75em 0; }
+.gist .file-data > table { border: none; background: #fff; width: 100%; margin-bottom: 0; }
+.gist .file-data > table td.line-data { width: 99%; }
+div.unbreakable { page-break-inside: avoid; }
+.big { font-size: larger; }
+.small { font-size: smaller; }
+.underline { text-decoration: underline; }
+.overline { text-decoration: overline; }
+.line-through { text-decoration: line-through; }
+.aqua { color: #00bfbf; }
+.aqua-background { background-color: #00fafa; }
+.black { color: black; }
+.black-background { background-color: black; }
+.blue { color: #0000bf; }
+.blue-background { background-color: #0000fa; }
+.fuchsia { color: #bf00bf; }
+.fuchsia-background { background-color: #fa00fa; }
+.gray { color: #606060; }
+.gray-background { background-color: #7d7d7d; }
+.green { color: #006000; }
+.green-background { background-color: #007d00; }
+.lime { color: #00bf00; }
+.lime-background { background-color: #00fa00; }
+.maroon { color: #600000; }
+.maroon-background { background-color: #7d0000; }
+.navy { color: #000060; }
+.navy-background { background-color: #00007d; }
+.olive { color: #606000; }
+.olive-background { background-color: #7d7d00; }
+.purple { color: #600060; }
+.purple-background { background-color: #7d007d; }
+.red { color: #bf0000; }
+.red-background { background-color: #fa0000; }
+.silver { color: #909090; }
+.silver-background { background-color: #bcbcbc; }
+.teal { color: #006060; }
+.teal-background { background-color: #007d7d; }
+.white { color: #bfbfbf; }
+.white-background { background-color: #fafafa; }
+.yellow { color: #bfbf00; }
+.yellow-background { background-color: #fafa00; }
+span.icon > [class^="icon-"], span.icon > [class*=" icon-"] { cursor: default; }
+.admonitionblock td.icon [class^="icon-"]:before { font-size: 2.5em; text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5); cursor: default; }
+.admonitionblock td.icon .icon-note:before { content: "\f05a"; color: #005498; color: #003f72; }
+.admonitionblock td.icon .icon-tip:before { content: "\f0eb"; text-shadow: 1px 1px 2px rgba(155, 155, 0, 0.8); color: #111; }
+.admonitionblock td.icon .icon-warning:before { content: "\f071"; color: #bf6900; }
+.admonitionblock td.icon .icon-caution:before { content: "\f06d"; color: #bf3400; }
+.admonitionblock td.icon .icon-important:before { content: "\f06a"; color: #bf0000; }
+.conum { display: inline-block; color: white !important; background-color: #222222; -webkit-border-radius: 100px; border-radius: 100px; text-align: center; width: 20px; height: 20px; font-size: 12px; font-weight: bold; line-height: 20px; font-family: Arial, sans-serif; font-style: normal; position: relative; top: -2px; letter-spacing: -1px; }
+.conum * { color: white !important; }
+.conum + b { display: none; }
+.conum:after { content: attr(data-value); }
+.conum:not([data-value]):empty { display: none; }
+#toc.toc2 { background: white; }
+.literalblock > .content > pre, .listingblock > .content > pre { -webkit-border-radius: 0; border-radius: 0; }
+</style>
+</head>
+<body class="article">
+<div id="header">
+<h1>Optyka</h1>
+<div id="toc" class="toc">
+<div id="toctitle">Table of Contents</div>
+<ul class="sectlevel1">
+<li><a href="#_widmo_elektromagnetyczne">Widmo elektromagnetyczne</a></li>
+<li><a href="#_prędkość_światła">Prędkość światła</a></li>
+<li>
+<ul class="sectlevel2">
+<li><a href="#_metody_pomiaru_prędkości_światła">Metody pomiaru prędkości światła</a></li>
+</ul>
+</li>
+<li><a href="#_dyfrakcja_i_interferencja_światła">Dyfrakcja i interferencja światła</a></li>
+<li><a href="#_odbicie_światła">Odbicie światła</a></li>
+<li><a href="#_załamanie_światła">Załamanie światła</a></li>
+<li>
+<ul class="sectlevel2">
+<li><a href="#_bezwzględny_współczynnik_załamania_n">Bezwzględny współczynnik załamania - n</a></li>
+</ul>
+</li>
+<li><a href="#_polaryzacja_światła">Polaryzacja światła</a></li>
+<li>
+<ul class="sectlevel2">
+<li><a href="#_wzór_biota">Wzór biota</a></li>
+</ul>
+</li>
+<li><a href="#_zwierciadła">Zwierciadła</a></li>
+<li>
+<ul class="sectlevel2">
+<li><a href="#_zwierciadło_płaskie">Zwierciadło płaskie</a></li>
+<li><a href="#_zwierciadło_kuliste">Zwierciadło kuliste</a></li>
+<li><a href="#_wybrane_promienie">Wybrane promienie</a></li>
+<li><a href="#_obrazy_w_zwierciadłach">Obrazy w zwierciadłach</a></li>
+</ul>
+</li>
+<li><a href="#_równanie_zwierciadła_kulistego">Równanie zwierciadła kulistego</a></li>
+<li>
+<ul class="sectlevel2">
+<li><a href="#_powiększenie">Powiększenie</a></li>
+<li><a href="#_równanie_newtona">Równanie Newtona</a></li>
+</ul>
+</li>
+<li><a href="#_soczewki">Soczewki</a></li>
+<li>
+<ul class="sectlevel2">
+<li><a href="#_soczewka_skupiająca">Soczewka skupiająca</a></li>
+<li><a href="#_soczewka_rozpraszająca">Soczewka rozpraszająca</a></li>
+<li><a href="#_zdolność_skupiająca">Zdolność skupiająca</a></li>
+<li><a href="#_obrazy_w_soczewkach">Obrazy w soczewkach</a></li>
+</ul>
+</li>
+<li><a href="#_równanie_soczewki">Równanie soczewki</a></li>
+<li><a href="#_pryzmat">Pryzmat</a></li>
+<li>
+<ul class="sectlevel2">
+<li><a href="#_przejście_światła_białego_przez_pryzmat">Przejście światła białego przez pryzmat</a></li>
+</ul>
+</li>
+<li><a href="#_wzór_soczewkowy">Wzór soczewkowy</a></li>
+<li><a href="#_lupa">Lupa</a></li>
+<li><a href="#_mikroskop_optyczny">Mikroskop optyczny</a></li>
+<li>
+<ul class="sectlevel2">
+<li><a href="#_bieg_promieni_świetlnych_w_mikroskopie">Bieg promieni świetlnych w mikroskopie</a></li>
+<li><a href="#_powiększenie_mikroskopu">Powiększenie mikroskopu</a></li>
+<li><a href="#_zdolność_rozdzielcza_mikroskopu">Zdolność rozdzielcza mikroskopu</a></li>
+</ul>
+</li>
+<li><a href="#_luneta_astronomiczna">Luneta astronomiczna</a></li>
+<li><a href="#_wady_odwzorowań_w_soczewkach">Wady odwzorowań w soczewkach</a></li>
+<li>
+<ul class="sectlevel2">
+<li><a href="#_aberracja_sferyczna">Aberracja sferyczna</a></li>
+<li><a href="#_aberracja_chromatyczna">Aberracja chromatyczna</a></li>
+<li><a href="#_astygmatyzm">Astygmatyzm</a></li>
+<li><a href="#_wada_koma">Wada koma</a></li>
+<li><a href="#_dystorsja">Dystorsja</a></li>
+</ul>
+</li>
+<li><a href="#_fotometria">Fotometria</a></li>
+</ul>
+</div>
+</div>
+<div id="content">
+<div class="sect1">
+<h2 id="_widmo_elektromagnetyczne">Widmo elektromagnetyczne</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>Fale elektromagnetyczne, mające zastosowanie w radiofonii, telewizji i radarze stanowią tylko część pełnego zestawienia,
+zwanego widmem elektromagnetycznym.</p>
+</div>
+<div class="imageblock">
+<div class="content">
+<img src="../img/zjawiska-falowe/optyka/r01.gif" alt="r01">
+</div>
+</div>
+<div class="paragraph">
+<p>Podział widma elektromagnetycznego na określone przedziały częstotliwości i odpowiadające im przedziały długości fali,
+wynika ze sposobu wytwarzania i zastosowania objętych nimi fal. Przedziały te nie są jednakże ściśle ograniczone
+i wzajemnie zachodzą na siebie, przy czym niektóre rodzaje fal można wytwarzać różnymi sposobami.</p>
+</div>
+<div class="paragraph">
+<p>Światło monochromatyczne to światło ściśle określonej długości.</p>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_prędkość_światła">Prędkość światła</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>Światło, tak jak i każda fala elektromagnetyczna, rozchodzi się w próżni ze stałą prędkością, która jest równa c=299792 km/s,
+niezależnie od jego barwy, czyli od długości fali.</p>
+</div>
+<div class="paragraph">
+<p>Twórcą teorii fal elektromagnetycznych był J. Maxwell, który już w 1864 roku przewidział ich istnienie. Przewidział też,
+że w próżni prędkość rozchodzenia się tych fal będzie wynosić</p>
+</div>
+<div class="imageblock">
+<div class="content">
+<img src="../img/zjawiska-falowe/optyka/w01.gif" alt="w01">
+</div>
+</div>
+<div class="paragraph">
+<p>Znając stałe <span class="image"><img src="../img/zjawiska-falowe/optyka/w02.gif" alt="w02"></span> wykonał rachunek i obliczył c. Wynosiło ono około 300 000 km/s.</p>
+</div>
+<div class="paragraph">
+<p>Maxwell stwierdził, że światło jest taką falą elektromagnetyczną, której długość leży w obszarze pomiędzy 0,38-0,76*10 -6m.
+Prędkość v rozchodzenia się fal w ośrodku innym niż próżnia jest mniejsza i zależy od własności elektrycznych i magnetycznych
+tego ośrodka. Stosunek prędkości światła w próżni do prędkości światła w danym ośrodku nosi nazwę współczynnika załamania
+tego ośrodka.</p>
+</div>
+<div class="imageblock">
+<div class="content">
+<img src="../img/zjawiska-falowe/optyka/w03.gif" alt="w03">
+</div>
+</div>
+<div class="paragraph">
+<p>23 lata później w 1887 roku Heinrich Hertz po raz pierwszy wytworzył fale elektromagnetyczne i równocześnie zademonstrował
+urządzenie do ich odbioru, rozpoczynając tym samym "erę radia i telewizji". Niecałe 10 lat po odkryciu fal radiowych przez
+Hertza, Włoch Guglielmo Marconi skonstruował telegraf "bez drutu". Informacje przesyłano alfabetem Morse&#8217;a. W 1906 roku
+udało się za pomocą fal radiowych przekazać ludzką mowę, a już 1914 roku ruszyła w Belgii pierwsza rozgłośnia radiowa.
+Nieco później rozpoczęto prace nad przekazywaniem obrazów. Pierwsze próby z przesyłaniem obrazów ruchomych rozpoczęto
+w latach dwudziestych ubiegłego wieku. Od 1936 roku w Anglii rozpoczyna się nadawanie regularnych programów telewizyjnych.</p>
+</div>
+<div class="paragraph">
+<p>Charakterystyczną cechą fal elektromagnetycznych jest ich możliwość przemieszczania się w próżni, czym w zasadniczy
+sposób różnią się od fal mechanicznych, które mogą się rozchodzić jedynie w ośrodkach sprężystych. Różni je od nich
+także olbrzymia prędkość, z jaką się poruszają.</p>
+</div>
+<div class="paragraph">
+<p>Prędkość światła w próżni w swobodnej przestrzeni jest jedną z podstawowych stałych fizycznych. W próżni stanowi ona
+maksymalną prędkość rozprzestrzeniania się oddziaływań fizycznych. Prędkość światła w ośrodku zależy od częstotliwości.
+W tym wypadku należy rozróżnić prędkość:</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>fazową</p>
+</li>
+<li>
+<p>grupową: wyraża ona prędkość rozprzestrzeniania się energii w fali quasi-monochromatycznej.</p>
+</li>
+</ul>
+</div>
+<div class="sect2">
+<h3 id="_metody_pomiaru_prędkości_światła">Metody pomiaru prędkości światła</h3>
+<div class="paragraph">
+<p>Metody pomiaru prędkości światła dzielą się na bezpośrednie i pośrednie. Już rzymski poeta i filozof Lukrecjusz przekonywał
+w I wieku p.n.e., że światło biegnie z ogromną prędkością.</p>
+</div>
+<div class="paragraph">
+<p>Po raz pierwszy prędkość światła próbował zmierzyć włoski fizyk Galileo Galilei, zwany dziś Galileuszem, na początku
+XVII wieku. Wybrał się mianowicie nocą za miasto ze swym pomocnikiem i dwoma latarniami. Sam stanął z jedną na jednym
+wzgórzu, zaś jego pomocnik, z drugą latarnią, wspiął się na inne wzgórze. Po zasłonięciu obu latami Galileusz odsłonił
+swoją. Na ten sygnał jego pomocnik miał również odsłonić swoją latarnie. <em>Gdyby światło biegło ze skończoną prędkością</em>
+- rozumował Galileusz - <em>to zanim dobiegłoby od jego latarni do pomocnika, a następnie, po odsłonięciu jego latarni,
+od jego latarni do niego, musiałby upłynąć pewien okres czasu</em>. Niestety, za każdym razem Galileusz dostrzegał błysk
+latarni pomocnika równocześnie z odsłonięciem swojej latarni. Stąd wypływa wniosek, że: albo światło biegnie nieskończenie
+szybko, albo jego prędkość jest skończona, ale tak -wielka, ze metoda zastosowana- przez Galileusza -jest za mało dokładna.
+Od czasu Galileusza wyznaczanie wartości prędkości światła było podmiotem prac wielu fizyków.</p>
+</div>
+<div class="paragraph">
+<p>Sprawę rozstrzygnął już w 1676 roku duński astronom Olaf Romer, opierając się na swych obserwacjach zaćmień księżyców Jowisza.
+Planeta Jowisz, największa planeta Układu Słonecznego, ma 22 księżyce. Cztery największe spośród nich:</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>Io</p>
+</li>
+<li>
+<p>Europa</p>
+</li>
+<li>
+<p>Ganimedes</p>
+</li>
+<li>
+<p>Callisto</p>
+</li>
+</ul>
+</div>
+<div class="paragraph">
+<p>Zostały one odkryte przez Galileusza w 1610 roku. Obiegają one planetę na płaszczyźnie bardzo bliskiej płaszczyzny Jowisza
+w jego ruchu dookoła Słońca. Wskutek tego podczas każdego obiegu dookoła planety księżyce wchodzą w cień Jowisza, ulegając
+tym samym regularnym zaćmieniom. Romer zauważył, że obserwowane z Ziemi odstępy czasu miedzy dwoma kolejnymi zaćmieniami
+maleją, gdy Ziemia w swym ruchu po orbicie zbliża się do Jowisza, rosną natomiast, gdy Ziemia się oddala. Zaćmienia możemy
+uważać za sygnały świetlne wysyłane w różnych odstępach czasu, a więc -jako wskazania swego rodzaju zegara. I oto z Ziemi
+stwierdzamy, że zegar ten chodzi nie regularnie: śpieszy się, gdy Ziemia się do niego zbliża, opóźnia natomiast, gdy Ziemia
+się od niego oddala. W sytuacji, gdy Ziemia zbliża się prawie wzdłuż linii prostej łączącej ją z Jowiszem obserwowane
+z Ziemi przyśpieszenie naszego "zegara" wynosi niespełna 2 s. dla Io i prawie 15 s. dla Callisto.
+Gdy Ziemia oddala się, tyleż wynoszą opóźnienia naszego zegara. Są to wartości maksymalne, bowiem w sytuacjach pośrednich,
+gdy Ziemia biegnie ukośnie względem prostej łączącej ją z Jowiszem, różnice są mniejsze. Obserwując nasz zegar w ciągu
+całego roku zarejestrować można globalne skutki tych efektów. Na podstawie pierwszych wielomiesięcznych obserwacji Romer
+oszacował w ten sposób sumaryczne opóźnienie na około 22 min. Tyleż powinno wynosić sumaryczne przyspieszenie. Z tego wynika,
+że: gdyby światło biegło z nieskończenie wielką prędkością, to żadnych opóźnień, ani przyśpieszeń byśmy nie stwierdzili.
+Skoro, bowiem regularnie wysyłane sygnały docierają do nas raz nieco za późno, raz nieco za wcześnie, wobec tego muszą one
+stracić nieco czasu, by nas dogonić. Zatem sygnały biegną ze skończoną prędkością. Jakościowo problem został rozstrzygnięty:
+światło biegnie ze skończona prędkością. Można to obliczyć: należy dokładnie znać ów czas opóźnienia ( Romer oszacował go
+na około 22min., czyli 1320s.) i średnicę orbity Ziemi w jej ruchu wokół Słońca. Według Romer&#8217;a prędkość światła wynosiła:
+200 000km/s. Na podstawie współczesnych pomiarów wiemy, że ów czas opóźnienia wynosi ok. 1000 s, a średnia odległość Ziemi
+od Słońca ok.. 150 milionów kilometrów. Wykorzystując te dane dochodzimy do wniosku, że prędkość światła wynosi około:
+c=300 000km/s. Metoda Romera pomiaru prędkości światła ma swe zalety, ale też i wady. Zaletą jest jej prostota. Do wad
+należy zaliczyć natomiast żmudną procedurę obserwacji, która wymaga wielkiej systematyczności, oraz konieczność znajomości
+rozmiarów orbity Ziemi, co wymaga przeprowadzenia odrębnych pomiarów. Nie znając dokładnej średnicy orbity Ziemi możemy na
+podstawie obserwacji zaćmień księżyców Jowisza dojść jedynie do wniosku, że prędkość światła jest skończona, choć
+niesłychanie wielka.</p>
+</div>
+<div class="paragraph">
+<p>Po raz pierwszy prędkość światła (w powietrzu) w warunkach całkowicie ziemskich zmierzył w 1849 roku francuski fizyk
+Armand Hippolyte Fizeau, stosując własną i bardzo dowcipną metodę wirującego koła zębatego. Światło ze źródła biegnie
+ku płytce pół-odbijającej (i jednocześnie pół-przezroczystej), po czym odbija się od płytki (częściowo, bo część światła
+przechodzi przez płytkę). Przykładem płytki częściowo odbijającej, a częściowo przepuszczającej jest szyba okienna. Po
+odbiciu się od płytki wiązka biegnie dalej, przechodząc przez obszar, gdzie obracające się koło zębate tworzy swego rodzaju
+bramę dla światła, otwierającą się i zamykającą na przemian. Jeśli wiązka przejdzie między zębami, pobiegnie dalej ku
+zwierciadłu. Po odbiciu się od niego zawróci. I teraz, jeśli światło musiało przebyć długą drogę, a jednocześnie koło
+wystarczająco szybko się obracało, to wracająca wiązka trafi już na bramę zamkniętą. W tej sytuacji obserwator nic nie
+zobaczy. Ale jeśli wiązka zdąży wrócić, zanim brama się zamknie, to znowu część jej odbije się od płytki, część natomiast
+przejdzie na wylot, ku obserwatorowi. Należy, więc odpowiednio ustawić wszystko, po czym zakręcić koło. Z początku, kiedy
+koło kręci się wolno, wiązka za każdym razem zdąży powrócić do obserwatora. Zwiększając szybkość ruchu obrotowego koła
+uzyskamy wreszcie, przy dostatecznie wielkiej szybkości obrotów koła, pierwsze zaciemnienie pola widzenia. Oznaczać to
+będzie, że wiązka już nie zdążyła z powrotem przed zamknięciem bramy. Mierząc odległość między kołem, a zwierciadłem
+odbijającym (światło przebywa drogę dwa razy większą -tam i z powrotem), liczbę zębów na obwodzie koła oraz mierząc
+szybkość ruchu obrotowego koła, możemy wyznaczyć prędkość światła. W układzie Fizeau odległość między kołem zębatym
+a zwierciadłem zawracającym wynosiła 8 630m, koło miało na obwodzie 720 zębów (wszystkie zęby miały jednakową szerokość,
+równą szerokości przerw między nimi). Pierwsze zaciemnienie pola widzenia zaobserwował, gdy koło wykonywało 12,6 obrotu
+na sekundę. Obliczona z tych danych prędkość światła (w powietrzu) wyniosła: c=315 000 km/s.</p>
+</div>
+<div class="paragraph">
+<p>W 1862 roku Jean Bernard Foucault opracował metodę, w której zastosował wirujące zwierciadło, co pozwoliło na zmniejszenie
+odległości między zwierciadłem płaskim, a kołem do kilku metrów. To udoskonalenie pozwoliło na pomiar prędkości światła
+nie tylko w powietrzu, ale również w innych ośrodkach materialnych, na przykład przeźroczystych cieczach, jak również
+i w próżni.</p>
+</div>
+<div class="paragraph">
+<p>Albert Abraham Michelson w 1924 roku zmierzył prędkość światła. Wytworzone za pomocą łuku elektrycznego światło biegło
+pomiędzy dwoma szczytami, Mount Wilson i Mount San Antonio w Kalifornii, pokonując odległość L=35 410+/-3 m. Padając na
+wirujący układ zwierciadeł, odbijało się od zwierciadła l, przebywało drogę 2L i po odbiciu od zwierciadła 2, które
+w tym czasie znalazło się w miejscu zwierciadła 3, docierało do obserwatora. Znając częstotliwość, z jaką wirował układ
+zwierciadeł oraz drogę L można było z dużą dokładnością wyznaczyć prędkość światła. Wynosiła ona: c=(299 796 +/- 0,4) km/s.</p>
+</div>
+<div class="paragraph">
+<p>We współczesnych metodach bezpośredniego pomiaru prędkości światła zachowana jest zasada klasycznej metody Fizeau, lecz
+światło moduluje się komórką Kerra, a odbiornikiem promieniowania nie jest oko, lecz foto-komórka lub fotopowielacz.</p>
+</div>
+<div class="paragraph">
+<p>Do pośrednich metod pomiaru prędkości światła zalicza się:</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>pomiar aberracji światła</p>
+</li>
+<li>
+<p>wyznaczenie wartości stosunku jednostek elektrycznych do magnetycznych</p>
+</li>
+<li>
+<p>wyliczenia prędkości światła na podstawie pomiarów częstotliwości i długości fali</p>
+</li>
+</ul>
+</div>
+<div class="paragraph">
+<p>Ostatni sposób jest najdokładniejszy. Polega on na wyznaczeniu rezonansu fal centymetrowych w rezonatorze wnękowym
+o dokładnie znanych rozmiarach lub na pomiarze długości fali interferometrem mikrofalowym, analogicznym do optycznego
+interferometru Michelsona.</p>
+</div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_dyfrakcja_i_interferencja_światła">Dyfrakcja i interferencja światła</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>Potwierdzeniem falowej natury promieniowania świetlnego są zjawiska dyfrakcji (ugięcia) i interferencji światła.</p>
+</div>
+<div class="paragraph">
+<p>Zjawisko dyfrakcji można zaobserwować przy przejściu światła przez wąskie szczeliny lub przeszkody. Interferencję światła
+można uzyskać przez rozdwojenie wiązki promieni pochodzących z jednego źródła i wytworzenie między nimi różnicy dróg,
+wskutek czego do określonego punktu powierzchni oświetlonej docierają fale świetlne o jednakowej długości i różnicy faz.
+Po raz pierwszy uzyskał tą metodą interferencję światła Young przez ugięcie fal na dwóch szczelinach.</p>
+</div>
+<div class="imageblock">
+<div class="content">
+<img src="../img/zjawiska-falowe/optyka/r02.gif" alt="r02">
+</div>
+</div>
+<div class="paragraph">
+<p>Wiązkę światła jednobarwnego rzucamy przez niewielką szczelinę Q na przesłonę P zaopatrzoną w dwie bardzo wąskie i blisko
+siebie położone szczeliny (1 i 2). Na ekranie E ustawionym za przesłoną nie otrzymujemy jednak obrazu szczelin, którego
+można się było spodziewać, lecz wiele jasnych prążków J, zwanych prążkami interferencyjnymi - oddzielonych od siebie
+ciemnymi przerwami C. Jest to wynik zjawiska interferencji.</p>
+</div>
+<div class="imageblock">
+<div class="content">
+<img src="../img/zjawiska-falowe/optyka/r03.gif" alt="r03">
+</div>
+</div>
+<div class="paragraph">
+<p>Do dokładnych pomiarów długości fal świetlnych służy prosty przyrząd, zwany siatką dyfrakcyjną. Jest to płaska płytka
+szklana o równej grubości, mająca wiele równoległych rys, które odgrywają rolę zasłon, a przerwy miedzy nimi rolę
+szczelin przepuszczających światło.</p>
+</div>
+<div class="imageblock">
+<div class="content">
+<img src="../img/zjawiska-falowe/optyka/r04.gif" alt="r04">
+</div>
+</div>
+<div class="paragraph">
+<p>d - odległość między szczelinami w siatce dyfrakcyjnej (stała siatki)</p>
+</div>
+<div class="paragraph">
+<p><span class="image"><img src="../img/zjawiska-falowe/optyka/w04.gif" alt="w04"></span> - kąt po jakim widać n-ty prążek</p>
+</div>
+<div class="paragraph">
+<p>Odczytujemy z rysunku, iż:</p>
+</div>
+<div class="imageblock">
+<div class="content">
+<img src="../img/zjawiska-falowe/optyka/w05.gif" alt="w05">
+</div>
+</div>
+<div class="paragraph">
+<p>Korzystając ze warunku na wzmocnienie <span class="image"><img src="../img/zjawiska-falowe/optyka/w06.gif" alt="w06"></span>, otrzymujemy:</p>
+</div>
+<div class="imageblock">
+<div class="content">
+<img src="../img/zjawiska-falowe/optyka/w07.gif" alt="w07">
+</div>
+</div>
+<div class="paragraph">
+<p>Jeśli na siatkę pada wiązka światła białego, powstaje widmo światła padającego.</p>
+</div>
+<div class="imageblock">
+<div class="content">
+<img src="../img/zjawiska-falowe/optyka/r05.gif" alt="r05">
+</div>
+</div>
+<div class="paragraph">
+<p>0 - widmo zerowego rzędu</p>
+</div>
+<div class="paragraph">
+<p>1 - widmo pierwszego rzędu</p>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_odbicie_światła">Odbicie światła</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>Światło przy odbiciu zachowuje się tak samo jak fale mechaniczne.</p>
+</div>
+<div class="imageblock">
+<div class="content">
+<img src="../img/zjawiska-falowe/optyka/r06.gif" alt="r06">
+</div>
+</div>
+<div class="paragraph">
+<p>Prawo odbicia</p>
+</div>
+<div class="quoteblock">
+<blockquote>
+Kąt padania jest równy kątowi odbicia. Promień fali padającej, promień fali odbitej i prosta prostopadła (normalna)
+płaszczyzny odbijającej leżą w jednej płaszczyźnie.
+</blockquote>
+</div>
+<div class="imageblock">
+<div class="content">
+<img src="../img/zjawiska-falowe/optyka/w08.gif" alt="w08">
+</div>
+</div>
+<div class="paragraph">
+<p>Wyprowadzenie prawa odbicia geometrycznie:</p>
+</div>
+<div class="imageblock">
+<div class="content">
+<img src="../img/zjawiska-falowe/optyka/r07.gif" alt="r07">
+</div>
+</div>
+<div class="paragraph">
+<p>Odcinki BC i AD muszą być przebyte w tym samym czasie, więc:</p>
+</div>
+<div class="imageblock">
+<div class="content">
+<img src="../img/zjawiska-falowe/optyka/w09.gif" alt="w09">
+</div>
+</div>
+<div class="imageblock">
+<div class="content">
+<img src="../img/zjawiska-falowe/optyka/w10.gif" alt="w10">
+</div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_załamanie_światła">Załamanie światła</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>Światło ulega załamaniu, gdy przechodzi z jednego ośrodka do drugiego.</p>
+</div>
+<div class="imageblock">
+<div class="content">
+<img src="../img/zjawiska-falowe/optyka/r08.gif" alt="r08">
+</div>
+</div>
+<div class="paragraph">
+<p>Światło musi pokonać drogę BC w jednym ośrodku w tym samym czasie, co drogę AD w drugim ośrodku.</p>
+</div>
+<div class="imageblock">
+<div class="content">
+<img src="../img/zjawiska-falowe/optyka/w11.gif" alt="w11">
+</div>
+</div>
+<div class="imageblock">
+<div class="content">
+<img src="../img/zjawiska-falowe/optyka/w12.gif" alt="w12">
+</div>
+</div>
+<div class="imageblock">
+<div class="content">
+<img src="../img/zjawiska-falowe/optyka/w13.gif" alt="w13">
+</div>
+</div>
+<div class="paragraph">
+<p>Przekształcamy równanie i otrzymujemy:</p>
+</div>
+<div class="imageblock">
+<div class="content">
+<img src="../img/zjawiska-falowe/optyka/w14.gif" alt="w14">
+</div>
+</div>
+<div class="paragraph">
+<p>Prawo załamania</p>
+</div>
+<div class="quoteblock">
+<blockquote>
+Stosunek sinusa kąta padania do sinusa kąta załamania, zwany współczynnikiem załamania n ośrodka drugiego względem pierwszego,
+jest równy stosunkowi prędkości rozchodzenia się fali w ośrodku pierwszym do prędkości rozchodzenia się fali w ośrodku drugim.
+W obu ośrodkach promień fali padającej, promień fali załamanej i prosta prostopadła (normalna) do granicy ośrodków leżą
+w jednej płaszczyźnie.
+</blockquote>
+</div>
+<div class="paragraph">
+<p>Gdy światło przechodzi z jednego ośrodka do drugiego nie zmienia swojej częstotliwości, zmienia się długość światła.</p>
+</div>
+<div class="sect2">
+<h3 id="_bezwzględny_współczynnik_załamania_n">Bezwzględny współczynnik załamania - n</h3>
+<div class="imageblock">
+<div class="content">
+<img src="../img/zjawiska-falowe/optyka/w15.gif" alt="w15">
+</div>
+</div>
+<div class="paragraph">
+<p>n=1 - w próżni i w powietrzu</p>
+</div>
+<div class="paragraph">
+<p>n=1,5 - w szkle</p>
+</div>
+<div class="paragraph">
+<p>n=1,3 - w wodzie</p>
+</div>
+<div class="paragraph">
+<p>Światło przechodząc przez granicę dwóch ośrodków ulega załamaniu. Przechodząc z ośrodka, w którym rozchodzi się z większą
+prędkością do ośrodka, w którym rozchodzi się z mniejszą prędkością załamuje się do prostopadłej.</p>
+</div>
+<div class="imageblock">
+<div class="content">
+<img src="../img/zjawiska-falowe/optyka/r09.gif" alt="r09">
+</div>
+</div>
+<div class="paragraph">
+<p>Światło przechodząc z ośrodka, w którym rozchodzi się z mniejszą prędkością do ośrodka, w którym rozchodzi się z większą
+prędkością załamuje się od prostopadłej.</p>
+</div>
+<div class="imageblock">
+<div class="content">
+<img src="../img/zjawiska-falowe/optyka/r10.gif" alt="r10">
+</div>
+</div>
+<div class="paragraph">
+<p>Zwiększając kąt padania zwiększa się także kąt załamania. Gdy kąt załamania jest kątem prostym, to kąt padania nazywamy
+kątem granicznym.</p>
+</div>
+<div class="imageblock">
+<div class="content">
+<img src="../img/zjawiska-falowe/optyka/r11.gif" alt="r11">
+</div>
+</div>
+<div class="paragraph">
+<p>Jeżeli kat padania jest większy od granicznego, to zachodzi zjawisko całkowitego odbicia, które znalazło zastosowanie
+m.in. w światłowodach.</p>
+</div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_polaryzacja_światła">Polaryzacja światła</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>Fala mechaniczna spolaryzowana to taka, że wszystkie cząsteczki ośrodka drgają w jednej płaszczyźnie. Polaryzacji ulegają
+tylko fale poprzeczne.</p>
+</div>
+<div class="paragraph">
+<p>W przypadku fali elekromagnetycznej polaryzacja polega na uporządkowaniu kierunku natężenia pola.</p>
+</div>
+<div class="imageblock">
+<div class="content">
+<img src="../img/zjawiska-falowe/optyka/r12.gif" alt="r12">
+</div>
+</div>
+<div class="paragraph">
+<p>Światło można spolaryzować:</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>przepuszczając je przez polaryzator</p>
+<div class="imageblock">
+<div class="content">
+<img src="../img/zjawiska-falowe/optyka/r13.gif" alt="r13">
+</div>
+</div>
+</li>
+<li>
+<p>przez odbicie od przeźroczystego dielektryka przy określonym kącie</p>
+<div class="imageblock">
+<div class="content">
+<img src="../img/zjawiska-falowe/optyka/r14.gif" alt="r14">
+</div>
+</div>
+</li>
+</ul>
+</div>
+<div class="paragraph">
+<p>Część promieni świetlnych załamała się pod kątem <span class="image"><img src="../img/zjawiska-falowe/optyka/w16.gif" alt="w16"></span>, a część została spolaryzowana i odbiła się pod kątem
+<span class="image"><img src="../img/zjawiska-falowe/optyka/w17.gif" alt="w17"></span>.</p>
+</div>
+<div class="paragraph">
+<p>Korzystamy z prawa załamania:</p>
+</div>
+<div class="imageblock">
+<div class="content">
+<img src="../img/zjawiska-falowe/optyka/w18.gif" alt="w18">
+</div>
+</div>
+<div class="paragraph">
+<p>Z rysunku odczytujemy, że:</p>
+</div>
+<div class="imageblock">
+<div class="content">
+<img src="../img/zjawiska-falowe/optyka/w19.gif" alt="w19">
+</div>
+</div>
+<div class="paragraph">
+<p>Podstawiamy uzyskaną równość do prawa załamania i otrzymujemy warunek na polaryzację światła.</p>
+</div>
+<div class="imageblock">
+<div class="content">
+<img src="../img/zjawiska-falowe/optyka/w20.gif" alt="w20">
+</div>
+</div>
+<div class="paragraph">
+<p><span class="image"><img src="../img/zjawiska-falowe/optyka/w17.gif" alt="w17"></span> - kąt Brewstera</p>
+</div>
+<div class="sect2">
+<h3 id="_wzór_biota">Wzór biota</h3>
+<div class="imageblock">
+<div class="content">
+<img src="../img/zjawiska-falowe/optyka/w21.gif" alt="w21">
+</div>
+</div>
+<div class="paragraph">
+<p><span class="image"><img src="../img/zjawiska-falowe/optyka/w17.gif" alt="w17"></span> - kąt skręcenia płaszczyzny polaryzacji</p>
+</div>
+<div class="paragraph">
+<p><span class="image"><img src="../img/zjawiska-falowe/optyka/w22.gif" alt="w22"></span> - właściwa zdolność skręcania</p>
+</div>
+<div class="paragraph">
+<p><span class="image"><img src="../img/zjawiska-falowe/optyka/w23.gif" alt="w23"></span> - stężenie roztworu</p>
+</div>
+<div class="paragraph">
+<p><span class="image"><img src="../img/zjawiska-falowe/optyka/w24.gif" alt="w24"></span> - długość drogi przebytej przez światło w roztworze</p>
+</div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_zwierciadła">Zwierciadła</h2>
+<div class="sectionbody">
+<div class="quoteblock">
+<blockquote>
+Zwierciadło jest to wypolerowana powierzchnia metalu, szkła (lustra) lub wody.
+</blockquote>
+</div>
+<div class="paragraph">
+<p>Zwierciadła dzielimy na:</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>płaskie, np. lustro</p>
+</li>
+<li>
+<p>kuliste (wklęsłe i wypukłe)</p>
+</li>
+</ul>
+</div>
+<div class="sect2">
+<h3 id="_zwierciadło_płaskie">Zwierciadło płaskie</h3>
+<div class="imageblock">
+<div class="content">
+<img src="../img/zjawiska-falowe/optyka/r15.gif" alt="r15">
+</div>
+</div>
+<div class="paragraph">
+<p>x - odległość przedmiotu od zwierciadła</p>
+</div>
+<div class="paragraph">
+<p>y - odległość obrazu od zwierciadła</p>
+</div>
+<div class="paragraph">
+<p>W zwierciadle płaskim powstaje obraz pozorny, to znaczy, że powstał w wyniku przecięcia się przedłużeń promieni odbitych.</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_zwierciadło_kuliste">Zwierciadło kuliste</h3>
+<div class="ulist">
+<ul>
+<li>
+<p>wklęsłe</p>
+<div class="imageblock">
+<div class="content">
+<img src="../img/zjawiska-falowe/optyka/r16.gif" alt="r16">
+</div>
+</div>
+<div class="paragraph">
+<p>O - środek krzywizny, czyli środek kuli, z której zwierciadło zostało wycięte</p>
+</div>
+<div class="paragraph">
+<p>r - promień krzywizny, czyli promień kuli, z której zwierciadło zostało wycięte</p>
+</div>
+<div class="paragraph">
+<p>F - ognisko zwierciadła, czyli punkt przecięcia promieni odbitych</p>
+</div>
+<div class="paragraph">
+<p>f - ogniskowa zwierciadła, czyli odległość ogniska od zwierciadła</p>
+</div>
+<div class="paragraph">
+<p>Trójkąt OAF jest równoramienny, więc OF=FA.</p>
+</div>
+<div class="paragraph">
+<p>Ze względu na niewielkie rozmiary zwierciadła w porównaniu do promienia, można przyjąć, że <span class="image"><img src="../img/zjawiska-falowe/optyka/w25.gif" alt="w25"></span>, czyli:</p>
+</div>
+</li>
+</ul>
+</div>
+<div class="imageblock">
+<div class="content">
+<img src="../img/zjawiska-falowe/optyka/w26.gif" alt="w26">
+</div>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>wypukłe</p>
+<div class="imageblock">
+<div class="content">
+<img src="../img/zjawiska-falowe/optyka/r17.gif" alt="r17">
+</div>
+</div>
+<div class="paragraph">
+<p>Zwierciadło wypukłe ma ognisko pozorne.</p>
+</div>
+</li>
+</ul>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_wybrane_promienie">Wybrane promienie</h3>
+<div class="ulist">
+<ul>
+<li>
+<p>Promień równoległy do osi po odbiciu przechodzi przez ognisko.</p>
+<div class="imageblock">
+<div class="content">
+<img src="../img/zjawiska-falowe/optyka/r18.gif" alt="r18">
+</div>
+</div>
+</li>
+<li>
+<p>Promień przechodzący przez ognisko po odbiciu jest równoległy do osi.</p>
+<div class="imageblock">
+<div class="content">
+<img src="../img/zjawiska-falowe/optyka/r19.gif" alt="r19">
+</div>
+</div>
+</li>
+<li>
+<p>Promień padający na wierzchołek biegnie po odbiciu symetrycznie względem osi.</p>
+<div class="imageblock">
+<div class="content">
+<img src="../img/zjawiska-falowe/optyka/r20.gif" alt="r20">
+</div>
+</div>
+</li>
+<li>
+<p>Promień przechodzący przez środek krzywizny zwierciadła po odbiciu biegnie po tej samej prostej.</p>
+<div class="imageblock">
+<div class="content">
+<img src="../img/zjawiska-falowe/optyka/r21.gif" alt="r21">
+</div>
+</div>
+</li>
+</ul>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_obrazy_w_zwierciadłach">Obrazy w zwierciadłach</h3>
+<div class="ulist">
+<ul>
+<li>
+<p>zwierciadło wklęsłe</p>
+<div class="imageblock">
+<div class="content">
+<img src="../img/zjawiska-falowe/optyka/r22.gif" alt="r22">
+</div>
+</div>
+<div class="paragraph">
+<p>Obraz: rzeczywisty, pomniejszony, odwrócony</p>
+</div>
+<div class="imageblock">
+<div class="content">
+<img src="../img/zjawiska-falowe/optyka/r23.gif" alt="r23">
+</div>
+</div>
+<div class="paragraph">
+<p>Obraz: rzeczywisty, odwrócony, tej samej wielkości</p>
+</div>
+<div class="imageblock">
+<div class="content">
+<img src="../img/zjawiska-falowe/optyka/r24.gif" alt="r24">
+</div>
+</div>
+<div class="paragraph">
+<p>Obraz: rzeczywisty, odwrócony, powiększony</p>
+</div>
+<div class="imageblock">
+<div class="content">
+<img src="../img/zjawiska-falowe/optyka/r25.gif" alt="r25">
+</div>
+</div>
+<div class="paragraph">
+<p>Obraz nie powstaje</p>
+</div>
+<div class="imageblock">
+<div class="content">
+<img src="../img/zjawiska-falowe/optyka/r26.gif" alt="r26">
+</div>
+</div>
+<div class="paragraph">
+<p>Obraz: pozorny, powiększony, prosty</p>
+</div>
+</li>
+<li>
+<p>zwierciadło wypukłe</p>
+<div class="imageblock">
+<div class="content">
+<img src="../img/zjawiska-falowe/optyka/r27.gif" alt="r27">
+</div>
+</div>
+<div class="paragraph">
+<p>Obraz: pozorny, pomniejszony, prosty</p>
+</div>
+</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_równanie_zwierciadła_kulistego">Równanie zwierciadła kulistego</h2>
+<div class="sectionbody">
+<div class="imageblock">
+<div class="content">
+<img src="../img/zjawiska-falowe/optyka/r28.gif" alt="r28">
+</div>
+</div>
+<div class="imageblock">
+<div class="content">
+<img src="../img/zjawiska-falowe/optyka/w27.gif" alt="w27">
+</div>
+</div>
+<div class="paragraph">
+<p>Trójkąt ABC jest podobny do trójkąta <span class="image"><img src="../img/zjawiska-falowe/optyka/w28.gif" alt="w28"></span>, więc:</p>
+</div>
+<div class="imageblock">
+<div class="content">
+<img src="../img/zjawiska-falowe/optyka/w29.gif" alt="w29">
+</div>
+</div>
+<div class="paragraph">
+<p>Natomiast trójkąt ABO jest podobny do trójkąta <span class="image"><img src="../img/zjawiska-falowe/optyka/w30.gif" alt="w30"></span>, więc:</p>
+</div>
+<div class="imageblock">
+<div class="content">
+<img src="../img/zjawiska-falowe/optyka/w31.gif" alt="w31">
+</div>
+</div>
+<div class="paragraph">
+<p>Porównując obie równości otrzymujemy:</p>
+</div>
+<div class="imageblock">
+<div class="content">
+<img src="../img/zjawiska-falowe/optyka/w32.gif" alt="w32">
+</div>
+</div>
+<div class="paragraph">
+<p>Dzielimy obie strony przez iloczyn xyr:</p>
+</div>
+<div class="imageblock">
+<div class="content">
+<img src="../img/zjawiska-falowe/optyka/w33.gif" alt="w33">
+</div>
+</div>
+<div class="paragraph">
+<p>Korzystając z równości:</p>
+</div>
+<div class="imageblock">
+<div class="content">
+<img src="../img/zjawiska-falowe/optyka/w34.gif" alt="w34">
+</div>
+</div>
+<div class="paragraph">
+<p>otrzymujemy równanie zwierciadła kulistego.</p>
+</div>
+<div class="imageblock">
+<div class="content">
+<img src="../img/zjawiska-falowe/optyka/w35.gif" alt="w35">
+</div>
+</div>
+<div class="paragraph">
+<p>Narysujmy wykres zależności odległości obrazu od zwierciadła od odległości przedmiotu.</p>
+</div>
+<div class="imageblock">
+<div class="content">
+<img src="../img/zjawiska-falowe/optyka/w36.gif" alt="w36">
+</div>
+</div>
+<div class="imageblock">
+<div class="content">
+<img src="../img/zjawiska-falowe/optyka/r29.gif" alt="r29">
+</div>
+</div>
+<div class="sect2">
+<h3 id="_powiększenie">Powiększenie</h3>
+<div class="paragraph">
+<p>Powiększeniem nazywamy wartość bezwzględną ilorazu odległości obrazu od zwierciadła do odległości przedmiotu od zwierciadła.</p>
+</div>
+<div class="imageblock">
+<div class="content">
+<img src="../img/zjawiska-falowe/optyka/w37.gif" alt="w37">
+</div>
+</div>
+<div class="paragraph">
+<p>Stosunek y/x jest równy stosunkowi wysokości obrazu w zwierciadle do wysokości przedmiotu.</p>
+</div>
+<div class="paragraph">
+<p>Narysujmy wykres powiększenia od x:</p>
+</div>
+<div class="imageblock">
+<div class="content">
+<img src="../img/zjawiska-falowe/optyka/w38.gif" alt="w38">
+</div>
+</div>
+<div class="imageblock">
+<div class="content">
+<img src="../img/zjawiska-falowe/optyka/r30.gif" alt="r30">
+</div>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_równanie_newtona">Równanie Newtona</h3>
+<div class="paragraph">
+<p>Zależności w zwierciadle opisujemy także tzw. równanie Newtona:</p>
+</div>
+<div class="imageblock">
+<div class="content">
+<img src="../img/zjawiska-falowe/optyka/w39.gif" alt="w39">
+</div>
+</div>
+<div class="paragraph">
+<p><span class="image"><img src="../img/zjawiska-falowe/optyka/w40.gif" alt="w40"></span> - odległość przedmiotu od ogniska</p>
+</div>
+<div class="paragraph">
+<p><span class="image"><img src="../img/zjawiska-falowe/optyka/w41.gif" alt="w41"></span> - odległość obrazu od ogniska</p>
+</div>
+<div class="paragraph">
+<p>Spróbujmy udowodnić to równanie:</p>
+</div>
+<div class="imageblock">
+<div class="content">
+<img src="../img/zjawiska-falowe/optyka/r31.gif" alt="r31">
+</div>
+</div>
+<div class="paragraph">
+<p>Z rysunku wynika, że:</p>
+</div>
+<div class="imageblock">
+<div class="content">
+<img src="../img/zjawiska-falowe/optyka/w42.gif" alt="w42">
+</div>
+</div>
+<div class="paragraph">
+<p>Podstawiając te wartości do równania zwierciadła kulistego, otrzymujemy:</p>
+</div>
+<div class="imageblock">
+<div class="content">
+<img src="../img/zjawiska-falowe/optyka/w43.gif" alt="w43">
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_soczewki">Soczewki</h2>
+<div class="sectionbody">
+<div class="quoteblock">
+<blockquote>
+Soczewką nazywamy ciało przezroczyste, ograniczone dwiema powierzchniami, z których przynajmniej jedna nie jest płaska.
+</blockquote>
+</div>
+<div class="paragraph">
+<p>Najczęściej są stosowane soczewki sferyczne, ograniczone powierzchniami kulistymi.</p>
+</div>
+<div class="paragraph">
+<p>Soczewki dzielimy na:</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>wypukłe (są  w środku grubsze niż przy brzegach, a ich nazwa kończy się słowem wypukła)</p>
+<div class="imageblock">
+<div class="content">
+<img src="../img/zjawiska-falowe/optyka/r32.gif" alt="r32">
+</div>
+</div>
+</li>
+<li>
+<p>wklęsłe (są w środku cieńsze niż przy brzegach, a ich nazwa kończy się słowem wklęsła)</p>
+<div class="imageblock">
+<div class="content">
+<img src="../img/zjawiska-falowe/optyka/r33.gif" alt="r33">
+</div>
+</div>
+</li>
+</ul>
+</div>
+<div class="paragraph">
+<p>Wypukłe soczewki szklane umieszczone w powietrzu są skupiającymi, a wklęsłe rozpraszającymi.</p>
+</div>
+<div class="sect2">
+<h3 id="_soczewka_skupiająca">Soczewka skupiająca</h3>
+<div class="imageblock">
+<div class="content">
+<img src="../img/zjawiska-falowe/optyka/r34.gif" alt="r34">
+</div>
+</div>
+<div class="paragraph">
+<p>Wiązka promieni przy osiach optycznych biegnąca równolegle do głównej osi optycznej, po dwukrotnym załamaniu skupia się
+w jednym punkcie, zwanym ogniskiem soczewki.</p>
+</div>
+<div class="paragraph">
+<p>Soczewkę skupiającą oznacza się schematycznie:</p>
+</div>
+<div class="imageblock">
+<div class="content">
+<img src="../img/zjawiska-falowe/optyka/r35.gif" alt="r35">
+</div>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_soczewka_rozpraszająca">Soczewka rozpraszająca</h3>
+<div class="imageblock">
+<div class="content">
+<img src="../img/zjawiska-falowe/optyka/r36.gif" alt="r36">
+</div>
+</div>
+<div class="paragraph">
+<p>Wiązka promieni przy osiach biegnąca równolegle do głównej osi optycznej, po dwukrotnym załamaniu rozbiega się, ale
+przedłużenia promieni wychodzących z soczewki skupiają się w jednym punkcie, który jest pozornym ogniskiem soczewki.</p>
+</div>
+<div class="paragraph">
+<p>Soczewkę rozpraszającą oznacza się schematycznie:</p>
+</div>
+<div class="imageblock">
+<div class="content">
+<img src="../img/zjawiska-falowe/optyka/r37.gif" alt="r37">
+</div>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_zdolność_skupiająca">Zdolność skupiająca</h3>
+<div class="imageblock">
+<div class="content">
+<img src="../img/zjawiska-falowe/optyka/w44.gif" alt="w44">
+</div>
+</div>
+<div class="imageblock">
+<div class="content">
+<img src="../img/zjawiska-falowe/optyka/w45.gif" alt="w45">
+</div>
+</div>
+<div class="paragraph">
+<p>Odwrotność ogniskowej jest miarą zdolności skupiającej soczewki. Im krótsza jest ogniskowa f soczewki, tym większa jest
+zdolność skupiająca Z, którą wyraża się w dioptriach. Jedna dioptria jest zdolnością skupiającą soczewki o ogniskowej 1m.</p>
+</div>
+<div class="paragraph">
+<p>W praktyce są często stosowane układy złożone z kilku soczewek działające w ten sposób, że promienie po przejściu przez
+jedną z nich są kierowane na następną. Można wykazać, że w przypadku soczewek cienkich, umieszczonych blisko siebie
+zdolność skupiająca układu jest równa sumie algebraicznej zdolności skupiającej jego poszczególnych soczewek.</p>
+</div>
+<div class="imageblock">
+<div class="content">
+<img src="../img/zjawiska-falowe/optyka/w46.gif" alt="w46">
+</div>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_obrazy_w_soczewkach">Obrazy w soczewkach</h3>
+<div class="ulist">
+<ul>
+<li>
+<p>soczewka skupiająca</p>
+<div class="imageblock">
+<div class="content">
+<img src="../img/zjawiska-falowe/optyka/r38.gif" alt="r38">
+</div>
+</div>
+<div class="paragraph">
+<p>Obraz: rzeczywisty, pomniejszony, odwrócony</p>
+</div>
+<div class="imageblock">
+<div class="content">
+<img src="../img/zjawiska-falowe/optyka/r39.gif" alt="r39">
+</div>
+</div>
+<div class="paragraph">
+<p>Obraz: rzeczywisty, odwrócony, tej samej wielkości</p>
+</div>
+<div class="imageblock">
+<div class="content">
+<img src="../img/zjawiska-falowe/optyka/r40.gif" alt="r40">
+</div>
+</div>
+<div class="paragraph">
+<p>Obraz: rzeczywisty, odwrócony, powiększony</p>
+</div>
+<div class="imageblock">
+<div class="content">
+<img src="../img/zjawiska-falowe/optyka/r41.gif" alt="r41">
+</div>
+</div>
+<div class="paragraph">
+<p>Obraz nie powstaje</p>
+</div>
+<div class="imageblock">
+<div class="content">
+<img src="../img/zjawiska-falowe/optyka/r42.gif" alt="r42">
+</div>
+</div>
+<div class="paragraph">
+<p>Obraz: pozorny, powiększony, prosty</p>
+</div>
+</li>
+<li>
+<p>soczewka rozpraszająca</p>
+<div class="imageblock">
+<div class="content">
+<img src="../img/zjawiska-falowe/optyka/r43.gif" alt="r43">
+</div>
+</div>
+<div class="paragraph">
+<p>Obraz: pozorny, pomniejszony, prosty</p>
+</div>
+</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_równanie_soczewki">Równanie soczewki</h2>
+<div class="sectionbody">
+<div class="imageblock">
+<div class="content">
+<img src="../img/zjawiska-falowe/optyka/r44.gif" alt="r44">
+</div>
+</div>
+<div class="imageblock">
+<div class="content">
+<img src="../img/zjawiska-falowe/optyka/w47.gif" alt="w47">
+</div>
+</div>
+<div class="paragraph">
+<p>Trójkąt ABC jest podobny do trójkąta <span class="image"><img src="../img/zjawiska-falowe/optyka/w48.gif" alt="w48"></span>, więc:</p>
+</div>
+<div class="imageblock">
+<div class="content">
+<img src="../img/zjawiska-falowe/optyka/w49.gif" alt="w49">
+</div>
+</div>
+<div class="paragraph">
+<p>Trójkąt <span class="image"><img src="../img/zjawiska-falowe/optyka/w48.gif" alt="w48"></span>jest podobny do trójkąta CDF. Z tego wynika, że:</p>
+</div>
+<div class="imageblock">
+<div class="content">
+<img src="../img/zjawiska-falowe/optyka/w50.gif" alt="w50">
+</div>
+</div>
+<div class="paragraph">
+<p>Porównując oba otrzymane równania, otrzymujemy:</p>
+</div>
+<div class="imageblock">
+<div class="content">
+<img src="../img/zjawiska-falowe/optyka/w51.gif" alt="w51">
+</div>
+</div>
+<div class="paragraph">
+<p>Dzielimy obie strony przez iloczyn xyf:</p>
+</div>
+<div class="imageblock">
+<div class="content">
+<img src="../img/zjawiska-falowe/optyka/w52.gif" alt="w52">
+</div>
+</div>
+<div class="paragraph">
+<p>Otrzymany wzór to równanie soczewki.</p>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_pryzmat">Pryzmat</h2>
+<div class="sectionbody">
+<div class="quoteblock">
+<blockquote>
+Pryzmatem nazywamy bryłę z przeźroczystego materiału ograniczoną dwoma płaskimi powierzchniami.
+</blockquote>
+</div>
+<div class="imageblock">
+<div class="content">
+<img src="../img/zjawiska-falowe/optyka/r45.gif" alt="r45">
+</div>
+</div>
+<div class="paragraph">
+<p><span class="image"><img src="../img/zjawiska-falowe/optyka/w53.gif" alt="w53"></span> - kąt łamiący pryzmatu</p>
+</div>
+<div class="paragraph">
+<p>Promień przechodzący przez pryzmat załamuje się dwukrotnie. Stosujemy prawo załamania:</p>
+</div>
+<div class="imageblock">
+<div class="content">
+<img src="../img/zjawiska-falowe/optyka/w54.gif" alt="w54">
+</div>
+</div>
+<div class="paragraph">
+<p>Dla małych kąt można przyjąć, iż:</p>
+</div>
+<div class="imageblock">
+<div class="content">
+<img src="../img/zjawiska-falowe/optyka/w55.gif" alt="w55">
+</div>
+</div>
+<div class="paragraph">
+<p>Wówczas:</p>
+</div>
+<div class="imageblock">
+<div class="content">
+<img src="../img/zjawiska-falowe/optyka/w56.gif" alt="w56">
+</div>
+</div>
+<div class="paragraph">
+<p>Z rysunku odczytujemy, że:</p>
+</div>
+<div class="imageblock">
+<div class="content">
+<img src="../img/zjawiska-falowe/optyka/w57.gif" alt="w57">
+</div>
+</div>
+<div class="imageblock">
+<div class="content">
+<img src="../img/zjawiska-falowe/optyka/w58.gif" alt="w58">
+</div>
+</div>
+<div class="paragraph">
+<p>Podstawiamy wyżej otrzymane równości i otrzymujemy:</p>
+</div>
+<div class="imageblock">
+<div class="content">
+<img src="../img/zjawiska-falowe/optyka/w59.gif" alt="w59">
+</div>
+</div>
+<div class="paragraph">
+<p>Taka zależność w pryzmacie zachodzi tylko dla niewielkich kątów.</p>
+</div>
+<div class="paragraph">
+<p>Można zajść w pryzmacie również taka sytuacja, iż:</p>
+</div>
+<div class="imageblock">
+<div class="content">
+<img src="../img/zjawiska-falowe/optyka/w60.gif" alt="w60">
+</div>
+</div>
+<div class="imageblock">
+<div class="content">
+<img src="../img/zjawiska-falowe/optyka/r46.gif" alt="r46">
+</div>
+</div>
+<div class="sect2">
+<h3 id="_przejście_światła_białego_przez_pryzmat">Przejście światła białego przez pryzmat</h3>
+<div class="paragraph">
+<p>Gdy światło białe przechodzi przez pryzmat mamy do czynienia z widmem ciągłym światła białego.</p>
+</div>
+<div class="imageblock">
+<div class="content">
+<img src="../img/zjawiska-falowe/optyka/r47.gif" alt="r47">
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_wzór_soczewkowy">Wzór soczewkowy</h2>
+<div class="sectionbody">
+<div class="imageblock">
+<div class="content">
+<img src="../img/zjawiska-falowe/optyka/r48.gif" alt="r48">
+</div>
+</div>
+<div class="paragraph">
+<p>Soczewkę traktujemy jako układ dwóch połączonych ze sobą podstawami pryzmatów.</p>
+</div>
+<div class="paragraph">
+<p>Z rysunku wynika, iż:</p>
+</div>
+<div class="imageblock">
+<div class="content">
+<img src="../img/zjawiska-falowe/optyka/w61.gif" alt="w61">
+</div>
+</div>
+<div class="paragraph">
+<p>oraz</p>
+</div>
+<div class="imageblock">
+<div class="content">
+<img src="../img/zjawiska-falowe/optyka/w62.gif" alt="w62">
+</div>
+</div>
+<div class="paragraph">
+<p>Stosujemy zależność dla małych kątów w pryzmacie:</p>
+</div>
+<div class="imageblock">
+<div class="content">
+<img src="../img/zjawiska-falowe/optyka/w63.gif" alt="w63">
+</div>
+</div>
+<div class="imageblock">
+<div class="content">
+<img src="../img/zjawiska-falowe/optyka/r49.gif" alt="r49">
+</div>
+</div>
+<div class="paragraph">
+<p>Odczytujemy z rysunku wartości funkcji trygonometrycznych:</p>
+</div>
+<div class="imageblock">
+<div class="content">
+<img src="../img/zjawiska-falowe/optyka/w64.gif" alt="w64">
+</div>
+</div>
+<div class="paragraph">
+<p>Stosujemy przybliżenie dla małych kątów:</p>
+</div>
+<div class="imageblock">
+<div class="content">
+<img src="../img/zjawiska-falowe/optyka/w65.gif" alt="w65">
+</div>
+</div>
+<div class="paragraph">
+<p>i otrzymujemy:</p>
+</div>
+<div class="imageblock">
+<div class="content">
+<img src="../img/zjawiska-falowe/optyka/w66.gif" alt="w66">
+</div>
+</div>
+<div class="paragraph">
+<p>Otrzymane wartości podstawiamy do wcześniej uzyskanej równości:</p>
+</div>
+<div class="imageblock">
+<div class="content">
+<img src="../img/zjawiska-falowe/optyka/w67.gif" alt="w67">
+</div>
+</div>
+<div class="paragraph">
+<p>Dzielimy obie strony równania przez AB:</p>
+</div>
+<div class="imageblock">
+<div class="content">
+<img src="../img/zjawiska-falowe/optyka/w68.gif" alt="w68">
+</div>
+</div>
+<div class="paragraph">
+<p>Otrzymaliśmy wzór soczewkowy.</p>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_lupa">Lupa</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>Lupa to soczewka o niewielkiej ogniskowej do oglądania małych przedmiotów. Przedmiot umieszczamy zawsze przed ogniskiem
+soczewki.</p>
+</div>
+<div class="imageblock">
+<div class="content">
+<img src="../img/zjawiska-falowe/optyka/r50.gif" alt="r50">
+</div>
+</div>
+<div class="paragraph">
+<p>d - odległość dobrego widzenia (<span class="image"><img src="../img/zjawiska-falowe/optyka/w69.gif" alt="w69"></span>)</p>
+</div>
+<div class="paragraph">
+<p>Wzór na powiększenie, jakie daje lupa można wyprowadzić w następujący sposób:</p>
+</div>
+<div class="imageblock">
+<div class="content">
+<img src="../img/zjawiska-falowe/optyka/w70.gif" alt="w70">
+</div>
+</div>
+<div class="paragraph">
+<p>Minus w równaniu soczewki wynika z tego, że w lupie powstaje obraz pozorny.</p>
+</div>
+<div class="imageblock">
+<div class="content">
+<img src="../img/zjawiska-falowe/optyka/w71.gif" alt="w71">
+</div>
+</div>
+<div class="paragraph">
+<p>Do wzoru na powiększenie wstawiamy otrzymaną wartość odwrotności x:</p>
+</div>
+<div class="imageblock">
+<div class="content">
+<img src="../img/zjawiska-falowe/optyka/w72.gif" alt="w72">
+</div>
+</div>
+<div class="paragraph">
+<p>Możemy również używać pojęcia powiększenia kątowego:</p>
+</div>
+<div class="imageblock">
+<div class="content">
+<img src="../img/zjawiska-falowe/optyka/w73.gif" alt="w73">
+</div>
+</div>
+<div class="paragraph">
+<p>Z rysunku odczytujemy potrzebne funkcje:</p>
+</div>
+<div class="imageblock">
+<div class="content">
+<img src="../img/zjawiska-falowe/optyka/w74.gif" alt="w74">
+</div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_mikroskop_optyczny">Mikroskop optyczny</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>Mikroskop optyczny został prawdopodobnie wynaleziony w 1590 roku przez Holendra Z. van Jansena. Udoskonalił ten przyrząd
+Anton van Leeuwenhoek w roku 1677. Szlifował on niezwykle precyzyjnie soczewki w taki sposób, że powiększał przedmioty
+300 razy (dla porównania dziś można powiększyć około 2000 razy).</p>
+</div>
+<div class="paragraph">
+<p>Mikroskop jest to przyrząd złożony z dwóch soczewek - obiektywu i okularu, znajdujących się na wspólnej osi optycznej
+w pewnej odległości od siebie. Obie te soczewki muszą mieć krótkie ogniskowe, a zatem w rzeczywistych układach mikroskopów
+nie mogą to być pojedyncze cienkie soczewki, lecz odpowiednio wykonane układy soczewek, w których aberracja sferyczna
+i chromatyczna oraz astygmatyzm zostały zmniejszone do minimum.</p>
+</div>
+<div class="sect2">
+<h3 id="_bieg_promieni_świetlnych_w_mikroskopie">Bieg promieni świetlnych w mikroskopie</h3>
+<div class="imageblock">
+<div class="content">
+<img src="../img/zjawiska-falowe/optyka/r51.gif" alt="r51">
+</div>
+</div>
+<div class="paragraph">
+<p>Obiektyw daje obrazy rzeczywiste, powiększone i odwrócone, natomiast okular spełnia rolę lupy, dając obrazy pozorne,
+powiększone i proste. W całym mikroskopie obraz jest pozorny, powiększony i odwrócony. Przedmiot P oglądany przez
+mikroskop ustawia się przed obiektywem w odległości x niewiele większej od ogniskowej f1 tej soczewki, tak że można
+w przybliżeniu przyjąć, że <span class="image"><img src="../img/zjawiska-falowe/optyka/w75.gif" alt="w75"></span>.</p>
+</div>
+<div class="paragraph">
+<p>Mikroskop jest tak skonstruowany, że obraz wytworzony przez obiektyw powstaje w odległości <span class="image"><img src="../img/zjawiska-falowe/optyka/w76.gif" alt="w76"></span> od okularu
+- mniejszej, lecz niewiele różnej od ogniskowej f2 tej soczewki. Natomiast obraz wytworzony przez okular powstaje
+w odległości <span class="image"><img src="../img/zjawiska-falowe/optyka/w77.gif" alt="w77"></span> najlepszego widzenia oka, znajdującego się tuż za okularem.</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_powiększenie_mikroskopu">Powiększenie mikroskopu</h3>
+<div class="paragraph">
+<p>Powiększenie mikroskopu jest iloczynem powiększeń obiektywu i okularu.</p>
+</div>
+<div class="imageblock">
+<div class="content">
+<img src="../img/zjawiska-falowe/optyka/w78.gif" alt="w78">
+</div>
+</div>
+<div class="paragraph">
+<p>Korzystamy z równości:</p>
+</div>
+<div class="imageblock">
+<div class="content">
+<img src="../img/zjawiska-falowe/optyka/w79.gif" alt="w79">
+</div>
+</div>
+<div class="paragraph">
+<p>i podstawiamy do wzoru na powiększenie mikroskopu:</p>
+</div>
+<div class="imageblock">
+<div class="content">
+<img src="../img/zjawiska-falowe/optyka/w80.gif" alt="w80">
+</div>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_zdolność_rozdzielcza_mikroskopu">Zdolność rozdzielcza mikroskopu</h3>
+<div class="paragraph">
+<p>Obrazy otrzymane za pomocą mikroskopu, powinny być nie tylko znacznie powiększone, ale także charakteryzować się zdolnością
+uwydatniania drobnych szczegółów obserwowanego przedmiotu. Odpowiedni parametr mikroskopu, związany z tą cechą to zdolność
+rozdzielcza. Zależy ona od długości fali świetlnej oświetlającej przedmiot oraz od kąta rozwartości optycznej obiektywu.
+Jest to kat płaski utworzony przed dwie półproste poprowadzone stycznie do obrzeża soczewki obiektywu ze środka przedmiotu.</p>
+</div>
+<div class="imageblock">
+<div class="content">
+<img src="../img/zjawiska-falowe/optyka/r52.gif" alt="r52">
+</div>
+</div>
+<div class="paragraph">
+<p>Minimalne rozmiary szczegółów przedmiotu, które można rozróżnić na obrazie wytworzonym w mikroskopie, określone są wzorem:</p>
+</div>
+<div class="imageblock">
+<div class="content">
+<img src="../img/zjawiska-falowe/optyka/w81.gif" alt="w81">
+</div>
+</div>
+<div class="paragraph">
+<p><span class="image"><img src="../img/zjawiska-falowe/optyka/w82.gif" alt="w82"></span> - minimalne rozmiary szczegółów przedmiotu</p>
+</div>
+<div class="paragraph">
+<p><span class="image"><img src="../img/zjawiska-falowe/optyka/w83.gif" alt="w83"></span> - kąt rozwartości optycznej obiektywu</p>
+</div>
+<div class="paragraph">
+<p>n - współczynnik załamania ośrodka znajdującego się między przedmiotem a obiektywem mikroskopu</p>
+</div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_luneta_astronomiczna">Luneta astronomiczna</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>Luneta astronomiczna jest to przyrząd optyczny w formie rury zakończonej z jednej strony obiektywem refrakcyjnym
+(tj. soczewkowym), a z drugiej strony okularem, służy do oglądania przedmiotów znajdujących się znacznej odległości.</p>
+</div>
+<div class="paragraph">
+<p>Jako pierwszy opisał ją Johannes Kepler w 1611 roku. Zbudował ją zaś Ch. Scheiner w 1615 roku. Nazywa się ją lunetą
+Keplera.</p>
+</div>
+<div class="imageblock">
+<div class="content">
+<img src="../img/zjawiska-falowe/optyka/r53.gif" alt="r53">
+</div>
+</div>
+<div class="paragraph">
+<p>Rozmiary obrazu otrzymywanego za pomocą lunety nie są większe od rzeczywistych rozmiarów przedmiotu. Działanie jej polega
+jedynie na powiększeniu kąta, pod jakim patrzymy na przedmiot, czyli na pozornym zbliżeniu przedmiotu do obserwatora.</p>
+</div>
+<div class="imageblock">
+<div class="content">
+<img src="../img/zjawiska-falowe/optyka/w84.gif" alt="w84">
+</div>
+</div>
+<div class="paragraph">
+<p>Korzystamy z przybliżenia dla małych kątów:</p>
+</div>
+<div class="imageblock">
+<div class="content">
+<img src="../img/zjawiska-falowe/optyka/w85.gif" alt="w85">
+</div>
+</div>
+<div class="paragraph">
+<p>Przyjmujemy, iż:</p>
+</div>
+<div class="imageblock">
+<div class="content">
+<img src="../img/zjawiska-falowe/optyka/w86.gif" alt="w86">
+</div>
+</div>
+<div class="paragraph">
+<p>Podstawiamy do wzoru na powiększenie i otrzymujemy wzór na powiększenie lunety:</p>
+</div>
+<div class="imageblock">
+<div class="content">
+<img src="../img/zjawiska-falowe/optyka/w87.gif" alt="w87">
+</div>
+</div>
+<div class="paragraph">
+<p>Powiększeniem lunety nazywamy stosunek kąta, pod jakim patrzymy na przedmiot przez lunetę do kata, jakim widzimy tenże
+przedmiot okiem nieuzbrojonym. Jest tym większe, im dłuższa jest ogniskowa obiektywu, a krótsza okularu.</p>
+</div>
+<div class="paragraph">
+<p>Powiększenie lunety nie może być zwiększane dowolnie przez zastosowanie okularów o coraz krótszych ogniskowych. Warunkuje
+je zdolność rozdzielcza obiektywu ograniczona zjawiskami dyfrakcyjnymi (dyfrakcja fal) zależnymi od wielkości źrenicy
+wejściowej d.</p>
+</div>
+<div class="paragraph">
+<p>Obiektyw może rozróżniać dwa przedmioty, gdy różnica kąta ich obserwacji wyraża się wzorem:</p>
+</div>
+<div class="imageblock">
+<div class="content">
+<img src="../img/zjawiska-falowe/optyka/w88.gif" alt="w88">
+</div>
+</div>
+<div class="paragraph">
+<p><span class="image"><img src="../img/zjawiska-falowe/optyka/w89.gif" alt="w89"></span> - długość fali (kryterium J.W.Rayleigha)</p>
+</div>
+<div class="paragraph">
+<p>W praktyce stosuje się wyrażenie:</p>
+</div>
+<div class="imageblock">
+<div class="content">
+<img src="../img/zjawiska-falowe/optyka/w90.gif" alt="w90">
+</div>
+</div>
+<div class="paragraph">
+<p>gdzie d wyrażone jest w milimetrach (<span class="image"><img src="../img/zjawiska-falowe/optyka/w91.gif" alt="w91"></span> oznacza sekundy łuku).</p>
+</div>
+<div class="paragraph">
+<p>Pewną modyfikacją lunety Keplera jest tzw. luneta ziemska, która daje obraz rzeczywisty i prosty. Uzyskuje się ją przez
+wstawienie do lunety Keplera dodatkowej soczewki skupiającej, która odwraca obraz. Powoduje to jednak znaczne wydłużenie
+całej lunety, co w praktyce jest niekorzystne. Tej wady unika się stosując odwracający układ pryzmatów Porro. Układ taki
+znajduje się właśnie w lunetach lornetki pryzmatycznej (polowej). Lornetki teatralne są natomiast wykonane na wzór lunety
+Galileusza.</p>
+</div>
+<div class="paragraph">
+<p>Istnieją dwie zasadnicze rodzaje lunet soczewkowych: luneta Keplera i luneta Galileusza. Różnica pomiędzy nimi polega na
+tym, że pierwsza ma okular dodatni i daje obraz odwrócony, natomiast druga ma okular ujemny i daje obraz prosty. Z tego
+powodu luneta Galileusza nie nadaje się do pomiarów, gdyż nie można umieścić w niej płytki ogniskowej.</p>
+</div>
+<div class="paragraph">
+<p>Oprócz lunet soczewkowych istnieją również lunety zwierciadlane lub zwierciadlano-soczewkowe, czyli teleskopy. Rolę
+obiektywu w tych lunetach spełnia wklęsłe zwierciadło. Wśród tego rodzaju lunet najbardziej znany jest układ Newtona,
+Cassegriana, Schmidta i Makustowa. Teleskopy służą do obserwowania gwiazd, planet oraz do badania Układu Słonecznego,
+a także odległych galaktyk.</p>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_wady_odwzorowań_w_soczewkach">Wady odwzorowań w soczewkach</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>Kiedy przeprowadzamy doświadczenia z użyciem soczewek, łatwo możemy zaobserwować, że obrazy jakie powstają w soczewkach,
+nie zawsze odpowiadają temu co przewidzieliśmy. Jest to spowodowane tak zwanymi wadami odwzorowań. Takie wady wynikają
+z pewnych niedoskonałości samych soczewek, a także z uproszczeń jakie przyjmuje się wyprowadzając wzory dla nich.
+Poniżej przedstawione zostały najczęściej spotykane wady odwzorowań w soczewkach oraz metody w jakie można te wady zlikwidować
+(zminimalizować).</p>
+</div>
+<div class="sect2">
+<h3 id="_aberracja_sferyczna">Aberracja sferyczna</h3>
+<div class="paragraph">
+<p>To najczęściej spotykana wada w soczewkach. Jeżeli na osi optycznej znajduje się punkt P, i chcemy otrzymać jego obraz
+w soczewce i przeprowadzimy dwa dowolne promienie przebiegające przez soczewkę blisko jej osi optycznej to po załamaniu
+przetną się one znowu na osi optycznej w punkcie P&#8217;. Jeżeli z tego samego punktu poprowadzimy kolejne dwa promienie która
+przebiegają przez skrajne fragmenty soczewki, to po załamaniu te promienie także przetną się na osi, ale w innym punkcie.
+Niech tym punktem będzie P&#8217;<em>. Punkt ten znajduje się bliżej soczewki niż P</em>, a odległość P&#8217;P'' nazywamy miarą <strong>aberracji
+sferycznej podłużnej</strong>. Jeżeli między te dwa punkty wstawimy ekran umieszczony prostopadle do osi optycznej soczewki, to
+na tym ekranie uzyskamy obraz nie punktowy, lecz w postaci krążka. Promień tego krążka jest miarą <strong>aberracji sferycznej
+poprzecznej</strong>.</p>
+</div>
+<div class="imageblock">
+<div class="content">
+<img src="../img/zjawiska-falowe/optyka/r54.gif" alt="r54">
+</div>
+</div>
+<div class="paragraph">
+<p>Wadę tą możemy zlikwidować używając odpowiednich przesłon. Przesłona ta powinna ograniczać soczewkę tak, by światło padało
+jedynie na przyosiową część soczewki, lub tylko tę część znajdującą się na jej krawędziach (przyosiowa część wówczas jest
+zasłonięta).</p>
+</div>
+<div class="imageblock">
+<div class="content">
+<img src="../img/zjawiska-falowe/optyka/r55.gif" alt="r55">
+</div>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_aberracja_chromatyczna">Aberracja chromatyczna</h3>
+<div class="paragraph">
+<p>Jest to druga podstawowa wada w odwzorowaniach w soczewkach. Jest spowodowana tym, że współczynnik załamania <strong>n</strong> jest
+funkcją częstotliwości fali. Oznacza to, że inaczej załamie się światło czerwone, a inaczej światło fioletowe (są to
+najbardziej dwa skrajne kolory z widma które może odebrać oko ludzkie i dla tych kolorów różnica współczynnika załamania
+jest największa).</p>
+</div>
+<div class="paragraph">
+<p>Światło fioletowe skierowane na soczewkę równolegle do osi optycznej po załamaniu, przetnie tę oś w punkcie F<sub>f</sub>. Światło
+czerwone skierowane na tę samą soczewkę, także równolegle i które pada na soczewkę w takiej samej odległości od osi
+optycznej jak  światło fioletowe przetnie po załamaniu oś w punkcie F<sub>cz</sub>. Te punkty nie będą leżeć w tym samym miejscu
+dla jednej soczewki.  Ognisko F<sub>f</sub> znajduje się bliżej soczewki niż ognisko F<sub>cz</sub>. Odległość między tymi ogniskami nazywamy
+miarą <strong>aberracji chromatycznej podłużnej</strong>. Jeżeli ustawimy ekran prostopadle do osi optycznej między ogniskami F<sub>f</sub> i F<sub>cz</sub>
+to uzyskamy dwa krążki jeden koloru fioletowego, a drugi koloru czerwonego. Średnicę większego krążka nazywamy miarą <strong>aberracji
+chromatycznej poprzecznej</strong>.</p>
+</div>
+<div class="imageblock">
+<div class="content">
+<img src="../img/zjawiska-falowe/optyka/r56.gif" alt="r56">
+</div>
+</div>
+<div class="paragraph">
+<p>Ten rodzaj wady możemy zredukować stosując tzw. soczewkę złożoną. Do soczewki, która nie jest pozbawiona wady aberracji
+chromatycznej dokładamy drugą soczewkę, której współczynnik załamania jest tak dobrany, by długość odcinka F<sub>f</sub>F<sub>cz</sub> (miarę
+aberracji chromatycznej podłużnej) zmniejszyć do minimum.</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_astygmatyzm">Astygmatyzm</h3>
+<div class="paragraph">
+<p>Jeżeli źródło światła znajduje się daleko od osi głównej soczewki, to obraz dany przez tą soczewkę tego źródła nie będzie
+obrazem punktowym. Obraz ten będzie układem dwóch odcinków (przecinków) ustawionych do siebie prostopadle.</p>
+</div>
+<div class="imageblock">
+<div class="content">
+<img src="../img/zjawiska-falowe/optyka/r57.gif" alt="r57">
+</div>
+</div>
+<div class="paragraph">
+<p>Na rysunku punkt P jest przedmiotem świecącym. Linie S&#8217; i S'' to położenia płaszczyzn prostopadłych do osi optycznej soczewki.
+Na ekranie znajdującym się w pozycji S'' zobaczymy obraz będący odcinkiem skierowanym prostopadle do płaszczyzny rysunku,
+a w pozycji S&#8217; ujrzymy także odcinek leżący już na płaszczyźnie rysunku, umiejscowiony prostopadle do poprzedniego odcinka.</p>
+</div>
+<div class="imageblock">
+<div class="content">
+<img src="../img/zjawiska-falowe/optyka/r58.gif" alt="r58">
+</div>
+</div>
+<div class="paragraph">
+<p>f<sub>r</sub> - ognisko radialne</p>
+</div>
+<div class="imageblock">
+<div class="content">
+<img src="../img/zjawiska-falowe/optyka/r59.gif" alt="r59">
+</div>
+</div>
+<div class="paragraph">
+<p>f<sub>t</sub> - ognisko tangencjalne</p>
+</div>
+<div class="paragraph">
+<p>Astygmatyzm usuwa się przez budowę odpowiednich układów soczewek (odpowiednia krzywizna i zdolności skupiające).</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_wada_koma">Wada koma</h3>
+<div class="paragraph">
+<p>Wada ta jest rodzajem aberracji, która "psuje" obraz punktu znajdującego się daleko od osi optycznej soczewki.
+Taki pozaosiowy punkt daje obraz który kształtem wygląda jak przecinek (lub jak kometa, stąd też wzięła się jego nazwa,
+bo z greckiego koma oznacza właśnie kometę). Wada ta jest spowodowana zbyt dużym kątem jaki tworzy poprowadzony z tego
+pozaosiowego punktu z osią optyczną soczewki.</p>
+</div>
+<div class="imageblock">
+<div class="content">
+<img src="../img/zjawiska-falowe/optyka/r60.gif" alt="r60">
+</div>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_dystorsja">Dystorsja</h3>
+<div class="paragraph">
+<p>Ten rodzaj wady odwzorowania dotyczy płaszczyzn ustawionych prostopadle do osi optycznej soczewki. Spowodowany jest
+różnym powiększeniem fragmentów  tej płaszczyzny. Najlepiej odwzorowana zostanie ta część płaszczyzny znajdująca się blisko
+osi optycznej. Wraz z zwiększaniem się odległości fragmentu płaszczyzny od osi optycznej, obraz będzie coraz bardziej
+zniekształcony.</p>
+</div>
+<div class="imageblock">
+<div class="content">
+<img src="../img/zjawiska-falowe/optyka/r61.gif" alt="r61">
+</div>
+</div>
+<div class="paragraph">
+<p>Opis rysunku powyżej:</p>
+</div>
+<div class="paragraph">
+<p>a) Przedmiotem jest siatka o kwadratowych oczkach
+b) Obraz w którym powiększenie rośnie w miarę oddalania się od osi optycznej
+c) Obraz w którym powiększenie maleje w miarę oddalania się od osi optycznej</p>
+</div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_fotometria">Fotometria</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>Wielkości związane z fotometrią:</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>światłość I [cd]</p>
+</li>
+<li>
+<p>strumień świetlny <span class="image"><img src="../img/zjawiska-falowe/optyka/w92.gif" alt="w92"></span></p>
+<div class="paragraph">
+<p><span class="image"><img src="../img/zjawiska-falowe/optyka/w93.gif" alt="w93"></span> [lm]</p>
+</div>
+<div class="paragraph">
+<p><span class="image"><img src="../img/zjawiska-falowe/optyka/w94.gif" alt="w94"></span> - kąt przestrzenny (wyrażany w sterradianach)</p>
+</div>
+<div class="imageblock">
+<div class="content">
+<img src="../img/zjawiska-falowe/optyka/w95.gif" alt="w95">
+</div>
+</div>
+</li>
+<li>
+<p>natężenie oświetlenia</p>
+<div class="paragraph">
+<p><span class="image"><img src="../img/zjawiska-falowe/optyka/w96.gif" alt="w96"></span> <span class="image"><img src="../img/zjawiska-falowe/optyka/w97.gif" alt="w97"></span></p>
+</div>
+<div class="paragraph">
+<p>Natężeniem oświetlenia danej powierzchni nazywamy stosunek strumienia świetlnego, który pada prostopadle na tą powierzchnię do pola powierzchni.</p>
+</div>
+<div class="imageblock">
+<div class="content">
+<img src="../img/zjawiska-falowe/optyka/r62.gif" alt="r62">
+</div>
+</div>
+<div class="imageblock">
+<div class="content">
+<img src="../img/zjawiska-falowe/optyka/w98.gif" alt="w98">
+</div>
+</div>
+</li>
+</ul>
+</div>
+<div class="paragraph">
+<p>Do mierzenia światłości przedmiotów służy fotometr. Najprostszym jest fotometr Bunsena. Na końcach ławy optycznej umieszczone są: badane źródło światła i źródło wzorcowe. Pomiędzy źródłami znajduje się kartka białego papieru z tłustą plamą pośrodku. Przesuwamy kartkę tak, by była jednakowo oświetlona z obu stron (czyli żeby plamy nie było widać). Porównując natężenia oświetlenia, otrzymujemy szukaną wartość światłości badanego źródła.</p>
+</div>
+<div class="imageblock">
+<div class="content">
+<img src="../img/zjawiska-falowe/optyka/r63.gif" alt="r63">
+</div>
+</div>
+<div class="imageblock">
+<div class="content">
+<img src="../img/zjawiska-falowe/optyka/w99.gif" alt="w99">
+</div>
+</div>
+</div>
+</div>
+</div>
+<div id="footer">
+<div id="footer-text">
+Last updated 2014-07-14 18:00:02 EDT
+</div>
+</div>
+</body>
+</html>
