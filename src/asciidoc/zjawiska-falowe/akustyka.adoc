@@ -4,7 +4,7 @@
 = Akustyka
 
 Akustyka jest to nauka o powstawaniu dźwięków i ich rozchodzeniu się w ośrodkach materialnych, zwykle w powietrzu.
-W szerokim sensie tego słowa dźwiękiem nazywamy wszystkie fale sprężyste, oddziałujące na nasze organy słuchu, zawarte
+W szerokim znaczeniu tego pojęcia dźwiękiem nazywamy wszystkie fale sprężyste, oddziałujące na nasze organy słuchu, zawarte
 w przedziale częstotliwości od 16 do 20000Hz. Dźwięk jest falą podłużną, kulistą.
 
 == Fale dźwiękowe
